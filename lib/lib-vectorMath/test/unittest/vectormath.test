@@ -1,0 +1,71 @@
+#
+# vectormath.test
+#
+ 
+set APPL_ROOT_Dir [file normalize [file dirname [file dirname [lindex $argv0]]]]
+    # puts "  -> \$APPL_ROOT_Dir $APPL_ROOT_Dir"
+set APPL_Package_Dir [file dirname [file dirname $APPL_ROOT_Dir]]
+    # puts "  -> \$APPL_Package_Dir $APPL_Package_Dir"
+
+lappend auto_path [file dirname $APPL_ROOT_Dir]
+
+lappend auto_path "$APPL_Package_Dir"
+lappend auto_path [file join $APPL_Package_Dir _ext__Libraries]
+
+    # package require   tubeMiter
+    # package require   bikeGeometry
+    # package require   appUtil
+package require   vectormath
+
+# ------------------------------------------
+
+package require tcltest
+namespace import ::tcltest::*
+
+# ------------------------------------------
+
+# --- addVector ---- positive --------------
+
+test addVector_000 {addVector_001} -body {
+    set value [vectormath::addVector {0 0} {0 1} 1]
+    puts "  -> $value"
+    return $value
+} -result {0 1}
+
+test addVector_000 {} -body {
+    vectormath::addVector {0 0} {0 1} 1
+} -result {0 1}
+
+test addVector_001 {} -body {
+    vectormath::addVector {0 0} {0 1}
+} -result {0 1}
+
+test addVector_002 {} -body {
+    vectormath::addVector {0 0} {0 1} 2
+} -result {0 2}
+
+test addVector_003 {} -body {
+    vectormath::addVector {1 1} {0 2} 5
+} -result {1 11}
+
+
+# --- addVector ---- negative --------------
+
+if 0 {
+
+    test addVector_100 {} -body {
+        vectormath::addVector {1 1} {0} 5  
+    } -returnCodes error \
+      -result "missing operand at _@_\nin expression \" _@_* 5\""
+  
+    test addVector_101 {} -body {
+        vectormath::addVector {1 1} {0} 5  
+    } -returnCodes error \
+      -result "missing operand at _@_\nin expression \" _@_* 5\""
+}
+
+
+
+# ------------------------------------------
+
+cleanupTests

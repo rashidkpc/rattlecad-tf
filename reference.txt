@@ -1,0 +1,149 @@
+﻿rattleCAD:
+------------------------
+    ... is open Source written by 
+            Manfred ROSENBERGER.
+
+    If you have any questions, please take a look on     
+    
+            http://sourceforge.net/projects/rattlecad/
+    
+    or send me an email:
+
+            manfred.rosenberger@gmx.net
+
+    Many thanks to the 
+            Tcl/Tk - Community
+
+        and especially to:
+            Gerhard REITHOFER   [www.tech-edv.co.at]
+            Johann  OBERDORFER
+           
+           
+    If you wanna save the programmer feel free to donate here:
+        
+        http://rattlecad.sourceforge.net/donate.html
+        
+
+
+...  is build with Tcl/Tk:
+------------------------
+
+      License: http://www.tcl.tk/software/tcltk/license.html
+
+
+
+... uses following packages and modules:
+----------------------------------------
+
+
+       rattleCAD
+      ---------------------------------------------
+            by Manfred ROSENBERGER
+
+
+
+       BWidget, snit, math
+      ------------------------------------------
+            http://sourceforge.net/projects/tcllib/ 
+                ... see License of tcllib (BSD License)
+
+
+       tdom
+      ------------------------------------------
+            http://tdom.github.io/index.html
+                ... see License of tdom (Mozilla Public License Version 1.1)
+
+
+       pdf4tcl - Pdf document generation
+      ------------------------------------------
+            http://pdf4tcl.sourceforge.net/
+                ... see License of pdf4tcl (BSD License)
+                    ... Copyright © 2007-2011 Peter Spjuth
+                    ... Copyright © 2009 Yaroslav Schekin
+                
+
+       cad4tcl
+      ------------------------------------------
+            ... by Manfred ROSENBERGER
+                ... partialy based on Code from 
+                    rotate_item:
+                            kvetter@DELETETHIS.alltel.net
+                            http://wiki.tcl.tk/8595
+                    zoom:
+                            masse-navette.glfs@wanadoo.fr
+                            http://wiki.tcl.tk/4844
+                    vector algorythms:
+                            kvetter@DELETETHIS.alltel.net
+                            http://wiki.tcl.tk/8447
+                    svg-path:
+                            Greg Blair 2003-09-29
+                            Keith Vetter 2003-03-07
+                            Cubic Tension Splines: TensionSpline.tcl
+                            http://wiki.tcl.tk/10530
+                    exportDXF:
+                            John Roll 2009-03-18
+                            Writing DXF
+                            http://www2.tcl.tk/22794
+                            
+       tkpath                    
+      ------------------------------------------
+            ... by Mats Bengtsson (1959-2008)
+                ... Andrej Shadura: https://bitbucket.org/andrew_shadura/tkpath
+                ... Christian Werner: https://www.androwish.org/
+
+
+       vectorfont
+      ------------------------------------------
+            ... based on Code from 
+                    Gerhard REITHOFER   [www.tech-edv.co.at]  
+                    Johann  OBERDORFER
+
+
+       rdial
+      ------------------------------------------
+            ... based on Code from 
+                    Gerhard REITHOFER   [www.tech-edv.co.at]  
+            ... see http://wiki.tcl.tk/26357
+
+
+       check_user_dir
+      ------------------------------------------
+            ... based on Code from 
+                    ???
+            ... see http://wiki.tcl.tk/3834
+            
+            
+
+... uses following svg - components:
+----------------------------------------
+
+        ... logos on components
+            ... copyrights of logos on components are not transfered by
+                this application
+        
+        .../crankset/shimano_hollowtech_II.svg
+            ... iges by Simon Weishaupt
+            
+        .../dropout/rear_dropout_ss_wild_lilies_grow.svg
+            ... dxf  by Michael Wiedemann
+            
+        .../dropout/gp_wilson.svg
+ 
+        .../fork/dropout/gp_wilson.svg
+            ... by Paul Wyganowski from 
+                  http://wyganowskiframes.com/?attachment_id=189
+            
+        .../logo/
+            ./rosenberger.svg
+            ./selberbruzzler.svg
+            ./bohemian.svg
+            ./puch.svg
+            
+            
+... graphics and logos in common:
+----------------------------------------
+        ... graphics provided with or created by rattleCAD are free to use,  
+            where the copyright of the graphics is kept by their creators or
+            like it is defined in their own licenses. Logos of companies and 
+            graphics used on components are owned by their companies.
+            

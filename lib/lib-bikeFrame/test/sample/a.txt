@@ -1,0 +1,2310 @@
+
+
+ ====== I N I T ============================ 
+
+
+   -> $BASE_Dir:   C:/Dateien/Eclipse/workspace/rattleCAD_3.4.03/bikeGeometry
+
+
+   -> getContent: C:/Dateien/Eclipse/workspace/rattleCAD_3.4.03/bikeGeometry/test/sample/__test_3.4.01_74_b.xml:
+
+
+   -------------------------------
+    project::update_Project
+
+         project_Version:  _any_ 
+
+
+   -------------------------------
+    project::dom_2_runTime
+
+        /root/Project
+        /root/Personal
+        /root/Custom
+        /root/Reference
+        /root/FrameTubes
+        /root/Lugs
+        /root/Component
+        /root/Rendering
+        /root/Result
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+
+                     -> <i> $RearFender(Radius) ........... 331.5
+
+                     -> <i> $FrontFender(Radius) .......... 331.5
+
+
+
+
+         --- ::bikeGeometry::IF_OutsideIn --- 
+
+           set_Component                  -> ::bikeGeometry::set_Component                 -> key value 
+           set_Config                     -> ::bikeGeometry::set_Config                    -> key value 
+           set_ListValue                  -> ::bikeGeometry::set_ListValue                 -> key value 
+           set_Scalar                     -> ::bikeGeometry::set_Scalar_Default            -> object key value 
+           set_newProject                 -> ::bikeGeometry::set_newProject                -> _projectDOM 
+           get_projectDOM                 -> ::bikeGeometry::get_projectDOM                ->  
+           get_projectDICT                -> ::bikeGeometry::get_projectDICT               ->  
+           import_ProjectSubset           -> ::bikeGeometry::import_ProjectSubset          -> nodeRoot 
+           get_Component                  -> ::bikeGeometry::get_Component                 -> key 
+           get_Config                     -> ::bikeGeometry::get_Config                    -> key 
+           get_ListValue                  -> ::bikeGeometry::get_ListValue                 -> key 
+           get_Scalar                     -> ::bikeGeometry::get_Scalar                    -> object key 
+           get_Polygon                    -> ::bikeGeometry::get_Polygon                   -> key centerPoint 
+           get_Position                   -> ::bikeGeometry::get_Position                  -> key centerPoint 
+           get_Direction                  -> ::bikeGeometry::get_Direction                 -> key type 
+           get_BoundingBox                -> ::bikeGeometry::get_BoundingBox               -> key 
+           get_TubeMiter                  -> ::bikeGeometry::get_TubeMiter                 -> key 
+           get_CenterLine                 -> ::bikeGeometry::get_CenterLine                -> key 
+           get_ComponentDir               -> ::bikeGeometry::get_ComponentDir              ->  
+           get_ComponentDirectories       -> ::bikeGeometry::get_ComponentDirectories      ->  
+           get_ListBoxValues              -> ::bikeGeometry::get_ListBoxValues             ->  
+           get_DebugGeometry              -> ::bikeGeometry::get_DebugGeometry             ->  
+           validate_ChainStayCenterLine   -> ::bikeGeometry::validate_ChainStayCenterLine  -> dict_ChainStay 
+           coords_xy_index                -> ::bikeGeometry::coords_xy_index               -> coordlist index 
+
+
+         --- ::bikeGeometry::IF_LugAngles --- 
+
+           set_Component                  -> ::bikeGeometry::set_Component                 -> key value 
+           set_Config                     -> ::bikeGeometry::set_Config                    -> key value 
+           set_ListValue                  -> ::bikeGeometry::set_ListValue                 -> key value 
+           set_Scalar                     -> ::bikeGeometry::set_Scalar_LugAngles          -> object key value 
+           set_newProject                 -> ::bikeGeometry::set_newProject                -> _projectDOM 
+           get_projectDOM                 -> ::bikeGeometry::get_projectDOM                ->  
+           get_projectDICT                -> ::bikeGeometry::get_projectDICT               ->  
+           import_ProjectSubset           -> ::bikeGeometry::import_ProjectSubset          -> nodeRoot 
+           get_Component                  -> ::bikeGeometry::get_Component                 -> key 
+           get_Config                     -> ::bikeGeometry::get_Config                    -> key 
+           get_ListValue                  -> ::bikeGeometry::get_ListValue                 -> key 
+           get_Scalar                     -> ::bikeGeometry::get_Scalar                    -> object key 
+           get_Polygon                    -> ::bikeGeometry::get_Polygon                   -> key centerPoint 
+           get_Position                   -> ::bikeGeometry::get_Position                  -> key centerPoint 
+           get_Direction                  -> ::bikeGeometry::get_Direction                 -> key type 
+           get_BoundingBox                -> ::bikeGeometry::get_BoundingBox               -> key 
+           get_TubeMiter                  -> ::bikeGeometry::get_TubeMiter                 -> key 
+           get_CenterLine                 -> ::bikeGeometry::get_CenterLine                -> key 
+           get_ComponentDir               -> ::bikeGeometry::get_ComponentDir              ->  
+           get_ComponentDirectories       -> ::bikeGeometry::get_ComponentDirectories      ->  
+           get_ListBoxValues              -> ::bikeGeometry::get_ListBoxValues             ->  
+           get_DebugGeometry              -> ::bikeGeometry::get_DebugGeometry             ->  
+           validate_ChainStayCenterLine   -> ::bikeGeometry::validate_ChainStayCenterLine  -> dict_ChainStay 
+           coords_xy_index                -> ::bikeGeometry::coords_xy_index               -> coordlist index 
+
+
+         --- ::bikeGeometry::IF_StackReach --- 
+
+           set_Component                  -> ::bikeGeometry::set_Component                 -> key value 
+           set_Config                     -> ::bikeGeometry::set_Config                    -> key value 
+           set_ListValue                  -> ::bikeGeometry::set_ListValue                 -> key value 
+           set_Scalar                     -> ::bikeGeometry::set_Scalar_StackReach         -> object key value 
+           set_newProject                 -> ::bikeGeometry::set_newProject                -> _projectDOM 
+           get_projectDOM                 -> ::bikeGeometry::get_projectDOM                ->  
+           get_projectDICT                -> ::bikeGeometry::get_projectDICT               ->  
+           import_ProjectSubset           -> ::bikeGeometry::import_ProjectSubset          -> nodeRoot 
+           get_Component                  -> ::bikeGeometry::get_Component                 -> key 
+           get_Config                     -> ::bikeGeometry::get_Config                    -> key 
+           get_ListValue                  -> ::bikeGeometry::get_ListValue                 -> key 
+           get_Scalar                     -> ::bikeGeometry::get_Scalar                    -> object key 
+           get_Polygon                    -> ::bikeGeometry::get_Polygon                   -> key centerPoint 
+           get_Position                   -> ::bikeGeometry::get_Position                  -> key centerPoint 
+           get_Direction                  -> ::bikeGeometry::get_Direction                 -> key type 
+           get_BoundingBox                -> ::bikeGeometry::get_BoundingBox               -> key 
+           get_TubeMiter                  -> ::bikeGeometry::get_TubeMiter                 -> key 
+           get_CenterLine                 -> ::bikeGeometry::get_CenterLine                -> key 
+           get_ComponentDir               -> ::bikeGeometry::get_ComponentDir              ->  
+           get_ComponentDirectories       -> ::bikeGeometry::get_ComponentDirectories      ->  
+           get_ListBoxValues              -> ::bikeGeometry::get_ListBoxValues             ->  
+           get_DebugGeometry              -> ::bikeGeometry::get_DebugGeometry             ->  
+           validate_ChainStayCenterLine   -> ::bikeGeometry::validate_ChainStayCenterLine  -> dict_ChainStay 
+           coords_xy_index                -> ::bikeGeometry::coords_xy_index               -> coordlist index 
+
+
+         --- ::bikeGeometry::IF_Classic --- 
+
+           set_Component                  -> ::bikeGeometry::set_Component                 -> key value 
+           set_Config                     -> ::bikeGeometry::set_Config                    -> key value 
+           set_ListValue                  -> ::bikeGeometry::set_ListValue                 -> key value 
+           set_Scalar                     -> ::bikeGeometry::set_Scalar_Classic            -> object key value 
+           set_newProject                 -> ::bikeGeometry::set_newProject                -> _projectDOM 
+           get_projectDOM                 -> ::bikeGeometry::get_projectDOM                ->  
+           get_projectDICT                -> ::bikeGeometry::get_projectDICT               ->  
+           import_ProjectSubset           -> ::bikeGeometry::import_ProjectSubset          -> nodeRoot 
+           get_Component                  -> ::bikeGeometry::get_Component                 -> key 
+           get_Config                     -> ::bikeGeometry::get_Config                    -> key 
+           get_ListValue                  -> ::bikeGeometry::get_ListValue                 -> key 
+           get_Scalar                     -> ::bikeGeometry::get_Scalar                    -> object key 
+           get_Polygon                    -> ::bikeGeometry::get_Polygon                   -> key centerPoint 
+           get_Position                   -> ::bikeGeometry::get_Position                  -> key centerPoint 
+           get_Direction                  -> ::bikeGeometry::get_Direction                 -> key type 
+           get_BoundingBox                -> ::bikeGeometry::get_BoundingBox               -> key 
+           get_TubeMiter                  -> ::bikeGeometry::get_TubeMiter                 -> key 
+           get_CenterLine                 -> ::bikeGeometry::get_CenterLine                -> key 
+           get_ComponentDir               -> ::bikeGeometry::get_ComponentDir              ->  
+           get_ComponentDirectories       -> ::bikeGeometry::get_ComponentDirectories      ->  
+           get_ListBoxValues              -> ::bikeGeometry::get_ListBoxValues             ->  
+           validate_ChainStayCenterLine   -> ::bikeGeometry::validate_ChainStayCenterLine  -> dict_ChainStay 
+           get_DebugGeometry              -> ::bikeGeometry::get_DebugGeometry             ->  
+           coords_xy_index                -> ::bikeGeometry::coords_xy_index               -> coordlist index 
+
+
+    ... Scalar/CrankSet/Q-Factor
+                       ... 175.00
+                       ... 175.00
+                       ... 175.00 ... Scalar/CrankSet/Q-Factor
+                       ... 175.00 ... Component(CrankSet/Q-Factor)
+    ... Scalar/DownTube/DiameterBB
+                       ... 34.90
+                       ... 34.90
+                       ... 34.90 ... Scalar/DownTube/DiameterBB
+                       ... 34.90 ... FrameTubes(DownTube/DiameterBB)
+    ... Scalar/DownTube/DiameterHT
+                       ... 31.80
+                       ... 31.80
+                       ... 31.80 ... Scalar/DownTube/DiameterHT
+                       ... 31.80 ... FrameTubes(DownTube/DiameterHT)
+    ... Scalar/FrontCarrier/x
+                       ... 20.00
+                       ... 20.00
+                       ... 20.00 ... Scalar/FrontCarrier/x
+                       ... 20.00 ... Component(Carrier/Front/x)
+    ... Scalar/FrontWheel/RimHeight
+                       ... 25.00
+                       ... 25.00
+                       ... 25.00 ... Scalar/FrontWheel/RimHeight
+                       ... 25.00 ... Component(Wheel/Front/RimHeight)
+    ... Scalar/Geometry/BottomBracket_Depth
+                       ... 10.0
+                       ... 10.0
+                       ... 10.0 ... Scalar/Geometry/BottomBracket_Depth
+                       ... 10.0 ... Custom(BottomBracket/Depth)
+    ... Scalar/Geometry/BottomBracket_Height
+                       ... 316.500
+                       ... 316.500
+                       ... 316.500 ... Scalar/Geometry/BottomBracket_Height
+            ... failed ... 0.00 ... Result(Length/BottomBracket/Height)
+    ... Scalar/Geometry/FrontWheel_Radius
+                       ... 326.5
+                       ... 326.5
+                       ... 326.5 ... Scalar/Geometry/FrontWheel_Radius
+            ... failed ... 0.00 ... Result(Length/FrontWheel/Radius)
+    ... Scalar/Geometry/FrontWheel_x
+                       ... 618.219
+                       ... 618.219
+                       ... 618.219 ... Scalar/Geometry/FrontWheel_x
+            ... failed ... 0.00 ... Result(Length/FrontWheel/horizontal)
+    ... Scalar/Geometry/HeadTube_Angle
+                       ... 71.00
+                       ... 71.00
+                       ... 71.00 ... Scalar/Geometry/HeadTube_Angle
+                       ... 71.00 ... Custom(HeadTube/Angle)
+    ... Scalar/Geometry/Saddle_Distance
+                       ... 245.10
+                       ... 245.10
+                       ... 245.10 ... Scalar/Geometry/Saddle_Distance
+                       ... 245.10 ... Personal(Saddle_Distance)
+              <I> bikeGeometry::set_Scalar ... CrankSet Q-Factor -> 160
+                  <1> bikeGeometry::check_mathValue 160
+                  <2> bikeGeometry::check_mathValue 160  ->  160.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... CrankSet Q-Factor -> 160.000
+              <I> bikeGeometry::set_Scalar ... DownTube DiameterBB -> 33
+                  <1> bikeGeometry::check_mathValue 33
+                  <2> bikeGeometry::check_mathValue 33  ->  33.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... DownTube DiameterBB -> 33.000
+              <I> bikeGeometry::set_Scalar ... DownTube DiameterHT -> 39
+                  <1> bikeGeometry::check_mathValue 39
+                  <2> bikeGeometry::check_mathValue 39  ->  39.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... DownTube DiameterHT -> 39.000
+              <I> bikeGeometry::set_Scalar ... FrontCarrier x -> 30
+                  <1> bikeGeometry::check_mathValue 30
+                  <2> bikeGeometry::check_mathValue 30  ->  30.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... FrontCarrier x -> 30.000
+              <I> bikeGeometry::set_Scalar ... FrontWheel RimHeight -> 45
+                  <1> bikeGeometry::check_mathValue 45
+                  <2> bikeGeometry::check_mathValue 45  ->  45.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... FrontWheel RimHeight -> 45.000
+              <I> bikeGeometry::set_Scalar ... Geometry BottomBracket_Height -> 245
+                  <1> bikeGeometry::check_mathValue 245
+                  <2> bikeGeometry::check_mathValue 245  ->  245.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... Geometry BottomBracket_Height -> 316.500
+              <I> bikeGeometry::set_Scalar ... Geometry FrontWheel_Radius -> 300
+                  <1> bikeGeometry::check_mathValue 300
+                  <2> bikeGeometry::check_mathValue 300  ->  300.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... Geometry FrontWheel_Radius -> 326.5
+              <I> bikeGeometry::set_Scalar ... Geometry FrontWheel_x -> 550
+                  <1> bikeGeometry::check_mathValue 550
+                  <2> bikeGeometry::check_mathValue 550  ->  550.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... Geometry FrontWheel_x -> 618.219
+              <I> bikeGeometry::set_Scalar ... Geometry HeadTube_Angle -> 75
+                  <1> bikeGeometry::check_mathValue 75
+                  <2> bikeGeometry::check_mathValue 75  ->  75.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... Geometry HeadTube_Angle -> 75.000
+              <I> bikeGeometry::set_Scalar ... Geometry Saddle_Distance -> 55
+                  <1> bikeGeometry::check_mathValue 55
+                  <2> bikeGeometry::check_mathValue 55  ->  55.000
+
+   -> $Fork(CrownOffsetBrake)   30.0
+     $Config(HeadTube) cylindric  
+       $minorDM 36.00  
+       $majorDM 45.00  
+
+
+
+
+
+
+
+
+              <I> bikeGeometry::set_Scalar ... Geometry Saddle_Distance -> 55.000
+    -----------------------------------------
+    ... BoundingBox/SummarySize
+                       ... 991.379341 684.481845
+                       ... 991.379341 684.481845
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/ChainStay
+                       ... {-386.91410009566596,8.214569201180142 0,0}
+                       ... {-386.91410009566596,8.214569201180142 0,0}
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/DownTube
+                       ... {-7.105427357601002e-15,-5.329070518200751e-15 397.0032669910722,506.676590845819
+                       ... {-7.105427357601002e-15,-5.329070518200751e-15 397.0032669910722,506.676590845819
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/ForkBlade
+                       ... 
+                       ... 
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/HeadTube
+                       ... {409.0164594909372,461.8427460752184 381.8404597551725,563.2649578355705}
+                       ... {409.0164594909372,461.8427460752184 381.8404597551725,563.2649578355705}
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/RearMockup_CtrLines
+                       ... 0.0,0.0 146.99200678904276,-29.888960171441326 147.09452878202427,-29.90153679882
+                       ... 0.0,0.0 146.99200678904276,-29.888960171441326 147.09452878202427,-29.90153679882
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/RearMockup_UnCut
+                       ... 0.0,0.0 122.36325966024928,-24.881016827545967 127.29667282244424,-25.84387835808
+                       ... 0.0,0.0 122.36325966024928,-24.881016827545967 127.29667282244424,-25.84387835808
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/RearMockup
+                       ... 0.0,0.0 122.36325966024928,-24.881016827545967 127.29667282244424,-25.84387835808
+                       ... 0.0,0.0 122.36325966024928,-24.881016827545967 127.29667282244424,-25.84387835808
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/SeatStay
+                       ... {-400.86956244696734,40.13210952870954 -20.698724929302273,437.3580228575184}
+                       ... {-400.86956244696734,40.13210952870954 -20.698724929302273,437.3580228575184}
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/SeatTube
+                       ... {0.0,0.0 -23.83042546660352,503.5299421353514}
+                       ... {0.0,0.0 -23.83042546660352,503.5299421353514}
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/Steerer
+                       ... {412.51051659982124,448.80274742031594 365.3542825345349,624.7922088455746}
+                       ... {412.51051659982124,448.80274742031594 365.3542825345349,624.7922088455746}
+                       ... _noDict_
+                       ... _noXPath_
+    ... CenterLine/TopTube
+                       ... {-22.116939436483506,467.32448190111614 388.16325881371694,539.6679505030341}
+                       ... {-22.116939436483506,467.32448190111614 388.16325881371694,539.6679505030341}
+                       ... _noDict_
+                       ... _noXPath_
+    -----------------------------------------
+    ... Component/BottleCage_DownTube_Lower
+                       ... etc:bottleCage/left/bottleCage.svg
+                       ... etc:bottleCage/left/bottleCage.svg
+                       ... etc:bottleCage/left/bottleCage.svg ... Component/BottleCage_DownTube_Lower
+                       ... etc:bottleCage/left/bottleCage.svg ... Component(BottleCage/DownTube_Lower/File)
+    ... Component/BottleCage_DownTube
+                       ... etc:bottleCage/right/bottleCage.svg
+                       ... etc:bottleCage/right/bottleCage.svg
+                       ... etc:bottleCage/right/bottleCage.svg ... Component/BottleCage_DownTube
+                       ... etc:bottleCage/right/bottleCage.svg ... Component(BottleCage/DownTube/File)
+    ... Component/BottleCage_SeatTube
+                       ... etc:bottleCage/left/bottleCage.svg
+                       ... etc:bottleCage/left/bottleCage.svg
+                       ... etc:bottleCage/left/bottleCage.svg ... Component/BottleCage_SeatTube
+                       ... etc:bottleCage/left/bottleCage.svg ... Component(BottleCage/SeatTube/File)
+    ... Component/CrankSet
+                       ... etc:crankset/shimano_FC-M770.svg
+                       ... etc:crankset/shimano_FC-M770.svg
+                       ... etc:crankset/shimano_FC-M770.svg ... Component/CrankSet
+                       ... etc:crankset/shimano_FC-M770.svg ... Component(CrankSet/File)
+    ... Component/ForkCrown
+                       ... etc:fork/_suspension/fork_crown.svg
+                       ... etc:fork/_suspension/fork_crown.svg
+                       ... etc:fork/_suspension/fork_crown.svg ... Component/ForkCrown
+            ... failed ... etc:fork/crown/longshen_17.svg ... Component(Fork/Crown/File)
+    ... Component/ForkDropout
+                       ... etc:fork/_suspension/suspension_bridge_26.svg
+                       ... etc:fork/_suspension/suspension_bridge_26.svg
+                       ... etc:fork/_suspension/suspension_bridge_26.svg ... Component/ForkDropout
+            ... failed ... etc:fork/dropout/LE_17.svg ... Component(Fork/DropOut/File)
+    ... Component/FrontBrake
+                       ... etc:brake/front/v_frontbrake.svg
+                       ... etc:brake/front/v_frontbrake.svg
+                       ... etc:brake/front/v_frontbrake.svg ... Component/FrontBrake
+                       ... etc:brake/front/v_frontbrake.svg ... Component(Brake/Front/File)
+    ... Component/FrontCarrier
+                       ... etc:carrier/front/__blank__.svg
+                       ... etc:carrier/front/__blank__.svg
+                       ... etc:carrier/front/__blank__.svg ... Component/FrontCarrier
+                       ... etc:carrier/front/__blank__.svg ... Component(Carrier/Front/File)
+    ... Component/FrontDerailleur
+                       ... etc:derailleur/front/campagnolo_qs.svg
+                       ... etc:derailleur/front/campagnolo_qs.svg
+                       ... etc:derailleur/front/campagnolo_qs.svg ... Component/FrontDerailleur
+                       ... etc:derailleur/front/campagnolo_qs.svg ... Component(Derailleur/Front/File)
+    ... Component/HandleBar
+                       ... etc:handlebar/flatbar_sti.svg
+                       ... etc:handlebar/flatbar_sti.svg
+                       ... etc:handlebar/flatbar_sti.svg ... Component/HandleBar
+                       ... etc:handlebar/flatbar_sti.svg ... Component(HandleBar/File)
+    ... Component/Label
+                       ... etc:label/rattleCAD_22.svg
+                       ... etc:label/rattleCAD_22.svg
+                       ... etc:label/rattleCAD_22.svg ... Component/Label
+            ... failed ...  ... Component(Logo/File)
+    ... Component/RearBrake
+                       ... etc:brake/rear/v_rearbrake.svg
+                       ... etc:brake/rear/v_rearbrake.svg
+                       ... etc:brake/rear/v_rearbrake.svg ... Component/RearBrake
+                       ... etc:brake/rear/v_rearbrake.svg ... Component(Brake/Rear/File)
+    ... Component/RearCarrier
+                       ... etc:carrier/rear/__blank__.svg
+                       ... etc:carrier/rear/__blank__.svg
+                       ... etc:carrier/rear/__blank__.svg ... Component/RearCarrier
+                       ... etc:carrier/rear/__blank__.svg ... Component(Carrier/Rear/File)
+    ... Component/RearDerailleur
+                       ... etc:derailleur/rear/shimano_RD-M773.svg
+                       ... etc:derailleur/rear/shimano_RD-M773.svg
+                       ... etc:derailleur/rear/shimano_RD-M773.svg ... Component/RearDerailleur
+                       ... etc:derailleur/rear/shimano_RD-M773.svg ... Component(Derailleur/Rear/File)
+    ... Component/RearDropout
+                       ... etc:dropout/dropout_02.svg
+                       ... etc:dropout/dropout_02.svg
+                       ... etc:dropout/dropout_02.svg ... Component/RearDropout
+                       ... etc:dropout/dropout_02.svg ... Lugs(RearDropOut/File)
+    ... Component/Saddle
+                       ... etc:saddle/saddle_d.svg
+                       ... etc:saddle/saddle_d.svg
+                       ... etc:saddle/saddle_d.svg ... Component/Saddle
+                       ... etc:saddle/saddle_d.svg ... Component(Saddle/File)
+    -----------------------------------------
+    ... Config/BottleCage_DownTube_Lower
+                       ... off
+                       ... off
+                       ... off ... Config/BottleCage_DownTube_Lower
+                       ... off ... Rendering(BottleCage/DownTube_Lower)
+    ... Config/BottleCage_DownTube
+                       ... Cage
+                       ... Cage
+                       ... Cage ... Config/BottleCage_DownTube
+                       ... Cage ... Rendering(BottleCage/DownTube)
+    ... Config/BottleCage_SeatTube
+                       ... Cage
+                       ... Cage
+                       ... Cage ... Config/BottleCage_SeatTube
+                       ... Cage ... Rendering(BottleCage/SeatTube)
+    ... Config/ChainStay
+                       ... bent
+                       ... bent
+                       ... bent ... Config/ChainStay
+                       ... bent ... Rendering(ChainStay)
+    ... Config/Fork
+                       ... Suspension_26
+                       ... Suspension_26
+                       ... Suspension_26 ... Config/Fork
+                       ... Suspension_26 ... Rendering(Fork)
+    ... Config/ForkBlade
+                       ... bent
+                       ... bent
+                       ... bent ... Config/ForkBlade
+                       ... bent ... Rendering(ForkBlade)
+    ... Config/ForkDropout
+                       ... front
+                       ... front
+                       ... front ... Config/ForkDropout
+                       ... front ... Rendering(ForkDropOut)
+    ... Config/FrontBrake
+                       ... Rim
+                       ... Rim
+                       ... Rim ... Config/FrontBrake
+                       ... Rim ... Rendering(Brake/Front)
+    ... Config/FrontFender
+                       ... off
+                       ... off
+                       ... off ... Config/FrontFender
+                       ... off ... Rendering(Fender/Front)
+    ... Config/RearBrake
+                       ... Rim
+                       ... Rim
+                       ... Rim ... Config/RearBrake
+                       ... Rim ... Rendering(Brake/Rear)
+    ... Config/RearDropout
+                       ... behind
+                       ... behind
+                       ... behind ... Config/RearDropout
+                       ... behind ... Rendering(RearDropOut)
+    ... Config/RearDropoutOrient
+                       ... ChainStay
+                       ... ChainStay
+                       ... ChainStay ... Config/RearDropoutOrient
+                       ... ChainStay ... Lugs(RearDropOut/Direction)
+    ... Config/RearFender
+                       ... off
+                       ... off
+                       ... off ... Config/RearFender
+                       ... off ... Rendering(Fender/Rear)
+    -----------------------------------------
+    ... Direction/ChainStay
+                       ... 0.9997746987060594 -0.021226206142602004
+                       ... 0.9997746987060594 -0.021226206142602004
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/DownTube
+                       ... 0.6167646062428365 0.7871476484663592
+                       ... 0.6167646062428365 0.7871476484663592
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/ForkCrown
+                       ... -0.2588190451025212 0.9659258262890682
+                       ... -0.2588190451025212 0.9659258262890682
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/ForkDropout
+                       ... -0.2588190451025212 0.9659258262890682
+                       ... -0.2588190451025212 0.9659258262890682
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/HeadTube
+                       ... -0.2588190451025212 0.9659258262890682
+                       ... -0.2588190451025212 0.9659258262890682
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/RearDropout
+                       ... 0.9997165131055722 -0.023809523809523815
+                       ... 0.9997165131055722 -0.023809523809523815
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/SeatStay
+                       ... 0.6914274017997944 0.7224459481790909
+                       ... 0.6914274017997944 0.7224459481790909
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/SeatTube
+                       ... -0.04727381690604115 0.9988819681199247
+                       ... -0.04727381690604115 0.9988819681199247
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/Steerer
+                       ... -0.2588190451025212 0.9659258262890682
+                       ... -0.2588190451025212 0.9659258262890682
+                       ... _noDict_
+                       ... _noXPath_
+    ... Direction/TopTube
+                       ... -0.984807753012208 -0.17364817766693033
+                       ... -0.984807753012208 -0.17364817766693033
+                       ... _noDict_
+                       ... _noXPath_
+    ... ListValue/CrankSetChainRings
+                       ... 22-32-44
+                       ... 22-32-44
+                       ... 22-32-44 ... ListValue/CrankSetChainRings
+                       ... 22-32-44 ... Component(CrankSet/ChainRings)
+    -----------------------------------------
+    ... Polygon/ChainStay_RearMockup
+                       ... 1.263619419483589 6.214400006627631 6.176395884900428 5.308892390609975 11.089172
+                       ... 1.263619419483589 6.214400006627631 6.176395884900428 5.308892390609975 11.089172
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/ChainStay
+                       ... -387.0520704355929 1.7160336595907557 -110.28299684673424 -12.16185045555164 -70.
+                       ... -387.0520704355929 1.7160336595907557 -110.28299684673424 -12.16185045555164 -70.
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/DownTube
+                       ... 121.06828678126169 127.76125031515808 308.4591115995117 362.0552510363373 389.429
+                       ... 121.06828678126169 127.76125031515808 308.4591115995117 362.0552510363373 389.429
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/ForkBlade
+                       ... 
+                       ... 
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/FrontFender
+                       ... 28.8921287208486 330.23854241741367 25.90974197349361 330.4859078249283 22.925243
+                       ... 28.8921287208486 330.23854241741367 25.90974197349361 330.4859078249283 22.925243
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/HeadSetBottom
+                       ... 391.629794617734 457.18400326337303 389.0301569538752 449.49931823296043 432.4968
+                       ... 391.629794617734 457.18400326337303 389.0301569538752 449.49931823296043 432.4968
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/HeadSetTop
+                       ... 360.44209968288015 573.5780653312057 358.42480487050204 563.7200471916427 401.891
+                       ... 360.44209968288015 573.5780653312057 358.42480487050204 563.7200471916427 401.891
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/HeadTube
+                       ... 426.40312436414047 466.5014888870638 399.22712462837575 567.9237006474159 364.453
+                       ... 426.40312436414047 466.5014888870638 399.22712462837575 567.9237006474159 364.453
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/RearFender
+                       ... 331.4253126210587 -7.036487336272547 331.4754552948241 -4.033923287457143 331.498
+                       ... 331.4253126210587 -7.036487336272547 331.4754552948241 -4.033923287457143 331.498
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/SeatPost
+                       ... -8.532144670052531 467.9674058110383 -15.497679692450088 615.1471299701747 -17.00
+                       ... -8.532144670052531 467.9674058110383 -15.497679692450088 615.1471299701747 -17.00
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/SeatStay
+                       ... -32.423182898302954 413.53731932244267 -32.075702784933846 413.9444163141293 -31.
+                       ... -32.423182898302954 413.53731932244267 -32.075702784933846 413.9444163141293 -31.
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/SeatTube
+                       ... 11.058083095711213 102.68432953849307 -4.722273125093011 402.27328186742085 -9.54
+                       ... 11.058083095711213 102.68432953849307 -4.722273125093011 402.27328186742085 -9.54
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/Steerer
+                       ... 426.32325591575494 452.503859765282 376.5788313994434 638.1525794534314 348.95335
+                       ... 426.32325591575494 452.503859765282 376.5788313994434 638.1525794534314 348.95335
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/Stem
+                       ... 451.3281717060114 655.6210423029187 454.78296809126533 656.6300136387042 457.2775
+                       ... 451.3281717060114 655.6210423029187 454.78296809126533 656.6300136387042 457.2775
+                       ... _noDict_
+                       ... _noXPath_
+    ... Polygon/TopTube
+                       ... 374.08425675104786 522.6648420279694 374.11282524019356 522.7251346923856 374.197
+                       ... 374.08425675104786 522.6648420279694 374.11282524019356 522.7251346923856 374.197
+                       ... _noDict_
+                       ... _noXPath_
+    -----------------------------------------
+    ... Position/BottomBracket_Ground
+                       ... 0 -316.5
+                       ... 0 -316.5
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/BottomBracket
+                       ... 0 0
+                       ... 0 0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/CarrierMount_Front
+                       ... 541.4984056240562 15.0
+                       ... 541.4984056240562 15.0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/CarrierMount_Rear
+                       ... -434.8809355043403 40.0
+                       ... -434.8809355043403 40.0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ChainStay_BottomBracket
+                       ... 0 0
+                       ... 0 0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ChainStay_BottomBracket
+                       ... 0 0
+                       ... 0 0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ChainStay_RearMockup
+                       ... -387.0 72.5
+                       ... -387.0 72.5
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ChainStay_RearWheel
+                       ... -386.91410009566596 8.214569201180142
+                       ... -386.91410009566596 8.214569201180142
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ChainStay_RearWheel
+                       ... -386.91410009566596 8.214569201180142
+                       ... -386.91410009566596 8.214569201180142
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ChainStay_SeatStay_IS
+                       ... -430.53044938109895 9.140587455411378
+                       ... -430.53044938109895 9.140587455411378
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/DerailleurMount_Front
+                       ... 3.137770057838341 128.29183293984124
+                       ... 3.137770057838341 128.29183293984124
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/DownTube_BottleCageBase
+                       ... 116.53263111130073 175.4776221809422
+                       ... 116.53263111130073 175.4776221809422
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/DownTube_BottleCageOffset
+                       ... 156.00556591084228 225.8550716827892
+                       ... 156.00556591084228 225.8550716827892
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/DownTube_End
+                       ... 397.0032669910722 506.67659084581965
+                       ... 397.0032669910722 506.67659084581965
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/DownTube_Lower_BottleCageBase
+                       ... 99.33498107369203 100.02405478228349
+                       ... 99.33498107369203 100.02405478228349
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/DownTube_Lower_BottleCageOffset
+                       ... 138.80791587323358 150.40150428413048
+                       ... 138.80791587323358 150.40150428413048
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/DownTube_Start
+                       ... -7.105427357601002e-15 -5.329070518200751e-15
+                       ... -7.105427357601002e-15 -5.329070518200751e-15
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ForkBlade_End
+                       ... 0 0
+                       ... 0 0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ForkBlade_Start
+                       ... 0 0
+                       ... 0 0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/ForkCrown
+                       ... 412.51051659982124 448.80274742031594
+                       ... 412.51051659982124 448.80274742031594
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/FrontBrake_Definition
+                       ... 489.7236662026778 276.5504492447267
+                       ... 489.7236662026778 276.5504492447267
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/FrontBrake_Help
+                       ... 508.9864356143146 328.2993208710154
+                       ... 508.9864356143146 328.2993208710154
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/FrontBrake_Mount
+                       ... 478.0768091730644 320.01711142773473
+                       ... 478.0768091730644 320.01711142773473
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/FrontBrake_Shoe
+                       ... 520.633292643928 284.83265868800737
+                       ... 520.633292643928 284.83265868800737
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/FrontDropout
+                       ... 571.4984056240562 10.0
+                       ... 571.4984056240562 10.0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/FrontWheel
+                       ... 571.4984056240562 10.0
+                       ... 571.4984056240562 10.0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/HandleBar
+                       ... 474.0 642.0
+                       ... 474.0 642.0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/HeadTube_End
+                       ... 381.8404597551725 563.2649578355705
+                       ... 381.8404597551725 563.2649578355705
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/HeadTube_Start
+                       ... 409.0164594909372 461.8427460752184
+                       ... 409.0164594909372 461.8427460752184
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/LegClearance
+                       ... 80.0 533.5
+                       ... 80.0 533.5
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/RearBrake_Definition
+                       ... -239.06541653376422 220.7653174236662
+                       ... -239.06541653376422 220.7653174236662
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/RearBrake_Help
+                       ... -222.4001024163553 267.1039331277212
+                       ... -222.4001024163553 267.1039331277212
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/RearBrake_Mount
+                       ... -207.95118345277345 253.2753850917253
+                       ... -207.95118345277345 253.2753850917253
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/RearBrake_Shoe
+                       ... -253.51433549734608 234.59386545966208
+                       ... -253.51433549734608 234.59386545966208
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/RearDerailleur
+                       ... -426.47447267821184 -14.850055684782163
+                       ... -426.47447267821184 -14.850055684782163
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/RearDropout
+                       ... -419.8809355043403 10.0
+                       ... -419.8809355043403 10.0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/RearWheel
+                       ... -419.8809355043403 10.0
+                       ... -419.8809355043403 10.0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/Reference_HB
+                       ... 481.00000000000006 588.5
+                       ... 481.00000000000006 588.5
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/Reference_SN
+                       ... -62.69 653.5
+                       ... -62.69 653.5
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SaddleNose
+                       ... 103.0 698.3
+                       ... 103.0 698.3
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SaddleProposal
+                       ... -35.360815045718766 747.1637121537036
+                       ... -35.360815045718766 747.1637121537036
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/Saddle
+                       ... -55.0 713.3
+                       ... -55.0 713.3
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatPost_Pivot
+                       ... -55.0 633.3
+                       ... -55.0 633.3
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/Saddle_Mount
+                       ... -55.0 673.3
+                       ... -55.0 673.3
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatPost_SeatTube
+                       ... -30.027950797001886 634.481845422651
+                       ... -30.027950797001886 634.481845422651
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatStay_End
+                       ... -20.698724929302273 437.3580228575184
+                       ... -20.698724929302273 437.3580228575184
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatStay_Start
+                       ... -400.86956244696734 40.13210952870954
+                       ... -400.86956244696734 40.13210952870954
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatTube_BottleCageBase
+                       ... 9.736627095321449 130.60630954439625
+                       ... 9.736627095321449 130.60630954439625
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatTube_BottleCageOffset
+                       ... 6.711102813334815 194.53475550407143
+                       ... 6.711102813334815 194.53475550407143
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatTube_End
+                       ... -23.83042546660352 503.5299421353514
+                       ... -23.83042546660352 503.5299421353514
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatTube_Ground
+                       ... 14.978909949614469 -316.5
+                       ... 14.978909949614469 -316.5
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatTube_Saddle
+                       ... -33.75815629402844 713.3
+                       ... -33.75815629402844 713.3
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatTube_Start
+                       ... 0.0 0.0
+                       ... 0.0 0.0
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/SeatTube_VirtualTopTube
+                       ... -26.657488408190844 563.2649578355705
+                       ... -26.657488408190844 563.2649578355705
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/Steerer_End
+                       ... 365.3542825345349 624.7922088455746
+                       ... 365.3542825345349 624.7922088455746
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/Steerer_Ground
+                       ... 617.5727697364148 -316.5000000000001
+                       ... 617.5727697364148 -316.5000000000001
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/Steerer_Start
+                       ... 412.51051659982124 448.80274742031594
+                       ... 412.51051659982124 448.80274742031594
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/TopTube_End
+                       ... 388.16325881371694 539.6679505030341
+                       ... 388.16325881371694 539.6679505030341
+                       ... _noDict_
+                       ... _noXPath_
+    ... Position/TopTube_Start
+                       ... -22.116939436483506 467.32448190111614
+                       ... -22.116939436483506 467.32448190111614
+                       ... _noDict_
+                       ... _noXPath_
+    -----------------------------------------
+    ... Scalar/BottleCage/DownTube
+                       ... 210.00
+                       ... 210.00
+                       ... 210.00 ... Scalar/BottleCage/DownTube
+                       ... 210.00 ... Component(BottleCage/DownTube/OffsetBB)
+    ... Scalar/BottleCage/DownTube_Lower
+                       ... 140.00
+                       ... 140.00
+                       ... 140.00 ... Scalar/BottleCage/DownTube_Lower
+                       ... 140.00 ... Component(BottleCage/DownTube_Lower/OffsetBB)
+    ... Scalar/BottleCage/SeatTube
+                       ... 130.00
+                       ... 130.00
+                       ... 130.00 ... Scalar/BottleCage/SeatTube
+                       ... 130.00 ... Component(BottleCage/SeatTube/OffsetBB)
+    ... Scalar/BottomBracket/InsideDiameter
+                       ... 36.00
+                       ... 36.00
+                       ... 36.00 ... Scalar/BottomBracket/InsideDiameter
+                       ... 36.00 ... Lugs(BottomBracket/Diameter/inside)
+    ... Scalar/BottomBracket/OffsetCS_TopView
+                       ... 5.00
+                       ... 5.00
+                       ... 5.00 ... Scalar/BottomBracket/OffsetCS_TopView
+                       ... 5.00 ... Lugs(BottomBracket/ChainStay/Offset_TopView)
+    ... Scalar/BottomBracket/OutsideDiameter
+                       ... 40.00
+                       ... 40.00
+                       ... 40.00 ... Scalar/BottomBracket/OutsideDiameter
+                       ... 40.00 ... Lugs(BottomBracket/Diameter/outside)
+    ... Scalar/BottomBracket/Width
+                       ... 68.00
+                       ... 68.00
+                       ... 68.00 ... Scalar/BottomBracket/Width
+                       ... 68.00 ... Lugs(BottomBracket/Width)
+    ... Scalar/ChainStay/DiameterSS
+                       ... 13.00
+                       ... 13.00
+                       ... 13.00 ... Scalar/ChainStay/DiameterSS
+                       ... 13.00 ... FrameTubes(ChainStay/DiameterSS)
+    ... Scalar/ChainStay/Height
+                       ... 29.00
+                       ... 29.00
+                       ... 29.00 ... Scalar/ChainStay/Height
+                       ... 29.00 ... FrameTubes(ChainStay/Height)
+    ... Scalar/ChainStay/HeightBB
+                       ... 29.00
+                       ... 29.00
+                       ... 29.00 ... Scalar/ChainStay/HeightBB
+                       ... 29.00 ... FrameTubes(ChainStay/HeightBB)
+    ... Scalar/ChainStay/TaperLength
+                       ... 280.00
+                       ... 280.00
+                       ... 280.00 ... Scalar/ChainStay/TaperLength
+                       ... 280.00 ... FrameTubes(ChainStay/TaperLength)
+    ... Scalar/ChainStay/WidthBB
+                       ... 18.00
+                       ... 18.00
+                       ... 18.00 ... Scalar/ChainStay/WidthBB
+                       ... 18.00 ... FrameTubes(ChainStay/WidthBB)
+    ... Scalar/ChainStay/completeLength
+                       ... 410.00
+                       ... 410.00
+                       ... 410.00 ... Scalar/ChainStay/completeLength
+                       ... 410.00 ... FrameTubes(ChainStay/Profile/completeLength)
+    ... Scalar/ChainStay/cuttingLeft
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/ChainStay/cuttingLeft
+                       ... 0.00 ... FrameTubes(ChainStay/Profile/cuttingLeft)
+    ... Scalar/ChainStay/cuttingLength
+                       ... 391.69918059222357
+                       ... 391.69918059222357
+                       ... 391.69918059222357 ... Scalar/ChainStay/cuttingLength
+            ... failed ... 380.00 ... FrameTubes(ChainStay/Profile/cuttingLength)
+    ... Scalar/ChainStay/profile_x01
+                       ... 150.00
+                       ... 150.00
+                       ... 150.00 ... Scalar/ChainStay/profile_x01
+                       ... 150.00 ... FrameTubes(ChainStay/Profile/length_01)
+    ... Scalar/ChainStay/profile_x02
+                       ... 150.00
+                       ... 150.00
+                       ... 150.00 ... Scalar/ChainStay/profile_x02
+                       ... 150.00 ... FrameTubes(ChainStay/Profile/length_02)
+    ... Scalar/ChainStay/profile_x03
+                       ... 75.00
+                       ... 75.00
+                       ... 75.00 ... Scalar/ChainStay/profile_x03
+                       ... 75.00 ... FrameTubes(ChainStay/Profile/length_03)
+    ... Scalar/ChainStay/profile_y00
+                       ... 12.50
+                       ... 12.50
+                       ... 12.50 ... Scalar/ChainStay/profile_y00
+                       ... 12.50 ... FrameTubes(ChainStay/Profile/width_00)
+    ... Scalar/ChainStay/profile_y01
+                       ... 18.00
+                       ... 18.00
+                       ... 18.00 ... Scalar/ChainStay/profile_y01
+                       ... 18.00 ... FrameTubes(ChainStay/Profile/width_01)
+    ... Scalar/ChainStay/profile_y02
+                       ... 18.00
+                       ... 18.00
+                       ... 18.00 ... Scalar/ChainStay/profile_y02
+                       ... 18.00 ... FrameTubes(ChainStay/Profile/width_02)
+    ... Scalar/ChainStay/segmentAngle_01
+                       ... 9.00
+                       ... 9.00
+                       ... 9.00 ... Scalar/ChainStay/segmentAngle_01
+                       ... 9.00 ... FrameTubes(ChainStay/CenterLine/angle_01)
+    ... Scalar/ChainStay/segmentAngle_02
+                       ... -9.00
+                       ... -9.00
+                       ... -9.00 ... Scalar/ChainStay/segmentAngle_02
+                       ... -9.00 ... FrameTubes(ChainStay/CenterLine/angle_02)
+    ... Scalar/ChainStay/segmentAngle_03
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/ChainStay/segmentAngle_03
+                       ... 0.00 ... FrameTubes(ChainStay/CenterLine/angle_03)
+    ... Scalar/ChainStay/segmentAngle_04
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/ChainStay/segmentAngle_04
+                       ... 0.00 ... FrameTubes(ChainStay/CenterLine/angle_04)
+    ... Scalar/ChainStay/segmentLength_01
+                       ... 150.00
+                       ... 150.00
+                       ... 150.00 ... Scalar/ChainStay/segmentLength_01
+                       ... 150.00 ... FrameTubes(ChainStay/CenterLine/length_01)
+    ... Scalar/ChainStay/segmentLength_02
+                       ... 140.00
+                       ... 140.00
+                       ... 140.00 ... Scalar/ChainStay/segmentLength_02
+                       ... 140.00 ... FrameTubes(ChainStay/CenterLine/length_02)
+    ... Scalar/ChainStay/segmentLength_03
+                       ... 78.00
+                       ... 78.00
+                       ... 78.00 ... Scalar/ChainStay/segmentLength_03
+                       ... 78.00 ... FrameTubes(ChainStay/CenterLine/length_03)
+    ... Scalar/ChainStay/segmentLength_04
+                       ... 10.00
+                       ... 10.00
+                       ... 10.00 ... Scalar/ChainStay/segmentLength_04
+                       ... 10.00 ... FrameTubes(ChainStay/CenterLine/length_04)
+    ... Scalar/ChainStay/segmentRadius_01
+                       ... 320.00
+                       ... 320.00
+                       ... 320.00 ... Scalar/ChainStay/segmentRadius_01
+                       ... 320.00 ... FrameTubes(ChainStay/CenterLine/radius_01)
+    ... Scalar/ChainStay/segmentRadius_02
+                       ... 320.00
+                       ... 320.00
+                       ... 320.00 ... Scalar/ChainStay/segmentRadius_02
+                       ... 320.00 ... FrameTubes(ChainStay/CenterLine/radius_02)
+    ... Scalar/ChainStay/segmentRadius_03
+                       ... 320.00
+                       ... 320.00
+                       ... 320.00 ... Scalar/ChainStay/segmentRadius_03
+                       ... 320.00 ... FrameTubes(ChainStay/CenterLine/radius_03)
+    ... Scalar/ChainStay/segmentRadius_04
+                       ... 320.00
+                       ... 320.00
+                       ... 320.00 ... Scalar/ChainStay/segmentRadius_04
+                       ... 320.00 ... FrameTubes(ChainStay/CenterLine/radius_04)
+    ... Scalar/CrankSet/ArmWidth
+                       ... 13.75
+                       ... 13.75
+                       ... 13.75 ... Scalar/CrankSet/ArmWidth
+                       ... 13.75 ... Component(CrankSet/ArmWidth)
+    ... Scalar/CrankSet/ChainLine
+                       ... 43.50
+                       ... 43.50
+                       ... 43.50 ... Scalar/CrankSet/ChainLine
+                       ... 43.50 ... Component(CrankSet/ChainLine)
+    ... Scalar/CrankSet/Length
+                       ... 175
+                       ... 175
+                       ... 175 ... Scalar/CrankSet/Length
+                       ... 175 ... Component(CrankSet/Length)
+    ... Scalar/CrankSet/PedalEye
+                       ... 17.50
+                       ... 17.50
+                       ... 17.50 ... Scalar/CrankSet/PedalEye
+                       ... 17.50 ... Component(CrankSet/PedalEye)
+    ... Scalar/CrankSet/Q-Factor
+                       ... 160.000
+                       ... 160.000
+            ... failed ... 175.00 ... Scalar/CrankSet/Q-Factor
+            ... failed ... 175.00 ... Component(CrankSet/Q-Factor)
+    ... Scalar/DownTube/DiameterBB
+                       ... 33.000
+                       ... 33.000
+            ... failed ... 34.90 ... Scalar/DownTube/DiameterBB
+            ... failed ... 34.90 ... FrameTubes(DownTube/DiameterBB)
+    ... Scalar/DownTube/DiameterHT
+                       ... 39.000
+                       ... 39.000
+            ... failed ... 31.80 ... Scalar/DownTube/DiameterHT
+            ... failed ... 31.80 ... FrameTubes(DownTube/DiameterHT)
+    ... Scalar/DownTube/OffsetBB
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/DownTube/OffsetBB
+                       ... 0.00 ... Custom(DownTube/OffsetBB)
+    ... Scalar/DownTube/OffsetHT
+                       ... 8.50
+                       ... 8.50
+                       ... 8.50 ... Scalar/DownTube/OffsetHT
+                       ... 8.50 ... Custom(DownTube/OffsetHT)
+    ... Scalar/DownTube/TaperLength
+                       ... 300.00
+                       ... 300.00
+                       ... 300.00 ... Scalar/DownTube/TaperLength
+                       ... 300.00 ... FrameTubes(DownTube/TaperLength)
+    ... Scalar/Fork/BladeBendRadius
+                       ... 350.00
+                       ... 350.00
+                       ... 350.00 ... Scalar/Fork/BladeBendRadius
+                       ... 350.00 ... Component(Fork/Blade/BendRadius)
+    ... Scalar/Fork/BladeDiameterDO
+                       ... 13.00
+                       ... 13.00
+                       ... 13.00 ... Scalar/Fork/BladeDiameterDO
+                       ... 13.00 ... Component(Fork/Blade/DiameterDO)
+    ... Scalar/Fork/BladeEndLength
+                       ... 10.00
+                       ... 10.00
+                       ... 10.00 ... Scalar/Fork/BladeEndLength
+                       ... 10.00 ... Component(Fork/Blade/EndLength)
+    ... Scalar/Fork/BladeOffsetCrown
+                       ... 35.00
+                       ... 35.00
+                       ... 35.00 ... Scalar/Fork/BladeOffsetCrown
+                       ... 35.00 ... Component(Fork/Crown/Blade/Offset)
+    ... Scalar/Fork/BladeOffsetCrownPerp
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/Fork/BladeOffsetCrownPerp
+                       ... 0.00 ... Component(Fork/Crown/Blade/OffsetPerp)
+    ... Scalar/Fork/BladeOffsetDO
+                       ... 20.00
+                       ... 20.00
+                       ... 20.00 ... Scalar/Fork/BladeOffsetDO
+                       ... 20.00 ... Component(Fork/DropOut/Offset)
+    ... Scalar/Fork/BladeOffsetDOPerp
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/Fork/BladeOffsetDOPerp
+                       ... 0.00 ... Component(Fork/DropOut/OffsetPerp)
+    ... Scalar/Fork/BladeTaperLength
+                       ... 250.00
+                       ... 250.00
+                       ... 250.00 ... Scalar/Fork/BladeTaperLength
+                       ... 250.00 ... Component(Fork/Blade/TaperLength)
+    ... Scalar/Fork/BladeWidth
+                       ... 28.60
+                       ... 28.60
+                       ... 28.60 ... Scalar/Fork/BladeWidth
+                       ... 28.60 ... Component(Fork/Blade/Width)
+    ... Scalar/Fork/CrownAngleBrake
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/Fork/CrownAngleBrake
+                       ... 0.00 ... Component(Fork/Crown/Brake/Angle)
+    ... Scalar/Fork/CrownOffsetBrake
+                       ... 30.0
+                       ... 30.0
+                       ... 30.0 ... Scalar/Fork/CrownOffsetBrake
+            ... failed ... 0.00 ... Component(Fork/Crown/Brake/Offset)
+    ... Scalar/FrontBrake/LeverLength
+                       ... 45.00
+                       ... 45.00
+                       ... 45.00 ... Scalar/FrontBrake/LeverLength
+                       ... 45.00 ... Component(Brake/Front/LeverLength)
+    ... Scalar/FrontBrake/Offset
+                       ... 20.00
+                       ... 20.00
+                       ... 20.00 ... Scalar/FrontBrake/Offset
+                       ... 20.00 ... Component(Brake/Front/Offset)
+    ... Scalar/FrontCarrier/x
+                       ... 30.000
+                       ... 30.000
+            ... failed ... 20.00 ... Scalar/FrontCarrier/x
+            ... failed ... 20.00 ... Component(Carrier/Front/x)
+    ... Scalar/FrontCarrier/y
+                       ... 5.00
+                       ... 5.00
+                       ... 5.00 ... Scalar/FrontCarrier/y
+                       ... 5.00 ... Component(Carrier/Front/y)
+    ... Scalar/FrontDerailleur/Distance
+                       ... 128.00
+                       ... 128.00
+                       ... 128.00 ... Scalar/FrontDerailleur/Distance
+                       ... 128.00 ... Component(Derailleur/Front/Distance)
+    ... Scalar/FrontDerailleur/Offset
+                       ... 9.20
+                       ... 9.20
+                       ... 9.20 ... Scalar/FrontDerailleur/Offset
+                       ... 9.20 ... Component(Derailleur/Front/Offset)
+    ... Scalar/FrontFender/Height
+                       ... 15.00
+                       ... 15.00
+                       ... 15.00 ... Scalar/FrontFender/Height
+                       ... 15.00 ... Component(Fender/Front/Height)
+    ... Scalar/FrontFender/OffsetAngle
+                       ... 90.00
+                       ... 90.00
+                       ... 90.00 ... Scalar/FrontFender/OffsetAngle
+                       ... 90.00 ... Component(Fender/Front/OffsetAngle)
+    ... Scalar/FrontFender/OffsetAngleFront
+                       ... 20.00
+                       ... 20.00
+                       ... 20.00 ... Scalar/FrontFender/OffsetAngleFront
+                       ... 20.00 ... Component(Fender/Front/OffsetAngleFront)
+    ... Scalar/FrontFender/Radius
+                       ... 331.5
+                       ... 331.5
+                       ... 331.5 ... Scalar/FrontFender/Radius
+            ... failed ... 200.00 ... Component(Fender/Front/Radius)
+    ... Scalar/FrontWheel/RimHeight
+                       ... 45.000
+                       ... 45.000
+            ... failed ... 25.00 ... Scalar/FrontWheel/RimHeight
+            ... failed ... 25.00 ... Component(Wheel/Front/RimHeight)
+    ... Scalar/Geometry/BottomBracket_Depth
+                       ... 10.0
+                       ... 10.0
+                       ... 10.0 ... Scalar/Geometry/BottomBracket_Depth
+                       ... 10.0 ... Custom(BottomBracket/Depth)
+    ... Scalar/Geometry/BottomBracket_Height
+                       ... 316.500
+                       ... 316.500
+                       ... 316.500 ... Scalar/Geometry/BottomBracket_Height
+            ... failed ... 0.00 ... Result(Length/BottomBracket/Height)
+    ... Scalar/Geometry/ChainStay_Length
+                       ... 420.00
+                       ... 420.00
+                       ... 420.00 ... Scalar/Geometry/ChainStay_Length
+                       ... 420.00 ... Custom(WheelPosition/Rear)
+    ... Scalar/Geometry/Fork_Height
+                       ... 465.0
+                       ... 465.0
+                       ... 465.0 ... Scalar/Geometry/Fork_Height
+                       ... 465.0 ... Component(Fork/Height)
+    ... Scalar/Geometry/Fork_Rake
+                       ... 40.0
+                       ... 40.0
+                       ... 40.0 ... Scalar/Geometry/Fork_Rake
+                       ... 40.0 ... Component(Fork/Rake)
+    ... Scalar/Geometry/FrontRim_Diameter
+                       ... 559
+                       ... 559
+                       ... 559 ... Scalar/Geometry/FrontRim_Diameter
+                       ... 559 ... Component(Wheel/Front/RimDiameter)
+    ... Scalar/Geometry/FrontTyre_Height
+                       ... 47
+                       ... 47
+                       ... 47 ... Scalar/Geometry/FrontTyre_Height
+                       ... 47 ... Component(Wheel/Front/TyreHeight)
+    ... Scalar/Geometry/FrontWheel_Radius
+                       ... 326.5
+                       ... 326.5
+                       ... 326.5 ... Scalar/Geometry/FrontWheel_Radius
+            ... failed ... 0.00 ... Result(Length/FrontWheel/Radius)
+    ... Scalar/Geometry/FrontWheel_x
+                       ... 571.498
+                       ... 571.498
+            ... failed ... 618.219 ... Scalar/Geometry/FrontWheel_x
+            ... failed ... 0.00 ... Result(Length/FrontWheel/horizontal)
+    ... Scalar/Geometry/FrontWheel_xy
+                       ... 571.586
+                       ... 571.586
+            ... failed ... 618.300 ... Scalar/Geometry/FrontWheel_xy
+            ... failed ... 600.00 ... Result(Length/FrontWheel/diagonal)
+    ... Scalar/Geometry/HandleBar_Distance
+                       ... 474.00
+                       ... 474.00
+                       ... 474.00 ... Scalar/Geometry/HandleBar_Distance
+                       ... 474.00 ... Personal(HandleBar_Distance)
+    ... Scalar/Geometry/HandleBar_Height
+                       ... 642.00
+                       ... 642.00
+                       ... 642.00 ... Scalar/Geometry/HandleBar_Height
+                       ... 642.00 ... Personal(HandleBar_Height)
+    ... Scalar/Geometry/HeadLug_Angle_Top
+                       ... 85.0000
+                       ... 85.0000
+            ... failed ... 81.0000 ... Scalar/Geometry/HeadLug_Angle_Top
+            ... failed ... 0.00 ... Result(Angle/HeadTube/TopTube)
+    ... Scalar/Geometry/HeadTube_Angle
+                       ... 75.000
+                       ... 75.000
+            ... failed ... 71.00 ... Scalar/Geometry/HeadTube_Angle
+            ... failed ... 71.00 ... Custom(HeadTube/Angle)
+    ... Scalar/Geometry/Inseam_Length
+                       ... 850.00
+                       ... 850.00
+                       ... 850.00 ... Scalar/Geometry/Inseam_Length
+                       ... 850.00 ... Personal(InnerLeg_Length)
+    ... Scalar/Geometry/Reach_Length
+                       ... 381.840
+                       ... 381.840
+            ... failed ... 390.429 ... Scalar/Geometry/Reach_Length
+            ... failed ... 0.00 ... Result(Length/HeadTube/ReachLength)
+    ... Scalar/Geometry/RearRim_Diameter
+                       ... 559
+                       ... 559
+                       ... 559 ... Scalar/Geometry/RearRim_Diameter
+                       ... 559 ... Component(Wheel/Rear/RimDiameter)
+    ... Scalar/Geometry/RearTyre_Height
+                       ... 47.00
+                       ... 47.00
+                       ... 47.00 ... Scalar/Geometry/RearTyre_Height
+                       ... 47.00 ... Component(Wheel/Rear/TyreHeight)
+    ... Scalar/Geometry/RearWheel_Radius
+                       ... 326.5
+                       ... 326.5
+                       ... 326.5 ... Scalar/Geometry/RearWheel_Radius
+            ... failed ... 0.00 ... Result(Length/RearWheel/Radius)
+    ... Scalar/Geometry/RearWheel_x
+                       ... 419.881
+                       ... 419.881
+                       ... 419.881 ... Scalar/Geometry/RearWheel_x
+            ... failed ... 0.00 ... Result(Length/RearWheel/horizontal)
+    ... Scalar/Geometry/SaddleNose_BB_x
+                       ... -103.000
+                       ... -103.000
+            ... failed ... 87.100 ... Scalar/Geometry/SaddleNose_BB_x
+            ... failed ... 0.00 ... Result(Length/Saddle/Offset_BB_Nose)
+    ... Scalar/Geometry/SaddleNose_HB
+                       ... 371.000
+                       ... 371.000
+            ... failed ... 561.100 ... Scalar/Geometry/SaddleNose_HB
+            ... failed ... 0.00 ... Result(Length/Personal/SaddleNose_HB)
+    ... Scalar/Geometry/Saddle_BB
+                       ... 714.098
+                       ... 714.098
+            ... failed ... 754.617 ... Scalar/Geometry/Saddle_BB
+            ... failed ... 0.00 ... Result(Length/Saddle/SeatTube_BB)
+    ... Scalar/Geometry/Saddle_Distance
+                       ... 55.000
+                       ... 55.000
+            ... failed ... 245.10 ... Scalar/Geometry/Saddle_Distance
+            ... failed ... 245.10 ... Personal(Saddle_Distance)
+    ... Scalar/Geometry/Saddle_HB_y
+                       ... 71.300
+                       ... 71.300
+                       ... 71.300 ... Scalar/Geometry/Saddle_HB_y
+            ... failed ... 0.00 ... Result(Length/Saddle/Offset_HB)
+    ... Scalar/Geometry/Saddle_Height
+                       ... 713.30
+                       ... 713.30
+                       ... 713.30 ... Scalar/Geometry/Saddle_Height
+                       ... 713.30 ... Personal(Saddle_Height)
+    ... Scalar/Geometry/Saddle_Offset_BB_ST
+                       ... 33.758
+                       ... 33.758
+            ... failed ... 246.273 ... Scalar/Geometry/Saddle_Offset_BB_ST
+            ... failed ... 0.00 ... Result(Length/Saddle/Offset_BB_ST)
+    ... Scalar/Geometry/SeatTube_Angle
+                       ... 87.290
+                       ... 87.290
+            ... failed ... 70.952 ... Scalar/Geometry/SeatTube_Angle
+            ... failed ... 0.00 ... Result(Angle/SeatTube/Direction)
+    ... Scalar/Geometry/Stack_Height
+                       ... 563.265
+                       ... 563.265
+            ... failed ... 548.687 ... Scalar/Geometry/Stack_Height
+            ... failed ... 0.00 ... Result(Length/HeadTube/StackHeight)
+    ... Scalar/Geometry/Stem_Angle
+                       ... -6.00
+                       ... -6.00
+                       ... -6.00 ... Scalar/Geometry/Stem_Angle
+                       ... -6.00 ... Component(Stem/Angle)
+    ... Scalar/Geometry/Stem_Length
+                       ... 110.00
+                       ... 110.00
+                       ... 110.00 ... Scalar/Geometry/Stem_Length
+                       ... 110.00 ... Component(Stem/Length)
+    ... Scalar/Geometry/TopTube_Angle
+                       ... 10.0
+                       ... 10.0
+                       ... 10.0 ... Scalar/Geometry/TopTube_Angle
+                       ... 10.0 ... Custom(TopTube/Angle)
+    ... Scalar/HandleBar/PivotAngle
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/HandleBar/PivotAngle
+                       ... 0.00 ... Component(HandleBar/PivotAngle)
+    ... Scalar/HeadSet/Diameter
+                       ... 45.00
+                       ... 45.00
+                       ... 45.00 ... Scalar/HeadSet/Diameter
+                       ... 45.00 ... Component(HeadSet/Diameter)
+    ... Scalar/HeadSet/Height_Bottom
+                       ... 13.50
+                       ... 13.50
+                       ... 13.50 ... Scalar/HeadSet/Height_Bottom
+                       ... 13.50 ... Component(HeadSet/Height/Bottom)
+    ... Scalar/HeadSet/Height_Top
+                       ... 15.50
+                       ... 15.50
+                       ... 15.50 ... Scalar/HeadSet/Height_Top
+                       ... 15.50 ... Component(HeadSet/Height/Top)
+    ... Scalar/HeadTube/Diameter
+                       ... 36.00
+                       ... 36.00
+                       ... 36.00 ... Scalar/HeadTube/Diameter
+                       ... 36.00 ... FrameTubes(HeadTube/Diameter)
+    ... Scalar/HeadTube/Length
+                       ... 105.0
+                       ... 105.0
+                       ... 105.0 ... Scalar/HeadTube/Length
+                       ... 105.0 ... FrameTubes(HeadTube/Length)
+    ... Scalar/Lugs/BottomBracket_ChainStay_Angle
+                       ... 70.00
+                       ... 70.00
+                       ... 70.00 ... Scalar/Lugs/BottomBracket_ChainStay_Angle
+                       ... 70.00 ... Lugs(BottomBracket/ChainStay/Angle/value)
+    ... Scalar/Lugs/BottomBracket_ChainStay_Tolerance
+                       ... 1.00
+                       ... 1.00
+                       ... 1.00 ... Scalar/Lugs/BottomBracket_ChainStay_Tolerance
+                       ... 1.00 ... Lugs(BottomBracket/ChainStay/Angle/plus_minus)
+    ... Scalar/Lugs/BottomBracket_DownTube_Angle
+                       ... 69.00
+                       ... 69.00
+                       ... 69.00 ... Scalar/Lugs/BottomBracket_DownTube_Angle
+                       ... 69.00 ... Lugs(BottomBracket/DownTube/Angle/value)
+    ... Scalar/Lugs/BottomBracket_DownTube_Tolerance
+                       ... 1.00
+                       ... 1.00
+                       ... 1.00 ... Scalar/Lugs/BottomBracket_DownTube_Tolerance
+                       ... 1.00 ... Lugs(BottomBracket/DownTube/Angle/plus_minus)
+    ... Scalar/Lugs/HeadLug_Bottom_Angle
+                       ... 60.00
+                       ... 60.00
+                       ... 60.00 ... Scalar/Lugs/HeadLug_Bottom_Angle
+                       ... 60.00 ... Lugs(HeadTube/DownTube/Angle/value)
+    ... Scalar/Lugs/HeadLug_Bottom_Tolerance
+                       ... 1.00
+                       ... 1.00
+                       ... 1.00 ... Scalar/Lugs/HeadLug_Bottom_Tolerance
+                       ... 1.00 ... Lugs(HeadTube/DownTube/Angle/plus_minus)
+    ... Scalar/Lugs/HeadLug_Top_Angle
+                       ... 80.00
+                       ... 80.00
+                       ... 80.00 ... Scalar/Lugs/HeadLug_Top_Angle
+                       ... 80.00 ... Lugs(HeadTube/TopTube/Angle/value)
+    ... Scalar/Lugs/HeadLug_Top_Tolerance
+                       ... 1.00
+                       ... 1.00
+                       ... 1.00 ... Scalar/Lugs/HeadLug_Top_Tolerance
+                       ... 1.00 ... Lugs(HeadTube/TopTube/Angle/plus_minus)
+    ... Scalar/Lugs/RearDropOut_Angle
+                       ... 55.00
+                       ... 55.00
+                       ... 55.00 ... Scalar/Lugs/RearDropOut_Angle
+                       ... 55.00 ... Lugs(RearDropOut/Angle/value)
+    ... Scalar/Lugs/RearDropOut_Tolerance
+                       ... 1.00
+                       ... 1.00
+                       ... 1.00 ... Scalar/Lugs/RearDropOut_Tolerance
+                       ... 1.00 ... Lugs(RearDropOut/Angle/plus_minus)
+    ... Scalar/Lugs/SeatLug_SeatStay_Angle
+                       ... 55.00
+                       ... 55.00
+                       ... 55.00 ... Scalar/Lugs/SeatLug_SeatStay_Angle
+                       ... 55.00 ... Lugs(SeatTube/SeatStay/Angle/value)
+    ... Scalar/Lugs/SeatLug_SeatStay_Tolerance
+                       ... 1.00
+                       ... 1.00
+                       ... 1.00 ... Scalar/Lugs/SeatLug_SeatStay_Tolerance
+                       ... 1.00 ... Lugs(SeatTube/SeatStay/Angle/plus_minus)
+    ... Scalar/Lugs/SeatLug_TopTube_Angle
+                       ... 81.00
+                       ... 81.00
+                       ... 81.00 ... Scalar/Lugs/SeatLug_TopTube_Angle
+                       ... 81.00 ... Lugs(SeatTube/TopTube/Angle/value)
+    ... Scalar/Lugs/SeatLug_TopTube_Tolerance
+                       ... 1.00
+                       ... 1.00
+                       ... 1.00 ... Scalar/Lugs/SeatLug_TopTube_Tolerance
+                       ... 1.00 ... Lugs(SeatTube/TopTube/Angle/plus_minus)
+    ... Scalar/RearBrake/LeverLength
+                       ... 45.00
+                       ... 45.00
+                       ... 45.00 ... Scalar/RearBrake/LeverLength
+                       ... 45.00 ... Component(Brake/Rear/LeverLength)
+    ... Scalar/RearBrake/Offset
+                       ... 20.00
+                       ... 20.00
+                       ... 20.00 ... Scalar/RearBrake/Offset
+                       ... 20.00 ... Component(Brake/Rear/Offset)
+    ... Scalar/RearCarrier/x
+                       ... 15.00
+                       ... 15.00
+                       ... 15.00 ... Scalar/RearCarrier/x
+                       ... 15.00 ... Component(Carrier/Rear/x)
+    ... Scalar/RearCarrier/y
+                       ... 30.00
+                       ... 30.00
+                       ... 30.00 ... Scalar/RearCarrier/y
+                       ... 30.00 ... Component(Carrier/Rear/y)
+    ... Scalar/RearDerailleur/Pulley_teeth
+                       ... 11
+                       ... 11
+                       ... 11 ... Scalar/RearDerailleur/Pulley_teeth
+                       ... 11 ... Component(Derailleur/Rear/Pulley/teeth)
+    ... Scalar/RearDerailleur/Pulley_x
+                       ... -8.00
+                       ... -8.00
+                       ... -8.00 ... Scalar/RearDerailleur/Pulley_x
+                       ... -8.00 ... Component(Derailleur/Rear/Pulley/x)
+    ... Scalar/RearDerailleur/Pulley_y
+                       ... -79.00
+                       ... -79.00
+                       ... -79.00 ... Scalar/RearDerailleur/Pulley_y
+                       ... -79.00 ... Component(Derailleur/Rear/Pulley/y)
+    ... Scalar/RearDropout/Derailleur_x
+                       ... 6.00
+                       ... 6.00
+                       ... 6.00 ... Scalar/RearDropout/Derailleur_x
+                       ... 6.00 ... Lugs(RearDropOut/Derailleur/x)
+    ... Scalar/RearDropout/Derailleur_y
+                       ... 25.00
+                       ... 25.00
+                       ... 25.00 ... Scalar/RearDropout/Derailleur_y
+                       ... 25.00 ... Lugs(RearDropOut/Derailleur/y)
+    ... Scalar/RearDropout/OffsetCS
+                       ... 33.00
+                       ... 33.00
+                       ... 33.00 ... Scalar/RearDropout/OffsetCS
+                       ... 33.00 ... Lugs(RearDropOut/ChainStay/Offset)
+    ... Scalar/RearDropout/OffsetCSPerp
+                       ... 1
+                       ... 1
+                       ... 1 ... Scalar/RearDropout/OffsetCSPerp
+                       ... 1 ... Lugs(RearDropOut/ChainStay/OffsetPerp)
+    ... Scalar/RearDropout/OffsetCS_TopView
+                       ... 5.00
+                       ... 5.00
+                       ... 5.00 ... Scalar/RearDropout/OffsetCS_TopView
+                       ... 5.00 ... Lugs(RearDropOut/ChainStay/Offset_TopView)
+    ... Scalar/RearDropout/OffsetSS
+                       ... 35.00
+                       ... 35.00
+                       ... 35.00 ... Scalar/RearDropout/OffsetSS
+                       ... 35.00 ... Lugs(RearDropOut/SeatStay/Offset)
+    ... Scalar/RearDropout/OffsetSSPerp
+                       ... -7.10
+                       ... -7.10
+                       ... -7.10 ... Scalar/RearDropout/OffsetSSPerp
+                       ... -7.10 ... Lugs(RearDropOut/SeatStay/OffsetPerp)
+    ... Scalar/RearDropout/RotationOffset
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/RearDropout/RotationOffset
+                       ... 0.00 ... Lugs(RearDropOut/RotationOffset)
+    ... Scalar/RearFender/Height
+                       ... 15.00
+                       ... 15.00
+                       ... 15.00 ... Scalar/RearFender/Height
+                       ... 15.00 ... Component(Fender/Rear/Height)
+    ... Scalar/RearFender/OffsetAngle
+                       ... 150.00
+                       ... 150.00
+                       ... 150.00 ... Scalar/RearFender/OffsetAngle
+                       ... 150.00 ... Component(Fender/Rear/OffsetAngle)
+    ... Scalar/RearFender/Radius
+                       ... 331.5
+                       ... 331.5
+                       ... 331.5 ... Scalar/RearFender/Radius
+            ... failed ... 200.00 ... Component(Fender/Rear/Radius)
+    ... Scalar/RearMockup/CassetteClearance
+                       ... 3.00
+                       ... 3.00
+                       ... 3.00 ... Scalar/RearMockup/CassetteClearance
+                       ... 3.00 ... Rendering(RearMockup/CassetteClearance)
+    ... Scalar/RearMockup/ChainWheelClearance
+                       ... 5.00
+                       ... 5.00
+                       ... 5.00 ... Scalar/RearMockup/ChainWheelClearance
+                       ... 5.00 ... Rendering(RearMockup/ChainWheelClearance)
+    ... Scalar/RearMockup/CrankClearance
+                       ... 5.00
+                       ... 5.00
+                       ... 5.00 ... Scalar/RearMockup/CrankClearance
+                       ... 5.00 ... Rendering(RearMockup/CrankClearance)
+    ... Scalar/RearMockup/DiscClearance
+                       ... 5.00
+                       ... 5.00
+                       ... 5.00 ... Scalar/RearMockup/DiscClearance
+                       ... 5.00 ... Rendering(RearMockup/DiscClearance)
+    ... Scalar/RearMockup/DiscDiameter
+                       ... 160.00
+                       ... 160.00
+                       ... 160.00 ... Scalar/RearMockup/DiscDiameter
+                       ... 160.00 ... Rendering(RearMockup/DiscDiameter)
+    ... Scalar/RearMockup/DiscOffset
+                       ... 15.30
+                       ... 15.30
+                       ... 15.30 ... Scalar/RearMockup/DiscOffset
+                       ... 15.30 ... Rendering(RearMockup/DiscOffset)
+    ... Scalar/RearMockup/DiscWidth
+                       ... 2.00
+                       ... 2.00
+                       ... 2.00 ... Scalar/RearMockup/DiscWidth
+                       ... 2.00 ... Rendering(RearMockup/DiscWidth)
+    ... Scalar/RearMockup/TyreClearance
+                       ... 5.00
+                       ... 5.00
+                       ... 5.00 ... Scalar/RearMockup/TyreClearance
+                       ... 5.00 ... Rendering(RearMockup/TyreClearance)
+    ... Scalar/RearWheel/FirstSprocket
+                       ... 15
+                       ... 15
+                       ... 15 ... Scalar/RearWheel/FirstSprocket
+                       ... 15 ... Component(Wheel/Rear/FirstSprocket)
+    ... Scalar/RearWheel/HubWidth
+                       ... 135.00
+                       ... 135.00
+                       ... 135.00 ... Scalar/RearWheel/HubWidth
+                       ... 135.00 ... Component(Wheel/Rear/HubWidth)
+    ... Scalar/RearWheel/RimHeight
+                       ... 25.00
+                       ... 25.00
+                       ... 25.00 ... Scalar/RearWheel/RimHeight
+                       ... 25.00 ... Component(Wheel/Rear/RimHeight)
+    ... Scalar/RearWheel/TyreShoulder
+                       ... 16.5
+                       ... 16.5
+                       ... 16.5 ... Scalar/RearWheel/TyreShoulder
+            ... failed ... 0.00 ... Result(Length/RearWheel/TyreShoulder)
+    ... Scalar/RearWheel/TyreWidth
+                       ... 45.00
+                       ... 45.00
+                       ... 45.00 ... Scalar/RearWheel/TyreWidth
+                       ... 45.00 ... Component(Wheel/Rear/TyreWidth)
+    ... Scalar/RearWheel/TyreWidthRadius
+                       ... 310.00
+                       ... 310.00
+                       ... 310.00 ... Scalar/RearWheel/TyreWidthRadius
+                       ... 310.00 ... Component(Wheel/Rear/TyreWidthRadius)
+    ... Scalar/Reference/HandleBar_Distance
+                       ... 543.69
+                       ... 543.69
+                       ... 543.69 ... Scalar/Reference/HandleBar_Distance
+                       ... 543.69 ... Reference(HandleBar_Distance)
+    ... Scalar/Reference/HandleBar_Height
+                       ... 905.00
+                       ... 905.00
+                       ... 905.00 ... Scalar/Reference/HandleBar_Height
+                       ... 905.00 ... Reference(HandleBar_Height)
+    ... Scalar/Reference/SaddleNose_Distance
+                       ... 62.69
+                       ... 62.69
+                       ... 62.69 ... Scalar/Reference/SaddleNose_Distance
+                       ... 62.69 ... Reference(SaddleNose_Distance)
+    ... Scalar/Reference/SaddleNose_HB
+                       ... 547.5617007242198
+                       ... 547.5617007242198
+                       ... 547.5617007242198 ... Scalar/Reference/SaddleNose_HB
+            ... failed ... 0.00 ... Result(Length/Reference/SaddleNose_HB)
+    ... Scalar/Reference/SaddleNose_HB_y
+                       ... 65.0
+                       ... 65.0
+                       ... 65.0 ... Scalar/Reference/SaddleNose_HB_y
+            ... failed ... 0.00 ... Result(Length/Reference/Heigth_SN_HB)
+    ... Scalar/Reference/SaddleNose_Height
+                       ... 970.00
+                       ... 970.00
+                       ... 970.00 ... Scalar/Reference/SaddleNose_Height
+                       ... 970.00 ... Reference(SaddleNose_Height)
+    ... Scalar/Saddle/Height
+                       ... 40.00
+                       ... 40.00
+                       ... 40.00 ... Scalar/Saddle/Height
+                       ... 40.00 ... Component(Saddle/Height)
+    ... Scalar/Saddle/NoseLength
+                       ... 153.00
+                       ... 153.00
+                       ... 153.00 ... Scalar/Saddle/NoseLength
+                       ... 153.00 ... Component(Saddle/LengthNose)
+    ... Scalar/Saddle/Offset_x
+                       ... 5.00
+                       ... 5.00
+                       ... 5.00 ... Scalar/Saddle/Offset_x
+                       ... 5.00 ... Rendering(Saddle/Offset_X)
+    ... Scalar/SeatPost/Diameter
+                       ... 27.20
+                       ... 27.20
+                       ... 27.20 ... Scalar/SeatPost/Diameter
+                       ... 27.20 ... Component(SeatPost/Diameter)
+    ... Scalar/SeatPost/PivotOffset
+                       ... 40.00
+                       ... 40.00
+                       ... 40.00 ... Scalar/SeatPost/PivotOffset
+                       ... 40.00 ... Component(SeatPost/PivotOffset)
+    ... Scalar/SeatPost/Setback
+                       ... 25.00
+                       ... 25.00
+                       ... 25.00 ... Scalar/SeatPost/Setback
+                       ... 25.00 ... Component(SeatPost/Setback)
+    ... Scalar/SeatStay/DiameterCS
+                       ... 11.00
+                       ... 11.00
+                       ... 11.00 ... Scalar/SeatStay/DiameterCS
+                       ... 11.00 ... FrameTubes(SeatStay/DiameterCS)
+    ... Scalar/SeatStay/DiameterST
+                       ... 16.00
+                       ... 16.00
+                       ... 16.00 ... Scalar/SeatStay/DiameterST
+                       ... 16.00 ... FrameTubes(SeatStay/DiameterST)
+    ... Scalar/SeatStay/OffsetTT
+                       ... -30
+                       ... -30
+                       ... -30 ... Scalar/SeatStay/OffsetTT
+                       ... -30 ... Custom(SeatStay/OffsetTT)
+    ... Scalar/SeatStay/SeatTubeMiterDiameter
+                       ... 28.60
+                       ... 28.60
+                       ... 28.60 ... Scalar/SeatStay/SeatTubeMiterDiameter
+                       ... 28.60 ... Lugs(SeatTube/SeatStay/MiterDiameter)
+    ... Scalar/SeatStay/TaperLength
+                       ... 300.00
+                       ... 300.00
+                       ... 300.00 ... Scalar/SeatStay/TaperLength
+                       ... 300.00 ... FrameTubes(SeatStay/TaperLength)
+    ... Scalar/SeatTube/DiameterBB
+                       ... 31.80
+                       ... 31.80
+                       ... 31.80 ... Scalar/SeatTube/DiameterBB
+                       ... 31.80 ... FrameTubes(SeatTube/DiameterBB)
+    ... Scalar/SeatTube/DiameterTT
+                       ... 28.60
+                       ... 28.60
+                       ... 28.60 ... Scalar/SeatTube/DiameterTT
+                       ... 28.60 ... FrameTubes(SeatTube/DiameterTT)
+    ... Scalar/SeatTube/Extension
+                       ... 20.00
+                       ... 20.00
+                       ... 20.00 ... Scalar/SeatTube/Extension
+                       ... 20.00 ... Custom(SeatTube/Extension)
+    ... Scalar/SeatTube/OffsetBB
+                       ... 0.00
+                       ... 0.00
+                       ... 0.00 ... Scalar/SeatTube/OffsetBB
+                       ... 0.00 ... Custom(SeatTube/OffsetBB)
+    ... Scalar/SeatTube/TaperLength
+                       ... 300.00
+                       ... 300.00
+                       ... 300.00 ... Scalar/SeatTube/TaperLength
+                       ... 300.00 ... FrameTubes(SeatTube/TaperLength)
+    ... Scalar/TopTube/DiameterHT
+                       ... 28.60
+                       ... 28.60
+                       ... 28.60 ... Scalar/TopTube/DiameterHT
+                       ... 28.60 ... FrameTubes(TopTube/DiameterHT)
+    ... Scalar/TopTube/DiameterST
+                       ... 28.60
+                       ... 28.60
+                       ... 28.60 ... Scalar/TopTube/DiameterST
+                       ... 28.60 ... FrameTubes(TopTube/DiameterST)
+    ... Scalar/TopTube/OffsetHT
+                       ... 8.50
+                       ... 8.50
+                       ... 8.50 ... Scalar/TopTube/OffsetHT
+                       ... 8.50 ... Custom(TopTube/OffsetHT)
+    ... Scalar/TopTube/PivotPosition
+                       ... 80.00
+                       ... 80.00
+                       ... 80.00 ... Scalar/TopTube/PivotPosition
+                       ... 80.00 ... Custom(TopTube/PivotPosition)
+    ... Scalar/TopTube/TaperLength
+                       ... 300.00
+                       ... 300.00
+                       ... 300.00 ... Scalar/TopTube/TaperLength
+                       ... 300.00 ... FrameTubes(TopTube/TaperLength)
+    -----------------------------------------
+    ... TubeMiter/DownTube_BB_in
+                       ... -51.83627878423159 -7.193747284969086 -50.39638215133626 -7.336078286197143 -48.9
+                       ... -51.83627878423159 -7.193747284969086 -50.39638215133626 -7.336078286197143 -48.9
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/DownTube_BB_in/Polygon)
+    ... TubeMiter/DownTube_BB_out
+                       ... -51.83627878423159 -11.302654555457321 -50.39638215133626 -11.393772185769436 -48
+                       ... -51.83627878423159 -11.302654555457321 -50.39638215133626 -11.393772185769436 -48
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/DownTube_BB_out/Polygon)
+    ... TubeMiter/DownTube_Head
+                       ... -61.26105674500096 -37.16622706585468 -59.55936072430648 -37.00989081623171 -57.8
+                       ... -61.26105674500096 -37.16622706585468 -59.55936072430648 -37.00989081623171 -57.8
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/DownTube_Head/Polygon)
+    ... TubeMiter/DownTube_Seat
+                       ... -51.83627878423159 -5.216198585267207 -50.39638215133626 -5.1892130081988155 -48.
+                       ... -51.83627878423159 -5.216198585267207 -50.39638215133626 -5.1892130081988155 -48.
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/DownTube_Seat/Polygon)
+    ... TubeMiter/Reference
+                       ... -50 0 50 0 50 10 -50 10
+                       ... -50 0 50 0 50 10 -50 10
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/Reference/Polygon)
+    ... TubeMiter/SeatStay_01
+                       ... -25.13274122871834 -25.31578226270782 -24.434609527920607 -24.78141941858407 -23.
+                       ... -25.13274122871834 -25.31578226270782 -24.434609527920607 -24.78141941858407 -23.
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/SeatStay_01/Polygon)
+    ... TubeMiter/SeatStay_02
+                       ... -25.13274122871834 -25.315782262707824 -24.434609527920607 -25.727334932538387 -2
+                       ... -25.13274122871834 -25.315782262707824 -24.434609527920607 -25.727334932538387 -2
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/SeatStay_02/Polygon)
+    ... TubeMiter/SeatTube_BB_in
+                       ... -49.95132319207771 -8.437416666255146 -48.56378643674222 -8.550460571249474 -47.1
+                       ... -49.95132319207771 -8.437416666255146 -48.56378643674222 -8.550460571249474 -47.1
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/SeatTube_BB_in/Polygon)
+    ... TubeMiter/SeatTube_BB_out
+                       ... -49.95132319207771 -12.132188590687178 -48.56378643674222 -12.211075955070132 -47
+                       ... -49.95132319207771 -12.132188590687178 -48.56378643674222 -12.211075955070132 -47
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/SeatTube_BB_out/Polygon)
+    ... TubeMiter/SeatTube_Down
+                       ... -49.95132319207771 -6.829987385123316 -48.56378643674222 -6.810872132198212 -47.1
+                       ... -49.95132319207771 -6.829987385123316 -48.56378643674222 -6.810872132198212 -47.1
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/SeatTube_Down/Polygon)
+    ... TubeMiter/TopTube_Head
+                       ... -44.92477494633405 -16.817669187359538 -43.6768645311581 -16.77906500645445 -42.4
+                       ... -44.92477494633405 -16.817669187359538 -43.6768645311581 -16.77906500645445 -42.4
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/TopTube_Head/Polygon)
+    ... TubeMiter/TopTube_Seat
+                       ... -44.92477494633405 -12.587110449025374 -43.6768645311581 -12.539212693614285 -42.
+                       ... -44.92477494633405 -12.587110449025374 -43.6768645311581 -12.539212693614285 -42.
+                       ... _noDict_
+            ... failed ... 0.00,0.00 ... Result(TubeMiter/TopTube_Seat/Polygon)
+    -----------------------------------------
+   ... 474.00  
+   ... 642.00    
+   ... 55.000     
+   ... 713.30       
+   ... 75.000      
+   ... 10.0       
+   ... 105.0              
+   ... 110.00         
+   ... 465.0         
+   ... 40.0           
+   ...     
+   ...      
+   ... -103.000     
+   ...     
+   ... 474.00 
+   ... 642.00 
+   ... 55.000 
+   ... 713.30 
+   ... 75.000 
+   ... 10.0 
+   ... 105.0 
+   ... 110.00 
+   ... 465.0 
+   ... 40.0 
+   ... 20.00 
+   ... -30 
+
+
+    ... Scalar/CrankSet/Q-Factor
+                       ... 160.000
+                       ... 160.000
+            ... failed ... 175.00 ... Scalar/CrankSet/Q-Factor
+            ... failed ... 175.00 ... Component(CrankSet/Q-Factor)
+    ... Scalar/DownTube/DiameterBB
+                       ... 33.000
+                       ... 33.000
+            ... failed ... 34.90 ... Scalar/DownTube/DiameterBB
+            ... failed ... 34.90 ... FrameTubes(DownTube/DiameterBB)
+    ... Scalar/DownTube/DiameterHT
+                       ... 39.000
+                       ... 39.000
+            ... failed ... 31.80 ... Scalar/DownTube/DiameterHT
+            ... failed ... 31.80 ... FrameTubes(DownTube/DiameterHT)
+    ... Scalar/FrontCarrier/x
+                       ... 30.000
+                       ... 30.000
+            ... failed ... 20.00 ... Scalar/FrontCarrier/x
+            ... failed ... 20.00 ... Component(Carrier/Front/x)
+    ... Scalar/FrontWheel/RimHeight
+                       ... 45.000
+                       ... 45.000
+            ... failed ... 25.00 ... Scalar/FrontWheel/RimHeight
+            ... failed ... 25.00 ... Component(Wheel/Front/RimHeight)
+    ... Scalar/Geometry/BottomBracket_Depth
+                       ... 10.0
+                       ... 10.0
+                       ... 10.0 ... Scalar/Geometry/BottomBracket_Depth
+                       ... 10.0 ... Custom(BottomBracket/Depth)
+    ... Scalar/Geometry/BottomBracket_Height
+                       ... 316.500
+                       ... 316.500
+                       ... 316.500 ... Scalar/Geometry/BottomBracket_Height
+            ... failed ... 0.00 ... Result(Length/BottomBracket/Height)
+    ... Scalar/Geometry/FrontWheel_Radius
+                       ... 326.5
+                       ... 326.5
+                       ... 326.5 ... Scalar/Geometry/FrontWheel_Radius
+            ... failed ... 0.00 ... Result(Length/FrontWheel/Radius)
+    ... Scalar/Geometry/FrontWheel_x
+                       ... 571.498
+                       ... 571.498
+            ... failed ... 618.219 ... Scalar/Geometry/FrontWheel_x
+            ... failed ... 0.00 ... Result(Length/FrontWheel/horizontal)
+    ... Scalar/Geometry/HeadTube_Angle
+                       ... 75.000
+                       ... 75.000
+            ... failed ... 71.00 ... Scalar/Geometry/HeadTube_Angle
+            ... failed ... 71.00 ... Custom(HeadTube/Angle)
+    ... Scalar/Geometry/Saddle_Distance
+                       ... 55.000
+                       ... 55.000
+            ... failed ... 245.10 ... Scalar/Geometry/Saddle_Distance
+            ... failed ... 245.10 ... Personal(Saddle_Distance)
+    #
+    #
+    #
+set ::bikeGeometry::Component(CrankSet)                    etc:crankset/shimano_FC-M770.svg                     
+set ::bikeGeometry::Component(ForkCrown)                   etc:fork/_suspension/fork_crown.svg                    
+set ::bikeGeometry::Component(ForkDropout)                 etc:fork/_suspension/suspension_bridge_26.svg                  
+set ::bikeGeometry::Component(ForkSupplier)                etc:fork/supplier/rattleCAD_Carbon_Oversize_370_45.svg                 
+set ::bikeGeometry::Component(FrontBrake)                  etc:brake/front/v_frontbrake.svg                   
+set ::bikeGeometry::Component(FrontCarrier)                etc:carrier/front/__blank__.svg                 
+set ::bikeGeometry::Component(FrontDerailleur)             etc:derailleur/front/campagnolo_qs.svg              
+set ::bikeGeometry::Component(HandleBar)                   etc:handlebar/flatbar_sti.svg                    
+set ::bikeGeometry::Component(Label)                       etc:label/rattleCAD_22.svg                        
+set ::bikeGeometry::Component(RearBrake)                   etc:brake/rear/v_rearbrake.svg                    
+set ::bikeGeometry::Component(RearCarrier)                 etc:carrier/rear/__blank__.svg                  
+set ::bikeGeometry::Component(RearDerailleur)              etc:derailleur/rear/shimano_RD-M773.svg               
+set ::bikeGeometry::Component(RearDropout)                 etc:dropout/dropout_02.svg                  
+set ::bikeGeometry::Component(RearHub)                     hub/rattleCAD_rear.svg                      
+set ::bikeGeometry::Component(Saddle)                      etc:saddle/saddle_d.svg                       
+set ::bikeGeometry::Component(BottleCage_DownTube)         etc:bottleCage/right/bottleCage.svg          
+set ::bikeGeometry::Component(BottleCage_DownTube_Lower)   etc:bottleCage/left/bottleCage.svg    
+set ::bikeGeometry::Component(BottleCage_SeatTube)         etc:bottleCage/left/bottleCage.svg          
+    #
+set ::bikeGeometry::Config(BottleCage_DownTube)            Cage              
+set ::bikeGeometry::Config(BottleCage_DownTube_Lower)      off        
+set ::bikeGeometry::Config(BottleCage_SeatTube)            Cage              
+set ::bikeGeometry::Config(ChainStay)                      bent                        
+set ::bikeGeometry::Config(CrankSet_SpyderArmCount)        5          
+set ::bikeGeometry::Config(Fork)                           Suspension_26                             
+set ::bikeGeometry::Config(ForkBlade)                      bent                        
+set ::bikeGeometry::Config(ForkDropout)                    front                      
+set ::bikeGeometry::Config(FrontBrake)                     Rim                       
+set ::bikeGeometry::Config(FrontFender)                    off                      
+set ::bikeGeometry::Config(HeadTube)                       cylindric                         
+set ::bikeGeometry::Config(RearBrake)                      Rim                        
+set ::bikeGeometry::Config(RearDropout)                    behind                      
+set ::bikeGeometry::Config(RearDropoutOrient)              ChainStay                
+set ::bikeGeometry::Config(RearFender)                     off                       
+set ::bikeGeometry::Config(Color_FrameTubes)               #edc778                 
+set ::bikeGeometry::Config(Color_Fork)                     #edc778                       
+set ::bikeGeometry::Config(Color_Label)                    white                      
+    #
+set ::bikeGeometry::ListValue(CrankSetChainRings)          22-32-44            
+    #
+set ::bikeGeometry::BottleCage(DownTube)                   210.00                     
+set ::bikeGeometry::BottleCage(DownTube_Lower)             140.00               
+set ::bikeGeometry::BottleCage(SeatTube)                   130.00                     
+set ::bikeGeometry::BottomBracket(InsideDiameter)          36.00            
+set ::bikeGeometry::BottomBracket(OffsetCS_TopView)        5.00          
+set ::bikeGeometry::BottomBracket(OutsideDiameter)         40.00           
+set ::bikeGeometry::BottomBracket(Width)                   68.00                     
+    #
+set ::bikeGeometry::ChainStay(DiameterSS)                  13.00                    
+set ::bikeGeometry::ChainStay(Height)                      29.00                        
+set ::bikeGeometry::ChainStay(HeightBB)                    29.00                      
+set ::bikeGeometry::ChainStay(TaperLength)                 280.00                   
+set ::bikeGeometry::ChainStay(WidthBB)                     18.00                       
+set ::bikeGeometry::ChainStay(completeLength)              410.00                
+set ::bikeGeometry::ChainStay(cuttingLeft)                 0.00                   
+set ::bikeGeometry::ChainStay(cuttingLength)               391.69918059222357                 
+set ::bikeGeometry::ChainStay(profile_x01)                 150.00                   
+set ::bikeGeometry::ChainStay(profile_x02)                 150.00                   
+set ::bikeGeometry::ChainStay(profile_x03)                 75.00                   
+set ::bikeGeometry::ChainStay(profile_y00)                 12.50                   
+set ::bikeGeometry::ChainStay(profile_y01)                 18.00                   
+set ::bikeGeometry::ChainStay(profile_y02)                 18.00                   
+set ::bikeGeometry::ChainStay(segmentAngle_01)             9.00               
+set ::bikeGeometry::ChainStay(segmentAngle_02)             -9.00               
+set ::bikeGeometry::ChainStay(segmentAngle_03)             0.00               
+set ::bikeGeometry::ChainStay(segmentAngle_04)             0.00               
+set ::bikeGeometry::ChainStay(segmentLength_01)            150.00              
+set ::bikeGeometry::ChainStay(segmentLength_02)            140.00              
+set ::bikeGeometry::ChainStay(segmentLength_03)            78.00              
+set ::bikeGeometry::ChainStay(segmentLength_04)            10.00              
+set ::bikeGeometry::ChainStay(segmentRadius_01)            320.00              
+set ::bikeGeometry::ChainStay(segmentRadius_02)            320.00              
+set ::bikeGeometry::ChainStay(segmentRadius_03)            320.00              
+set ::bikeGeometry::ChainStay(segmentRadius_04)            320.00              
+    #
+set ::bikeGeometry::CrankSet(ArmWidth)                     13.75                       
+set ::bikeGeometry::CrankSet(ChainLine)                    43.50                      
+set ::bikeGeometry::CrankSet(ChainRingOffset)              7                
+set ::bikeGeometry::CrankSet(Length)                       175                         
+set ::bikeGeometry::CrankSet(PedalEye)                     17.50                       
+set ::bikeGeometry::CrankSet(Q-Factor)                     160.000                       
+    #
+set ::bikeGeometry::DownTube(DiameterBB)                   33.000                         
+set ::bikeGeometry::DownTube(DiameterHT)                   39.000                         
+set ::bikeGeometry::DownTube(OffsetBB)                     0.00                           
+set ::bikeGeometry::DownTube(OffsetHT)                     8.50                           
+set ::bikeGeometry::DownTube(TaperLength)                  300.00                        
+    #
+set ::bikeGeometry::Fork(BladeBendRadius)                  350.00                        
+set ::bikeGeometry::Fork(BladeDiameterDO)                  13.00                        
+set ::bikeGeometry::Fork(BladeEndLength)                   10.00                         
+set ::bikeGeometry::Fork(BladeOffsetCrown)                 35.00                       
+set ::bikeGeometry::Fork(BladeOffsetCrownPerp)             0.00                   
+set ::bikeGeometry::Fork(BladeOffsetDO)                    20.00                          
+set ::bikeGeometry::Fork(BladeOffsetDOPerp)                0.00                      
+set ::bikeGeometry::Fork(BladeTaperLength)                 250.00                       
+set ::bikeGeometry::Fork(BladeWidth)                       28.60                             
+set ::bikeGeometry::Fork(CrownAngleBrake)                  0.00                        
+set ::bikeGeometry::Fork(CrownOffsetBrake)                 30.0                       
+set ::bikeGeometry::Fork(BladeBrakeOffset)                 32.00                       
+set ::bikeGeometry::Fork(Rake)                             40.00                                       
+    #
+set ::bikeGeometry::FrontBrake(LeverLength)                45.00                      
+set ::bikeGeometry::FrontBrake(Offset)                     20.00                           
+set ::bikeGeometry::FrontCarrier(x)                        30.000                              
+set ::bikeGeometry::FrontCarrier(y)                        5.00                              
+set ::bikeGeometry::FrontDerailleur(Distance)              128.00                    
+set ::bikeGeometry::FrontDerailleur(Offset)                9.20                      
+set ::bikeGeometry::FrontFender(Height)                    15.00                          
+set ::bikeGeometry::FrontFender(OffsetAngle)               90.00                     
+set ::bikeGeometry::FrontFender(OffsetAngleFront)          20.00                
+set ::bikeGeometry::FrontFender(Radius)                    331.5                          
+set ::bikeGeometry::FrontWheel(RimHeight)                  45.000                        
+    #
+set ::bikeGeometry::Geometry(BottomBracket_Depth)          10.0                
+set ::bikeGeometry::Geometry(BottomBracket_Height)         316.500               
+set ::bikeGeometry::Geometry(ChainStay_Length)             420.00                   
+set ::bikeGeometry::Geometry(FrontRim_Diameter)            559                  
+set ::bikeGeometry::Geometry(FrontTyre_Height)             47                   
+set ::bikeGeometry::Geometry(FrontWheel_Radius)            326.5                  
+set ::bikeGeometry::Geometry(FrontWheel_x)                 571.498                       
+set ::bikeGeometry::Geometry(FrontWheel_xy)                571.586                      
+set ::bikeGeometry::Geometry(HandleBar_Distance)           474.00                 
+set ::bikeGeometry::Geometry(HandleBar_Height)             642.00                   
+set ::bikeGeometry::Geometry(HeadTube_Angle)               75.000                     
+set ::bikeGeometry::Geometry(Inseam_Length)                850.00                      
+set ::bikeGeometry::Geometry(Reach_Length)                 381.840                       
+set ::bikeGeometry::Geometry(RearRim_Diameter)             559                   
+set ::bikeGeometry::Geometry(RearTyre_Height)              47.00                    
+set ::bikeGeometry::Geometry(RearWheel_Radius)             326.5                   
+set ::bikeGeometry::Geometry(RearWheel_x)                  419.881                        
+set ::bikeGeometry::Geometry(SaddleNose_BB_x)              -103.000                    
+set ::bikeGeometry::Geometry(SaddleNose_HB)                371.000                      
+set ::bikeGeometry::Geometry(Saddle_BB)                    714.098                          
+set ::bikeGeometry::Geometry(Saddle_Distance)              55.000                    
+set ::bikeGeometry::Geometry(Saddle_HB_x)                  529.000                        
+set ::bikeGeometry::Geometry(Saddle_HB_y)                  71.300                        
+set ::bikeGeometry::Geometry(Saddle_Height)                713.30                      
+set ::bikeGeometry::Geometry(Saddle_Offset_BB_ST)          33.758                
+set ::bikeGeometry::Geometry(SeatTube_LengthClassic)       540.272             
+set ::bikeGeometry::Geometry(SeatTube_LengthVirtual)       563.895             
+set ::bikeGeometry::Geometry(Stack_Height)                 563.265                       
+set ::bikeGeometry::Geometry(Stem_Angle)                   -6.00                         
+set ::bikeGeometry::Geometry(Stem_Length)                  110.00                        
+set ::bikeGeometry::Geometry(TopTube_LengthClassic)        413.704              
+set ::bikeGeometry::Geometry(TopTube_LengthVirtual)        408.498              
+set ::bikeGeometry::Geometry(TopTube_Angle)                10.0                      
+set ::bikeGeometry::Geometry(SeatTube_Angle)               87.290                     
+set ::bikeGeometry::Geometry(Fork_Height)                  465.0                        
+set ::bikeGeometry::Geometry(Fork_Rake)                    40.0                          
+set ::bikeGeometry::Geometry(HeadTube_Length)              105.0                    
+set ::bikeGeometry::Geometry(HeadTube_Summary)             118.5                   
+set ::bikeGeometry::Geometry(HeadSet_Bottom)               13.50                     
+    #
+set ::bikeGeometry::Geometry(BottomBracket_Angle_ChainStay)        86.0741      
+set ::bikeGeometry::Geometry(BottomBracket_Angle_DownTube)         40.7899       
+set ::bikeGeometry::Geometry(HeadLug_Angle_Bottom)                 53.0803               
+    #
+set ::bikeGeometry::Geometry(HeadLug_Angle_Top)            85.0000                  
+set ::bikeGeometry::Geometry(HeadTube_Virtual)             118.500                   
+set ::bikeGeometry::Geometry(HeadTube_CenterTopTube)       24.429             
+set ::bikeGeometry::Geometry(HeadTube_CenterDownTube)      46.415            
+    #
+set ::bikeGeometry::HandleBar(PivotAngle)                  0.00                        
+set ::bikeGeometry::HeadSet(Diameter)                      45.00                            
+set ::bikeGeometry::HeadSet(Height_Bottom)                 13.50                       
+set ::bikeGeometry::HeadSet(Height_Top)                    15.50                          
+    #
+set ::bikeGeometry::HeadTube(Diameter)                     36.00                           
+set ::bikeGeometry::HeadTube(Length)                       105.0                             
+set ::bikeGeometry::HeadTube(DiameterTaperedTop)           46.0                 
+set ::bikeGeometry::HeadTube(DiameterTaperedBase)          56.0                
+set ::bikeGeometry::HeadTube(HeightTaperedBase)            15.0                  
+set ::bikeGeometry::HeadTube(LengthTapered)                70.0                      
+    #
+set ::bikeGeometry::Lugs(BottomBracket_ChainStay_Angle)        70.00              
+set ::bikeGeometry::Lugs(BottomBracket_ChainStay_Tolerance)    1.00          
+set ::bikeGeometry::Lugs(BottomBracket_DownTube_Angle)         69.00               
+set ::bikeGeometry::Lugs(BottomBracket_DownTube_Tolerance)     1.00           
+set ::bikeGeometry::Lugs(HeadLug_Bottom_Angle)                 60.00                       
+set ::bikeGeometry::Lugs(HeadLug_Bottom_Tolerance)             1.00                   
+set ::bikeGeometry::Lugs(HeadLug_Top_Angle)                    80.00                          
+set ::bikeGeometry::Lugs(HeadLug_Top_Tolerance)                1.00                      
+set ::bikeGeometry::Lugs(RearDropOut_Angle)                    55.00                          
+set ::bikeGeometry::Lugs(RearDropOut_Tolerance)                1.00                      
+set ::bikeGeometry::Lugs(SeatLug_SeatStay_Angle)               55.00                     
+set ::bikeGeometry::Lugs(SeatLug_SeatStay_Tolerance)           1.00                 
+set ::bikeGeometry::Lugs(SeatLug_TopTube_Angle)                81.00                      
+set ::bikeGeometry::Lugs(SeatLug_TopTube_Tolerance)            1.00                  
+    #
+set ::bikeGeometry::RearBrake(LeverLength)                     45.00                           
+set ::bikeGeometry::RearBrake(Offset)                          20.00                                
+set ::bikeGeometry::RearCarrier(x)                             15.00                                   
+set ::bikeGeometry::RearCarrier(y)                             30.00                                   
+set ::bikeGeometry::RearDerailleur(Pulley_teeth)               11                     
+set ::bikeGeometry::RearDerailleur(Pulley_x)                   -8.00                         
+set ::bikeGeometry::RearDerailleur(Pulley_y)                   -79.00                         
+    #
+set ::bikeGeometry::RearDropout(Derailleur_x)                  6.00                        
+set ::bikeGeometry::RearDropout(Derailleur_y)                  25.00                        
+set ::bikeGeometry::RearDropout(OffsetCS)                      33.00                            
+set ::bikeGeometry::RearDropout(OffsetCSPerp)                  1                        
+set ::bikeGeometry::RearDropout(OffsetCS_TopView)              5.00                    
+set ::bikeGeometry::RearDropout(OffsetSS)                      35.00                            
+set ::bikeGeometry::RearDropout(OffsetSSPerp)                  -7.10                        
+set ::bikeGeometry::RearDropout(RotationOffset)                0.00                      
+    #
+set ::bikeGeometry::RearFender(Height)                         15.00                               
+set ::bikeGeometry::RearFender(OffsetAngle)                    150.00                          
+set ::bikeGeometry::RearFender(Radius)                         331.5                               
+set ::bikeGeometry::RearMockup(CassetteClearance)              3.00                    
+set ::bikeGeometry::RearMockup(ChainWheelClearance)            5.00                  
+set ::bikeGeometry::RearMockup(CrankClearance)                 5.00                       
+set ::bikeGeometry::RearMockup(DiscClearance)                  5.00                        
+set ::bikeGeometry::RearMockup(DiscDiameter)                   160.00                         
+set ::bikeGeometry::RearMockup(DiscOffset)                     15.30                           
+set ::bikeGeometry::RearMockup(DiscWidth)                      2.00                            
+set ::bikeGeometry::RearMockup(TyreClearance)                  5.00                        
+    #
+set ::bikeGeometry::RearWheel(FirstSprocket)                   15                         
+set ::bikeGeometry::RearWheel(HubWidth)                        135.00                              
+set ::bikeGeometry::RearWheel(RimHeight)                       25.00                             
+set ::bikeGeometry::RearWheel(TyreShoulder)                    16.5                          
+set ::bikeGeometry::RearWheel(TyreWidth)                       45.00                             
+set ::bikeGeometry::RearWheel(TyreWidthRadius)                 310.00                       
+    #
+set ::bikeGeometry::Reference(HandleBar_Distance)              543.69                    
+set ::bikeGeometry::Reference(HandleBar_Height)                905.00                      
+set ::bikeGeometry::Reference(SaddleNose_Distance)             62.69                   
+set ::bikeGeometry::Reference(SaddleNose_HB)                   547.5617007242198                         
+set ::bikeGeometry::Reference(SaddleNose_HB_y)                 65.0                       
+set ::bikeGeometry::Reference(SaddleNose_Height)               970.00                     
+    #
+set ::bikeGeometry::Saddle(Height)                             40.00                                   
+set ::bikeGeometry::Saddle(NoseLength)                         153.00                               
+set ::bikeGeometry::Saddle(Offset_x)                           5.00                                 
+    #
+set ::bikeGeometry::SeatPost(Diameter)                         27.20                               
+set ::bikeGeometry::SeatPost(PivotOffset)                      40.00                            
+set ::bikeGeometry::SeatPost(Setback)                          25.00                                
+set ::bikeGeometry::SeatStay(DiameterCS)                       11.00                             
+set ::bikeGeometry::SeatStay(DiameterST)                       16.00                             
+set ::bikeGeometry::SeatStay(OffsetTT)                         -30                               
+set ::bikeGeometry::SeatStay(SeatTubeMiterDiameter)            28.60                  
+set ::bikeGeometry::SeatStay(TaperLength)                      300.00                            
+    #
+set ::bikeGeometry::SeatTube(DiameterBB)                       31.80                             
+set ::bikeGeometry::SeatTube(DiameterTT)                       28.60                             
+set ::bikeGeometry::SeatTube(Extension)                        20.00                              
+set ::bikeGeometry::SeatTube(OffsetBB)                         0.00                               
+set ::bikeGeometry::SeatTube(TaperLength)                      300.00                            
+    #
+set ::bikeGeometry::TopTube(DiameterHT)                        28.60                              
+set ::bikeGeometry::TopTube(DiameterST)                        28.60                              
+set ::bikeGeometry::TopTube(OffsetHT)                          8.50                                
+set ::bikeGeometry::TopTube(PivotPosition)                     80.00                           
+set ::bikeGeometry::TopTube(TaperLength)                       300.00                             
+    #

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+        
+    <Options>
+
+        <ComponentLocation>
+            <component key="ForkCrown"                    dir="fork/crown"        />
+            <component key="ForkDropout"                  dir="fork/dropout"      />
+            <component key="ForkSupplier"                 dir="fork/supplier"     />
+            <component key="RearDropout"                  dir="dropout"           />
+            <component key="FrontBrake"                   dir="brake/front"       />
+            <component key="RearBrake"                    dir="brake/rear"        />
+            <component key="HandleBar"                    dir="handlebar"         />
+            <component key="Saddle"                       dir="saddle"            />
+            <component key="CrankSet"                     dir="crankset"          />
+            <component key="FrontDerailleur"              dir="derailleur/front"  />
+            <component key="RearDerailleur"                dir="derailleur/rear"   />
+            <component key="FrontCarrier"                 dir="carrier/front"     />
+            <component key="RearCarrier"                  dir="carrier/rear"      />
+            <component key="BottleCage_SeatTube"          dir="bottleCage/left"  />
+            <component key="BottleCage_DownTube"          dir="bottleCage/right" />
+            <component key="BottleCage_DownTube_Lower"    dir="bottleCage/left"  />
+            <component key="Label"                        dir="label"              />
+            <component key="Hub"                          dir="hub"               />
+        </ComponentLocation>
+        
+        <Brake>
+            <Rim/>
+            <Disc/>
+            <off/>
+        </Brake>
+
+        <BottleCage>
+            <BrazeOn/>
+            <Cage/>
+            <Bottle/>
+            <off/>
+        </BottleCage>
+
+        <Binary_OnOff>
+            <on/>
+            <off/>
+        </Binary_OnOff>
+
+        <ForkBlade>
+            <straight/>
+            <bent/>
+        </ForkBlade>
+        
+        <Stem>
+            <Ahead/>
+            <Quill/>
+        </Stem>
+        
+        <Rim>
+            <rim inch="28&#8221;"   metric="622" standard="Road/MTB" />
+            <rim inch="27,5&#8221;" metric="584" standard="MTB"  />
+            <rim inch="26&#8221;"   metric="559" standard="MTB"  />
+            <rim inch="26&#8221;"   metric="571" standard="Tria" />
+            <rim inch="20&#8221;"   metric="406" standard="BMX"  />
+            <separator/>
+            <rim inch="36&#8221;" metric="787" standard="ETRTO" />
+            <rim inch="28&#8221;" metric="622" standard="ETRTO" />
+            <rim inch="26&#8221;" metric="590" standard="ETRTO" />
+            <rim inch="26&#8221;" metric="571" standard="ETRTO" />
+            <rim inch="26&#8221;" metric="559" standard="ETRTO" />
+            <rim inch="24&#8221;" metric="507" standard="ETRTO" />
+            <rim inch="20&#8221;" metric="451" standard="ETRTO" />
+            <rim inch="20&#8221;" metric="406" standard="ETRTO" />
+            <rim inch="18&#8221;" metric="355" standard="ETRTO" />
+            <rim inch="18&#8221;" metric="349" standard="ETRTO" />
+            <rim inch="18&#8221;" metric="340" standard="ETRTO" />
+            <rim inch="16&#8221;" metric="330" standard="ETRTO" />
+            <rim inch="16&#8221;" metric="305" standard="ETRTO" />
+            <separator/>
+            <rim inch="28&#8221;" metric="635" standard="french-700B"  />
+            <rim inch="27&#8221;" metric="630" standard="english-27x?" />
+            <rim inch="26&#8221;" metric="584" standard="french-650B"  />
+            <rim inch="24&#8221;" metric="540" standard="french-640A"  /> 
+            <rim inch="22&#8221;" metric="490" standard="french-550A"  />
+            <rim inch="22&#8221;" metric="440" standard="french-500A"  />
+            <rim inch="20&#8221;" metric="390" standard="french-450A"  />
+            <rim inch="16&#8221;" metric="340" standard="french-400A"  />
+            <rim inch="14&#8221;" metric="298" standard="french-350A"  />
+        </Rim>
+
+    </Options>
+   
+    <Fork>
+        <Supplier/> 
+        <SteelLuggedMAX/>
+        <SteelCustomBent/>
+        <SteelCustomStraight/>
+        <Composite_45/>
+        <Composite_56/>
+        <Suspension_20/>
+        <Suspension_24/>
+        <Suspension_26/>
+        <Suspension_27/>
+        <Suspension_20/>
+    </Fork>
+    
+    <!--
+    <Fork>
+        <Supplier>
+            <Crown>
+              <File>etc:fork/supplier/columbus_Tusk_Straight_2015.svg</File>
+              <Brake>
+                <Offset>35</Offset>
+                <Angle>0.00</Angle>
+              </Brake>
+            </Crown>
+            <Brake>
+                <Offset>28.00</Offset>
+                <Angle>0.00</Angle>
+            </Brake>
+            <DropOut>
+              <File>etc:default_blank.svg</File>
+            </DropOut>           
+        </Supplier>
+
+        <SteelLuggedMAX>
+            <Crown>
+              <File>etc:fork/crown/longshen_max_36_5.svg</File>
+              <Brake>
+                <Offset>20.00</Offset>
+                <Angle>0.00</Angle>
+              </Brake>
+              <Blade>
+                <Offset>35.00</Offset>
+                <OffsetPerp>3.50</OffsetPerp>
+              </Blade>
+            </Crown>
+            <Blade>
+              <Width>36.00</Width>
+              <DiameterDO>14.00</DiameterDO>
+              <TaperLength>250.00</TaperLength>
+              <BendRadius>350.00</BendRadius>
+              <EndLength>10.00</EndLength>
+            </Blade>
+            <Brake>
+              <Offset>28.00</Offset>
+            </Brake>
+            <DropOut>
+              <File>etc:fork/dropout/dropout_14.svg</File>
+              <Offset>20.00</Offset>
+              <OffsetPerp>0.00</OffsetPerp>
+            </DropOut>
+        </SteelLuggedMAX>
+
+        <SteelCustomBent>
+            <Crown>
+                <File>etc:fork/crown/longshen_17.svg</File>
+                <Brake>
+                    <Offset>19.00</Offset>
+                    <Angle>0.00</Angle>
+                </Brake>
+                <Blade>
+                    <Offset>35.00</Offset>
+                    <OffsetPerp>0.00</OffsetPerp>
+                </Blade>
+            </Crown>
+            <Blade>
+                <Width>28.60</Width>
+                <DiameterDO>13.00</DiameterDO>
+                <TaperLength>250.00</TaperLength>
+                <BendRadius>350.00</BendRadius>
+                <EndLength>10.00</EndLength>
+            </Blade>
+            <Brake>
+              <Offset>35.00</Offset>
+            </Brake>
+            <DropOut>
+                <File>etc:fork/dropout/LE_17.svg</File>
+                <Offset>20.00</Offset>
+                <OffsetPerp>0.00</OffsetPerp>
+            </DropOut>       
+        </SteelCustomBent>
+         
+        <SteelCustomStraight>
+            <Crown>
+                <File>etc:fork/crown/longshen_17.svg</File>
+                <Brake>
+                    <Offset>19.00</Offset>
+                    <Angle>0.00</Angle>
+                </Brake>
+                <Blade>
+                    <Offset>35.00</Offset>
+                    <OffsetPerp>0.00</OffsetPerp>
+                </Blade>
+            </Crown>
+            <Blade>
+                <Width>28.60</Width>
+                <DiameterDO>13.00</DiameterDO>
+                <TaperLength>250.00</TaperLength>
+                <BendRadius>350.00</BendRadius>
+                <EndLength>10.00</EndLength>
+            </Blade>
+            <Brake>
+              <Offset>35.00</Offset>
+            </Brake>
+            <DropOut>
+                <File>etc:fork/dropout/LE_17.svg</File>
+                <Offset>20.00</Offset>
+                <OffsetPerp>0.00</OffsetPerp>
+            </DropOut>       
+        </SteelCustomStraight>
+         
+        <Composite>    
+            <Crown>
+              <File>etc:fork/_composite/fork_crown.svg</File>
+              <Brake>
+                <Offset>20.50</Offset>
+                <Angle>0.00</Angle>
+              </Brake>
+              <Blade>
+                <Offset>45.00</Offset>
+                <OffsetPerp>-4.50</OffsetPerp>
+              </Blade>
+            </Crown>
+            <Blade>
+              <Width>50.00</Width>
+              <DiameterDO>21.00</DiameterDO>
+            </Blade>
+            <Brake>
+              <Offset>34.00</Offset>
+            </Brake>                    
+            <DropOut>
+              <File>etc:fork/_composite/dropout.svg</File>
+              <Offset>20.00</Offset>
+            </DropOut>
+        </Composite>
+        
+        <_Suspension>
+            <Crown>
+              <File>etc:fork/_suspension/fork_crown.svg</File>
+              <Brake>
+              </Brake>
+            </Crown>
+            <Leg>
+              <OffsetPerp>12.00</OffsetPerp>
+              <Diameter>36.00</Diameter>
+            </Leg>
+        </_Suspension>
+
+        <Suspension_20>
+            <Geometry>
+              <Rake>36.00</Rake>
+            </Geometry>
+            <DropOut>
+              <File>etc:fork/_suspension/suspension_bridge_20.svg</File>
+            </DropOut>
+            <Brake>
+              <Offset>32.00</Offset>
+            </Brake>
+        </Suspension_20>
+        
+        <Suspension_24>
+            <Geometry>
+              <Rake>38.00</Rake>
+            </Geometry>
+            <DropOut>
+              <File>etc:fork/_suspension/suspension_bridge_24.svg</File>
+            </DropOut>
+            <Brake>
+              <Offset>32.00</Offset>
+            </Brake>
+        </Suspension_24>
+        
+        <Suspension_26>
+            <Geometry>
+              <Rake>40.00</Rake>
+            </Geometry>
+            <DropOut>
+              <File>etc:fork/_suspension/suspension_bridge_26.svg</File>
+            </DropOut>
+            <Brake>
+              <Offset>32.00</Offset>
+            </Brake>
+        </Suspension_26>
+        
+        <Suspension_27>   
+            <Geometry>
+              <Rake>42.00</Rake>
+            </Geometry>
+            <DropOut>
+              <File>etc:fork/_suspension/suspension_bridge_27.svg</File>
+            </DropOut>
+            <Brake>
+              <Offset>32.00</Offset>
+            </Brake>
+        </Suspension_27>
+        
+        <Suspension_29>   
+            <Geometry>
+              <Rake>44.00</Rake>
+            </Geometry>
+            <DropOut>
+              <File>etc:fork/_suspension/suspension_bridge_29.svg</File>
+            </DropOut>
+            <Brake>
+              <Offset>32.00</Offset>
+            </Brake>
+        </Suspension_29>
+    </Fork>
+    -->
+            
+    <!--
+        <Composite_TUSK>    
+            <Crown>
+              <File>etc:fork/_composite/fork_crown_tusk.svg</File>
+              <Brake>
+                <Offset>20.50</Offset>
+                <Angle>0.00</Angle>
+              </Brake>
+              <Blade>
+                <Offset>45.00</Offset>
+                <OffsetPerp>-4.50</OffsetPerp>
+              </Blade>
+            </Crown>
+            <Blade>
+              <Width>50.00</Width>
+              <DiameterDO>21.00</DiameterDO>
+            </Blade>
+            <Brake>
+              <Offset>36.00</Offset>
+            </Brake>
+            <DropOut>
+              <File>etc:fork/_composite/dropout.svg</File>
+              <Offset>20.00</Offset>
+            </DropOut>
+        </Composite_TUSK>
+    -->
+
+
+	
+</root>

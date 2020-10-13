@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root>
+    <!--
+            #
+        persistKey ......... stores location of value in rattleCAD - Project-File
+            #
+    -->
+    <BottleCage_DownTube>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" persistKey="Rendering/BottleCage/DownTube"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <End init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" persistKey="Component/BottleCage/DownTube/OffsetBB"/>
+        </Scalar>
+    </BottleCage_DownTube>
+    <BottleCage_DownTube_Lower>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" persistKey="Rendering/BottleCage/DownTube_Lower"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <End init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" persistKey="Component/BottleCage/DownTube_Lower/OffsetBB"/>
+        </Scalar>
+    </BottleCage_DownTube_Lower>
+    <BottleCage_SeatTube>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" persistKey="Rendering/BottleCage/SeatTube"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <End init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" persistKey="Component/BottleCage/SeatTube/OffsetBB"/>
+        </Scalar>
+    </BottleCage_SeatTube>
+    <BottomBracket>
+        <Position>
+            <Ground init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <ExcenterOffset init="1" persistKey="Lugs/BottomBracket/Excenter/Offset"/>
+            <DiameterInside init="1" persistKey="Lugs/BottomBracket/Diameter/inside"/>
+            <DiameterOutside init="1" persistKey="Lugs/BottomBracket/Diameter/outside"/>
+            <Width init="1" persistKey="Lugs/BottomBracket/Width"/>
+        </Scalar>
+    </BottomBracket>
+    <ChainStay>
+        <Polyline>
+            <XY init="0" persistKey=""/>
+            <XY_CtrLines init="0" persistKey=""/>
+            <XY_Uncut init="0" persistKey=""/>
+            <XZ init="0" persistKey=""/>
+        </Polyline>
+        <Config>
+            <Type init="1" persistKey="Rendering/ChainStay"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" persistKey=""/>
+            <Shape_XY init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <End init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+            <Origin_XY init="0" persistKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" persistKey=""/>
+            <XZ init="0" persistKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterSS init="1" persistKey="FrameTubes/ChainStay/DiameterSS"/>
+            <Height init="1" persistKey="FrameTubes/ChainStay/Height"/>
+            <HeightBB init="1" persistKey="FrameTubes/ChainStay/HeightBB"/>
+            <OffsetBBTopView init="1" persistKey="Lugs/BottomBracket/ChainStay/Offset_TopView"/>
+            <OffsetDO init="1" persistKey="Lugs/RearDropOut/ChainStay/Offset"/>
+            <OffsetDOPerp init="1" persistKey="Lugs/RearDropOut/ChainStay/OffsetPerp"/>
+            <OffsetDOTopView init="1" persistKey="Lugs/RearDropOut/ChainStay/Offset_TopView"/>
+            <TaperLength init="1" persistKey="FrameTubes/ChainStay/TaperLength"/>
+            <WidthBB init="1" persistKey="FrameTubes/ChainStay/WidthBB"/>
+            <completeLength init="1" persistKey="FrameTubes/ChainStay/Profile/completeLength"/>
+            <cuttingAngle init="1" persistKey="FrameTubes/ChainStay/Profile/cuttingAngle"/>
+            <cuttingLeft init="1" persistKey="FrameTubes/ChainStay/Profile/cuttingLeft"/>
+            <Length init="1" persistKey="FrameTubes/ChainStay/Profile/cuttingLength"/>
+            <profile_x01 init="1" persistKey="FrameTubes/ChainStay/Profile/length_01"/>
+            <profile_x02 init="1" persistKey="FrameTubes/ChainStay/Profile/length_02"/>
+            <profile_x03 init="1" persistKey="FrameTubes/ChainStay/Profile/length_03"/>
+            <profile_y00 init="1" persistKey="FrameTubes/ChainStay/Profile/width_00"/>
+            <profile_y01 init="1" persistKey="FrameTubes/ChainStay/Profile/width_01"/>
+            <profile_y02 init="1" persistKey="FrameTubes/ChainStay/Profile/width_02"/>
+            <profile_y03 init="1" persistKey="FrameTubes/ChainStay/Profile/width_03"/>
+            <segmentAngle_01 init="1" persistKey="FrameTubes/ChainStay/CenterLine/angle_01"/>
+            <segmentAngle_02 init="1" persistKey="FrameTubes/ChainStay/CenterLine/angle_02"/>
+            <segmentAngle_03 init="1" persistKey="FrameTubes/ChainStay/CenterLine/angle_03"/>
+            <segmentAngle_04 init="1" persistKey="FrameTubes/ChainStay/CenterLine/angle_04"/>
+            <segmentLength_01 init="1" persistKey="FrameTubes/ChainStay/CenterLine/length_01"/>
+            <segmentLength_02 init="1" persistKey="FrameTubes/ChainStay/CenterLine/length_02"/>
+            <segmentLength_03 init="1" persistKey="FrameTubes/ChainStay/CenterLine/length_03"/>
+            <segmentLength_04 init="1" persistKey="FrameTubes/ChainStay/CenterLine/length_04"/>
+            <segmentRadius_01 init="1" persistKey="FrameTubes/ChainStay/CenterLine/radius_01"/>
+            <segmentRadius_02 init="1" persistKey="FrameTubes/ChainStay/CenterLine/radius_02"/>
+            <segmentRadius_03 init="1" persistKey="FrameTubes/ChainStay/CenterLine/radius_03"/>
+            <segmentRadius_04 init="1" persistKey="FrameTubes/ChainStay/CenterLine/radius_04"/>
+        </Scalar>
+    </ChainStay>
+    <CrankSet>
+        <ComponentNode>
+            <XY_Custom init="0" persistKey=""/>
+            <XZ init="0" persistKey=""/>
+            <XZ_Custom init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/CrankSet/File"/>
+            <SpyderArmCount init="1" persistKey="Component/CrankSet/SpyderArmCount"/>
+        </Config>
+        <ListValue>
+            <ChainRings init="1" persistKey="Component/CrankSet/ChainRings"/>
+            <ChainWheelDef init="0" persistKey=""/>
+        </ListValue>
+        <Polygon>
+            <CrankArm_XY init="0" persistKey=""/>
+            <CrankArm_XZ init="0" persistKey=""/>
+            <ChainWheels init="0" persistKey=""/>
+            <SpyderArm init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Bolts init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <ArmWidth init="1" persistKey="Component/CrankSet/ArmWidth"/>
+            <ChainLine init="1" persistKey="Component/CrankSet/ChainLine"/>
+            <ChainRingOffset init="1" persistKey="Component/CrankSet/ChainRingOffset"/>
+            <Length init="1" persistKey="Component/CrankSet/Length"/>
+            <PedalEye init="1" persistKey="Component/CrankSet/PedalEye"/>
+            <Q-Factor init="1" persistKey="Component/CrankSet/Q-Factor"/>
+        </Scalar>
+    </CrankSet>
+    <DownTube>
+        <Polyline>
+            <CenterLine_XZ init="0" persistKey=""/>
+            <Profile_XY init="0" persistKey=""/>
+            <Profile_XZ init="0" persistKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" persistKey=""/>
+            <MiterEndBBInside init="0" persistKey=""/>
+            <MiterEndBBOutside init="0" persistKey=""/>
+            <MiterOrigin init="0" persistKey=""/>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Edge_HeadTube_DT init="0" persistKey=""/>
+            <Edge_SeatTube_Miter init="0" persistKey=""/>
+            <End init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <DiameterEnd init="1" persistKey="FrameTubes/DownTube/DiameterBB"/>
+            <DiameterOrigin init="1" persistKey="FrameTubes/DownTube/DiameterHT"/>
+            <MiterAngelEnd init="0" persistKey=""/>
+            <MiterAngelOrigin init="0" persistKey=""/>
+            <OffsetBB init="1" persistKey="Custom/DownTube/OffsetBB"/>
+            <TaperLength init="1" persistKey="FrameTubes/DownTube/TaperLength"/>
+        </Scalar>
+    </DownTube>
+    <Fork>
+        <Config>
+            <Type init="1" persistKey="Rendering/Fork"/>
+        </Config>
+        <Scalar>
+            <BladeOffsetCrown init="1" persistKey="Component/Fork/Crown/Blade/Offset"/>
+            <BladeOffsetCrownPerp init="1" persistKey="Component/Fork/Crown/Blade/OffsetPerp"/>
+            <BladeOffsetDO init="1" persistKey="Component/Fork/DropOut/Offset"/>
+            <BladeOffsetDOPerp init="1" persistKey="Component/Fork/DropOut/OffsetPerp"/>
+            <BladeBrakeOffset init="1" persistKey="Component/Brake/Front/Offset"/>
+            <CrownBrakeAngle init="1" persistKey="Component/Fork/Crown/Brake/Angle"/>
+            <CrownBrakeOffset init="1" persistKey="Component/Fork/Crown/Brake/Offset"/>
+            <Height init="1" persistKey="Component/Fork/Height"/>
+            <Rake init="1" persistKey="Component/Fork/Rake"/>
+        </Scalar>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+    </Fork>
+    <ForkBlade>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Polyline>
+            <CenterLine_XZ init="0" persistKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <End init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <DiameterDO init="1" persistKey="Component/Fork/Blade/DiameterDO"/>
+            <BendRadius init="1" persistKey="Component/Fork/Blade/BendRadius"/>
+            <EndLength init="1" persistKey="Component/Fork/Blade/EndLength"/>
+            <Width init="1" persistKey="Component/Fork/Blade/Width"/>
+            <TaperLength init="1" persistKey="Component/Fork/Blade/TaperLength"/>
+        </Scalar>
+    </ForkBlade>
+    <ForkCrown>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Fork/Crown/File"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+    </ForkCrown>
+    <ForkDropout>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Fork/DropOut/File"/>
+            <Layer init="1" persistKey="Rendering/ForkDropOut"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+    </ForkDropout>
+    <FrontBrake>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Brake/Front/File"/>
+            <Type init="1" persistKey="Rendering/Brake/Front"/>
+        </Config>
+        <Position>
+            <Definition init="0" persistKey=""/>
+            <Help init="0" persistKey=""/>
+            <Mount init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <LeverLength init="1" persistKey="Component/Brake/Front/LeverLength"/>
+        </Scalar>
+    </FrontBrake>
+    <FrontCarrier>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Carrier/Front/File"/>
+        </Config>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <x init="1" persistKey="Component/Carrier/Front/x"/>
+            <y init="1" persistKey="Component/Carrier/Front/y"/>
+        </Scalar>
+    </FrontCarrier>
+    <FrontDerailleur>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Derailleur/Front/File"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Distance init="1" persistKey="Component/Derailleur/Front/Distance"/>
+            <Offset init="1" persistKey="Component/Derailleur/Front/Offset"/>
+        </Scalar>
+    </FrontDerailleur>
+    <FrontFender>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" persistKey="Rendering/Fender/Front"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Height init="1" persistKey="Component/Fender/Front/Height"/>
+            <OffsetAngle init="1" persistKey="Component/Fender/Front/OffsetAngle"/>
+            <OffsetAngleFront init="1" persistKey="Component/Fender/Front/OffsetAngleFront"/>
+            <Radius init="1" persistKey="Component/Fender/Front/Radius"/>
+        </Scalar>
+    </FrontFender>
+    <FrontWheel>
+        <Position>
+            <Ground init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Radius init="0" persistKey=""/>
+            <RimDiameter init="1" persistKey="Component/Wheel/Front/RimDiameter"/>
+            <RimHeight init="1" persistKey="Component/Wheel/Front/RimHeight"/>
+            <TyreHeight init="1" persistKey="Component/Wheel/Front/TyreHeight"/>
+        </Scalar>
+    </FrontWheel>
+    <Geometry>
+        <BoundingBox>
+            <Complete init="0" persistKey=""/>
+            <Fork init="0" persistKey=""/>
+            <Frame init="0" persistKey=""/>
+            <FrameFork init="0" persistKey=""/>
+            <FrameForkSaddle init="0" persistKey=""/>
+        </BoundingBox>
+        <Position>
+            <LegClearance init="0" persistKey=""/>
+            <Reference_HB init="0" persistKey=""/>
+            <Reference_SN init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <BottomBracket_Angle_ChainStay init="0" persistKey=""/>
+            <BottomBracket_Angle_DownTube init="0" persistKey=""/>
+            <BottomBracket_Depth init="1" persistKey="Custom/BottomBracket/Depth"/>
+            <BottomBracket_Height init="0" persistKey=""/>
+            <DownTube_OffsetHT init="1" persistKey="Custom/DownTube/OffsetHT"/>
+            <HandleBar_Distance init="1" persistKey="Personal/HandleBar_Distance"/>
+            <HeadLug_Angle_Bottom init="0" persistKey=""/>
+            <HeadLug_Angle_Top init="0" persistKey=""/>
+            <FrontWheel_x init="0" persistKey=""/>
+            <FrontWheel_XZ init="0" persistKey=""/>
+            <HandleBar_Height init="1" persistKey="Personal/HandleBar_Height"/>
+            <HeadTube_Angle init="1" persistKey="Custom/HeadTube/Angle"/>
+            <HeadTube_CenterDownTube init="0" persistKey=""/>
+            <HeadTube_CenterTopTube init="0" persistKey=""/>
+            <HeadTube_Summary init="0" persistKey=""/>
+            <HeadTube_Virtual init="0" persistKey=""/>
+            <Inseam_Length init="1" persistKey="Personal/InnerLeg_Length"/>
+            <Reach_Length init="0" persistKey=""/>
+            <RearWheel_X init="0" persistKey=""/>
+            <RearWheel_XZ init="1" persistKey="Custom/WheelPosition/Rear"/>
+            <SaddleNose_BB_X init="0" persistKey=""/>
+            <SaddleNose_HB init="0" persistKey=""/>
+            <Saddle_BB init="0" persistKey=""/>
+            <Saddle_Distance init="1" persistKey="Personal/Saddle_Distance"/>
+            <Saddle_HB_X init="0" persistKey=""/>
+            <Saddle_HB_Z init="0" persistKey=""/>
+            <Saddle_Height init="1" persistKey="Personal/Saddle_Height"/>
+            <SeatTube_Angle init="0" persistKey=""/>
+            <Saddle_Offset_BB_ST init="0" persistKey=""/>
+            <SeatTube_LengthClassic init="0" persistKey=""/>
+            <SeatTube_LengthVirtual init="0" persistKey=""/>
+            <Stack_Height init="0" persistKey=""/>
+            <TopTube_Angle init="1" persistKey="Custom/TopTube/Angle"/>
+            <TopTube_LengthClassic init="0" persistKey=""/>
+            <TopTube_LengthVirtual init="0" persistKey=""/>
+            <TopTube_OffsetHT init="1" persistKey="Custom/TopTube/OffsetHT"/>
+            <TopTube_PivotOffset init="1" persistKey="Custom/TopTube/PivotPosition"/>
+        </Scalar>
+    </Geometry>
+    <HandleBar>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/HandleBar/File"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <PivotAngle init="1" persistKey="Component/HandleBar/PivotAngle"/>
+        </Scalar>
+    </HandleBar>
+    <HeadSet>
+        <ComponentNode>
+            <Bottom_XZ init="0" persistKey=""/>
+            <Top_XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Direction>
+            <Origin init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <Bottom_XZ init="0" persistKey=""/>
+            <Top_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Edge_BottomFront_Bottom init="0" persistKey=""/>
+            <Edge_BottomFront_Top init="0" persistKey=""/>
+            <Edge_TopFront_Bottom init="0" persistKey=""/>
+            <Edge_TopFront_Top init="0" persistKey=""/>
+            <End_Top init="0" persistKey=""/>
+            <Origin_Bottom init="0" persistKey=""/>
+            <Origin_Top init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <DiameterBottom init="1" persistKey="Component/HeadSet/Bottom/Diameter"/>
+            <DiameterTop init="1" persistKey="Component/HeadSet/Top/Diameter"/>
+            <HeightBottom init="1" persistKey="Component/HeadSet/Bottom/Height"/>
+            <HeightTop init="1" persistKey="Component/HeadSet/Top/Height"/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" persistKey=""/>
+            <Top init="0" persistKey=""/>
+        </Vector>
+    </HeadSet>
+    <HeadTube>
+        <Polyline>
+            <CenterLine_XZ init="0" persistKey=""/>
+        </Polyline>
+        <Config>
+            <Type init="1" persistKey="Rendering/HeadTube"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Edge_Back_Bottom init="0" persistKey=""/>
+            <Edge_Back_Top init="0" persistKey=""/>
+            <Edge_Front_Bottom init="0" persistKey=""/>
+            <Edge_Front_Top init="0" persistKey=""/>
+            <End init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+            <VirtualTopTube init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Diameter init="1" persistKey="FrameTubes/HeadTube/Diameter"/>
+            <DiameterTaperedBase init="1" persistKey="FrameTubes/HeadTube/DiameterTaperedBase"/>
+            <DiameterTaperedTop init="1" persistKey="FrameTubes/HeadTube/DiameterTaperedTop"/>
+            <HeightTaperedBase init="1" persistKey="FrameTubes/HeadTube/HeightTaperedBase"/>
+            <Length init="1" persistKey="FrameTubes/HeadTube/Length"/>
+            <LengthTapered init="1" persistKey="FrameTubes/HeadTube/LengthTapered"/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" persistKey=""/>
+            <Top init="0" persistKey=""/>
+        </Vector>
+    </HeadTube>
+    <Label>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Label/File"/>
+        </Config>
+        <Direction>
+            <Origin init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+    </Label>
+    <Lug_BottomBracket>
+        <Scalar>
+            <ChainStay_Angle init="1" persistKey="Lugs/BottomBracket/ChainStay/Angle/value"/>
+            <ChainStay_Tolerance init="1" persistKey="Lugs/BottomBracket/ChainStay/Angle/plus_minus"/>
+            <DownTube_Angle init="1" persistKey="Lugs/BottomBracket/DownTube/Angle/value"/>
+            <DownTube_Tolerance init="1" persistKey="Lugs/BottomBracket/DownTube/Angle/plus_minus"/>
+        </Scalar>
+    </Lug_BottomBracket>
+    <Lug_HeadBottom>
+        <Scalar>
+            <Angle init="1" persistKey="Lugs/HeadTube/DownTube/Angle/value"/>
+            <Angle_Tolerance init="1" persistKey="Lugs/HeadTube/DownTube/Angle/plus_minus"/>
+        </Scalar>
+    </Lug_HeadBottom>
+    <Lug_HeadTop>
+        <Scalar>
+            <Angle init="1" persistKey="Lugs/HeadTube/TopTube/Angle/value"/>
+            <Angle_Tolerance init="1" persistKey="Lugs/HeadTube/TopTube/Angle/plus_minus"/>
+        </Scalar>
+    </Lug_HeadTop>
+    <Lug_Seat>
+        <Scalar>
+            <Angle init="1" persistKey="Lugs/SeatTube/TopTube/Angle/value"/>
+            <Angle_Tolerance init="1" persistKey="Lugs/SeatTube/TopTube/Angle/plus_minus"/>
+        </Scalar>
+    </Lug_Seat>
+    <Lug_SeatStay>
+        <Scalar>
+            <Angle init="1" persistKey="Lugs/SeatTube/SeatStay/Angle/value"/>
+            <Angle_Tolerance init="1" persistKey="Lugs/SeatTube/SeatStay/Angle/plus_minus"/>
+            <Diameter_Miter init="1" persistKey="Lugs/SeatTube/SeatStay/MiterDiameter"/>
+        </Scalar>
+    </Lug_SeatStay>
+    <RearBrake>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Brake/Rear/File"/>
+            <Type init="1" persistKey="Rendering/Brake/Rear"/>
+        </Config>
+        <Position>
+            <Definition init="0" persistKey=""/>
+            <Help init="0" persistKey=""/>
+            <Mount init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <DiscDiameter init="1" persistKey="Rendering/RearMockup/DiscDiameter"/>
+            <DiscWidth init="1" persistKey="Rendering/RearMockup/DiscWidth"/>
+            <LeverLength init="1" persistKey="Component/Brake/Rear/LeverLength"/>
+            <Offset init="1" persistKey="Component/Brake/Rear/Offset"/>
+        </Scalar>
+    </RearBrake>
+    <RearCarrier>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Carrier/Rear/File"/>
+        </Config>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <x init="1" persistKey="Component/Carrier/Rear/x"/>
+            <y init="1" persistKey="Component/Carrier/Rear/y"/>
+        </Scalar>
+    </RearCarrier>
+    <RearDerailleur>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Derailleur/Rear/File"/>
+        </Config>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Pulley_teeth init="1" persistKey="Component/Derailleur/Rear/Pulley/teeth"/>
+            <Pulley_X init="1" persistKey="Component/Derailleur/Rear/Pulley/x"/>
+            <Pulley_Y init="1" persistKey="Component/Derailleur/Rear/Pulley/y"/>
+        </Scalar>
+    </RearDerailleur>
+    <RearDropout>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Lugs/RearDropOut/File"/>
+            <Orient init="1" persistKey="Lugs/RearDropOut/Direction"/>
+            <Layer init="1" persistKey="Rendering/RearDropOut"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Angle init="1" persistKey="Lugs/RearDropOut/Angle/value"/>
+            <Angle_Tolerance init="1" persistKey="Lugs/RearDropOut/Angle/plus_minus"/>
+            <Derailleur_X init="1" persistKey="Lugs/RearDropOut/Derailleur/x"/>
+            <Derailleur_Y init="1" persistKey="Lugs/RearDropOut/Derailleur/y"/>
+            <RotationOffset init="1" persistKey="Lugs/RearDropOut/RotationOffset"/>
+        </Scalar>
+    </RearDropout>
+    <RearFender>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" persistKey="Rendering/Fender/Rear"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Height init="1" persistKey="Component/Fender/Rear/Height"/>
+            <Width init="1" persistKey="Component/Fender/Rear/Width"/>
+            <OffsetAngle init="1" persistKey="Component/Fender/Rear/OffsetAngle"/>
+            <Radius init="1" persistKey="Component/Fender/Rear/Radius"/>
+        </Scalar>
+    </RearFender>
+    <RearHub>
+        <ComponentNode>
+            <XY init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="0" persistKey=""/>
+        </Config>
+        <Scalar>
+            <HubWidth init="1" persistKey="Component/Wheel/Rear/HubWidth"/>
+        </Scalar>
+    </RearHub>
+    <RearMockup>
+        <Scalar>
+            <CassetteClearance init="1" persistKey="Rendering/RearMockup/CassetteClearance"/>
+            <ChainWheelClearance init="1" persistKey="Rendering/RearMockup/ChainWheelClearance"/>
+            <CrankClearance init="1" persistKey="Rendering/RearMockup/CrankClearance"/>
+            <DiscClearance init="1" persistKey="Rendering/RearMockup/DiscClearance"/>
+            <DiscOffset init="1" persistKey="Rendering/RearMockup/DiscOffset"/>
+            <TyreClearance init="1" persistKey="Rendering/RearMockup/TyreClearance"/>
+        </Scalar>
+    </RearMockup>
+    <RearWheel>
+        <Config>
+            <FirstSprocket init="1" persistKey="Component/Wheel/Rear/FirstSprocket"/>
+        </Config>
+        <Position>
+            <Ground init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Radius init="0" persistKey=""/>
+            <RimDiameter init="1" persistKey="Component/Wheel/Rear/RimDiameter"/>
+            <RimHeight init="1" persistKey="Component/Wheel/Rear/RimHeight"/>
+            <TyreHeight init="1" persistKey="Component/Wheel/Rear/TyreHeight"/>
+            <TyreWidth init="1" persistKey="Component/Wheel/Rear/TyreWidth"/>
+            <TyreShoulder init="0" persistKey=""/>
+            <TyreWidthRadius init="1" persistKey="Component/Wheel/Rear/TyreWidthRadius"/>
+        </Scalar>
+    </RearWheel>
+    <Reference>
+        <Scalar>
+            <HandleBar_Distance init="1" persistKey="Reference/HandleBar_Distance"/>
+            <HandleBar_Height init="1" persistKey="Reference/HandleBar_Height"/>
+            <SaddleNose_Distance init="1" persistKey="Reference/SaddleNose_Distance"/>
+            <SaddleNose_HB init="1" persistKey="Reference/SaddleNose_HB"/>
+            <SaddleNose_HB_y init="1" persistKey="Reference/SaddleNose_HB_y"/>
+            <SaddleNose_Height init="1" persistKey="Reference/SaddleNose_Height"/>
+        </Scalar>
+    </Reference>
+    <Saddle>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" persistKey="Component/Saddle/File"/>
+        </Config>
+        <Polyline>
+            <XZ_Profile init="0" persistKey=""/>
+        </Polyline>
+        <Position>
+            <Mount init="0" persistKey=""/>
+            <Nose init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+            <Proposal init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Height init="1" persistKey="Component/Saddle/Height"/>
+            <Length init="1" persistKey="Component/Saddle/Length"/>
+            <NoseLength init="1" persistKey="Component/Saddle/LengthNose"/>
+            <Offset_X init="1" persistKey="Rendering/Saddle/Offset_X"/>
+        </Scalar>
+    </Saddle>
+    <SeatPost>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Origin init="0" persistKey=""/>
+            <Pivot init="0" persistKey=""/>
+            <SeatTube init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Diameter init="1" persistKey="Component/SeatPost/Diameter"/>
+            <PivotOffset init="1" persistKey="Component/SeatPost/PivotOffset"/>
+            <Setback init="1" persistKey="Component/SeatPost/Setback"/>
+        </Scalar>
+    </SeatPost>
+    <SeatStay>
+        <Polyline>
+            <CenterLine_XZ init="0" persistKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" persistKey=""/>
+            <MiterOrigin init="0" persistKey=""/>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <End init="0" persistKey=""/>
+            <IS_ChainStay init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" persistKey=""/>
+            <XZ init="0" persistKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" persistKey="FrameTubes/SeatStay/DiameterST"/>
+            <DiameterOrigin init="1" persistKey="FrameTubes/SeatStay/DiameterCS"/>
+            <OffsetDO init="1" persistKey="Lugs/RearDropOut/SeatStay/Offset"/>
+            <OffsetDOPerp init="1" persistKey="Lugs/RearDropOut/SeatStay/OffsetPerp"/>
+            <OffsetTT init="1" persistKey="Custom/SeatStay/OffsetTT"/>
+            <MiterAngleEnd init="0" persistKey=""/>
+            <MiterAngleOrigin init="0" persistKey=""/>
+            <MiterOffsetEnd init="0" persistKey=""/>
+            <MiterOffsetOrigin init="0" persistKey=""/>
+            <TaperLength init="1" persistKey="FrameTubes/SeatStay/TaperLength"/>
+        </Scalar>
+    </SeatStay>
+    <SeatTube>
+        <Polyline>
+            <CenterLine_XZ init="0" persistKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" persistKey=""/>
+            <MiterEndBBInside init="0" persistKey=""/>
+            <MiterEndBBOutside init="0" persistKey=""/>
+            <MiterOrigin init="0" persistKey=""/>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <ClassicTopTube init="0" persistKey=""/>
+            <Edge_Back_Bottom init="0" persistKey=""/>
+            <Edge_Back_TaperEnd init="0" persistKey=""/>
+            <Edge_Top_Back init="0" persistKey=""/>
+            <Edge_Top_Front init="0" persistKey=""/>
+            <End init="0" persistKey=""/>
+            <Ground init="0" persistKey=""/>
+            <Saddle init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+            <VirtualTopTube init="0" persistKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" persistKey=""/>
+            <XZ init="0" persistKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" persistKey="FrameTubes/SeatTube/DiameterBB"/>
+            <DiameterOrigin init="1" persistKey="FrameTubes/SeatTube/DiameterTT"/>
+            <Extension init="1" persistKey="Custom/SeatTube/Extension"/>
+            <MiterAngelEnd init="0" persistKey=""/>
+            <MiterAngelOrigin init="0" persistKey=""/>
+            <OffsetBB init="1" persistKey="Custom/SeatTube/OffsetBB"/>
+            <TaperLength init="1" persistKey="FrameTubes/SeatTube/TaperLength"/>
+        </Scalar>
+        <Vector>
+            <Top init="0" persistKey=""/>
+        </Vector>
+    </SeatTube>
+    <Spacer>
+        <Polygon>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Scalar>
+            <Height init="0" persistKey=""/>
+            <Diameter init="0" persistKey=""/>
+        </Scalar>
+    </Spacer>
+    <Steerer>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <XZ init="0" persistKey=""/>
+        </Polygon>
+        <Polyline>
+            <CenterLine_XZ init="0" persistKey=""/>
+        </Polyline>
+        <Position>
+            <End init="0" persistKey=""/>
+            <Ground init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+            <Stem init="0" persistKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" persistKey=""/>
+            <XZ init="0" persistKey=""/>
+        </Profile>
+        <Scalar>
+            <Diameter init="1" persistKey=""/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" persistKey=""/>
+        </Vector>
+    </Steerer>
+    <Stem>
+        <ComponentNode>
+            <XZ init="0" persistKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" persistKey="Rendering/Stem"/>
+        </Config>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Scalar>
+            <Angle init="1" persistKey="Component/Stem/Angle"/>
+            <Length init="1" persistKey="Component/Stem/Length"/>
+        </Scalar>
+    </Stem>
+    <TopTube>
+        <Polyline>
+            <CenterLine_XZ init="0" persistKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" persistKey=""/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" persistKey=""/>
+            <MiterOrigin init="0" persistKey=""/>
+            <Shape_XZ init="0" persistKey=""/>
+        </Polygon>
+        <Position>
+            <Edge_HeadTube_TT init="0" persistKey=""/>
+            <Edge_SeatTube_ST init="0" persistKey=""/>
+            <Edge_TaperTop_HT init="0" persistKey=""/>
+            <Edge_TaperTop_ST init="0" persistKey=""/>
+            <End init="0" persistKey=""/>
+            <Origin init="0" persistKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" persistKey=""/>
+            <XZ init="0" persistKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" persistKey="FrameTubes/TopTube/DiameterST"/>
+            <DiameterOrigin init="1" persistKey="FrameTubes/TopTube/DiameterHT"/>
+            <MiterAngleEnd init="0" persistKey=""/>
+            <MiterAngleOrigin init="0" persistKey=""/>
+            <TaperLength init="1" persistKey="FrameTubes/TopTube/TaperLength"/>
+        </Scalar>
+    </TopTube>
+    <_Result>
+        <Position>
+            <help_91 init="0" persistKey=""/>
+            <help_92 init="0" persistKey=""/>
+            <help_93 init="0" persistKey=""/>
+        </Position>
+    </_Result>
+    <_View>
+        <Config>
+            <Color_Fork init="1" persistKey="Rendering/ColorScheme/Fork"/>
+            <Color_FrameTubes init="1" persistKey="Rendering/ColorScheme/FrameTubes"/>
+            <Color_Label init="1" persistKey="Rendering/ColorScheme/Label"/>
+        </Config>
+        <ListBoxValues>
+            <Binary_OnOff init="0" persistKey=""/>
+            <BottleCage init="0" persistKey=""/>
+            <Brake init="0" persistKey=""/>
+            <ChainStay init="0" persistKey=""/>
+            <ComponentLocation init="0" persistKey=""/>
+            <DropOutDirection init="0" persistKey=""/>
+            <DropOutPosition init="0" persistKey=""/>
+            <Fork init="0" persistKey=""/>
+            <ForkBlade init="0" persistKey=""/>
+            <FrameJigType init="0" persistKey=""/>
+            <HeadTube init="0" persistKey=""/>
+            <Rim init="0" persistKey=""/>
+            <TemplateType init="0" persistKey=""/>
+            <TubeSet init="0" persistKey=""/>
+        </ListBoxValues>
+    </_View>
+</root>

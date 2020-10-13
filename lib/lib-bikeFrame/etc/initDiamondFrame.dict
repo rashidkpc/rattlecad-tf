@@ -1,0 +1,120 @@
+DownTube {
+    Scalar { 
+        OffsetHT                   8.50
+        OffsetBB                   0.00
+        DiameterHT                31.80
+        DiameterBB                34.90
+        LengthTaper              300.00
+    }
+}
+HeadTube {
+    Config { 
+        Type                   tapered
+    } 
+    Scalar { 
+        Angle                     72.50
+        HeightTaperedBase         15.00
+        Length                   150.00
+        LengthTaper               70.00
+        DiameterTaperedBase       56.00
+        DiameterTaperedTop        46.00
+        Diameter                  36.00
+    }
+    Position { 
+        Origin                 {436.1480445902127 413.4501048805116}
+    } 
+}
+SeatStay {
+    Scalar { 
+        DiameterCS                11.00
+        DiameterST                16.00
+        DiameterMiterST           28.60
+        LengthTaper              300.00
+        OffsetDO                  35.00
+        OffsetDOPerp              -0.30
+        OffsetTT                  20.00
+    }
+}
+SeatTube {
+    Scalar { 
+        DiameterBB                31.80
+        DiameterTT                28.60
+        LengthExtension           20.00
+        LengthTaper              300.00
+        OffsetBB                   0.00
+    }
+    Position { 
+        SeatPost               {-188.71952481837786 637.1004450259992}
+    } 
+}
+TopTube {
+    Scalar { 
+        Angle                     2.50
+        DiameterST               28.60
+        LengthTaper             300.00
+        OffsetHT                  8.50
+        DiameterHT               28.60
+    }
+}
+ChainStay {
+    Config { 
+        Type                    straight
+    } 
+    Scalar { 
+        OffsetBBTopView           6.00
+        OffsetDO                 33.00
+        OffsetDOPerp             -1.30
+        OffsetDOTopView           5.00
+        DiameterSS               13.00
+        Height                   29.00
+        HeightBB                 22.20
+        LengthTaper             280.00
+        WidthBB                  22.20
+        completeLength          410.00
+        cuttingAngle             90.00
+        cuttingLeft               0.00
+        cuttingLength           380.3453120994022
+        profile_x01             150.00
+        profile_x02             150.00
+        profile_x03              95.00
+        profile_y00              12.50
+        profile_y01              18.00
+        profile_y02              18.00
+        segmentAngle_01          -8.00
+        segmentAngle_02           5.00
+        segmentAngle_03           0.00
+        segmentAngle_04          -2.00
+        segmentLength_01         50.00
+        segmentLength_02        160.00
+        segmentLength_03         47.00
+        segmentLength_04         60.00
+        segmentRadius_01        320.00
+        segmentRadius_02        320.00
+        segmentRadius_03        320.00
+        segmentRadius_04        320.00
+    }
+}
+BottomBracket {
+    Scalar { 
+        Width                    68.00
+        DiameterInside           36.00
+        DiameterOutside          40.00
+    }
+    Position { 
+        Origin                 {0.00 0.00}
+    } 
+}
+RearDropout {
+    Config { 
+        Orientation            Chainstay
+    }
+    Scalar {
+        Derailleur_x              6.00 
+        Derailleur_y             25.00
+        OffsetRotation            0.00
+        WidthHub                115.00
+    }
+    Position { 
+        Origin                 {-404.6529377132952 66.00}
+    }
+}

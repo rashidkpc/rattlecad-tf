@@ -1,0 +1,5 @@
+bike_bikeFrame.tcl
+    06
+    $myObject
+           -> ::oo::Obj62
+    -> $timeUsed:  0.378 milliseconds

@@ -1,0 +1,19 @@
+Package tdom 0.8.3
+Meta as::author      {Jochen Loewer} {Rolf Ade}
+Meta as::build::date 2015-03-10
+Meta as::origin      http://www.tdom.org/
+Meta category        XML DOM processing
+Meta description     tDOM combines high performance XML data processing
+Meta description     with easy and powerful Tcl scripting functionality.
+Meta description     tDOM should be one of the fastest ways to manipulate
+Meta description     XML with a scripting language and uses very little
+Meta description     memory. Includes an interface to Expat, the XML
+Meta description     parser from James {Clark;} a (partial)
+Meta description     implementation of DOM Levels 1 and {2;} a complete,
+Meta description     compliant XPath {implementation;} and a fast XSLT
+Meta description     implementation.
+Meta license         MPL (Mozilla Public License)
+Meta platform        win32-x86_64
+Meta require         {Tcl 8.4}
+Meta subject         xml dom
+Meta summary         XML processing toolkit

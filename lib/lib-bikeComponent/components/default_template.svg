@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" 
+        xml:space="preserve" 
+        width="420mm" height="297mm" 
+        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+        viewBox="-210 -148.50 420 297">
+    <defs>
+        <style type="text/css"></style>
+    </defs>
+    <circle  id="center_00"   stroke="black" fill="white" cx="0" cy="0" r="4.5"/>
+    <g id="customComponent"/>
+</svg>

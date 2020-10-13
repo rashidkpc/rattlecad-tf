@@ -1,0 +1,64 @@
+#
+# profileRound_01.test
+#
+ 
+set APPL_ROOT_Dir [file normalize [file dirname [file dirname [lindex $argv0]]]]
+    # puts "  -> \$APPL_ROOT_Dir $APPL_ROOT_Dir"
+set APPL_Package_Dir [file dirname [file dirname $APPL_ROOT_Dir]]
+    # puts "  -> \$APPL_Package_Dir $APPL_Package_Dir"
+
+lappend auto_path [file dirname $APPL_ROOT_Dir]
+
+lappend auto_path "$APPL_Package_Dir"
+lappend auto_path [file join $APPL_Package_Dir _ext__Libraries]
+
+package require   tubeMiter
+package require   bikeGeometry
+package require   vectormath
+package require   appUtil
+
+# ------------------------------------------
+
+package require tcltest
+namespace import ::tcltest::*
+
+# ------------------------------------------
+
+set testObject  [tubeMiter::RoundProfile new]
+
+# ------------------------------------------
+
+test setScalar_DiameterTube {} -body {
+    $testObject setScalar   DiameterTube        25
+} -returnCodes error  -result "::tubeMiter::RoundProfile setScalar DiameterTube ... does not exist"
+
+test setScalar_DiameterTube_X {} -body {
+    $testObject setScalar   DiameterTube_X      25
+} -returnCodes error  -result "::tubeMiter::RoundProfile setScalar DiameterTube_X ... does not exist"
+
+test setScalar_DiameterTube_Y {} -body {
+    $testObject setScalar   DiameterTube_Y      35
+} -returnCodes error  -result "::tubeMiter::RoundProfile setScalar DiameterTube_Y ... does not exist"
+
+
+test setScalar_Diameter_001 {} -body {
+    $testObject setScalar   Diameter   35
+} -result 35 
+
+test setScalar_Diameter_002 {} -body {
+    $testObject setScalar   Diameter   25
+} -result 25
+
+test setScalar_Precision_001 {} -body {
+    $testObject setScalar   Precision   0
+} -result 1
+
+test setScalar_Precision_002 {} -body {
+    $testObject setScalar   Precision   5
+} -result 5
+
+
+
+# ------------------------------------------
+
+cleanupTests

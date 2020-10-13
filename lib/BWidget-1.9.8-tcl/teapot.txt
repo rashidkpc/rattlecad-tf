@@ -1,0 +1,16 @@
+Package BWidget 1.9.8
+Meta as::author      {Jeff Hobbs} {Damon Courtney}
+Meta as::build::date 2015-03-24
+Meta as::origin      http://core.tcl.tk/bwidget
+Meta category        Widget set
+Meta description     The BWidget Toolkit is a high-level widget set for
+Meta description     Tcl/Tk. They feature a professional look and feel
+Meta description     and don't require a compiled extension library.
+Meta license         BSD
+Meta platform        tcl
+Meta recommend       {Tk 8.5a6}
+Meta recommend       {tile 0.6 1}
+Meta require         {Tcl 8.1.1}
+Meta require         {Tk 8.3}
+Meta subject         bwidget widget toolkit Tk megawidget
+Meta summary         A suite of megawidgets for Tk

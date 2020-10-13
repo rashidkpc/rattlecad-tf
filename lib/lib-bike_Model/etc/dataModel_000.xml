@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root>
+    <!--
+            #
+        projectXML ..... path to write to bikeGeometry as used in the rattleCAD-Project-File; please see test_____0.17__cleanup_dataStructure_c.tcl
+        geometryKey .... path to read from bikeGeometry
+        componentKey ... path to bikeComponent
+        frameKey ....... path to bikeFrame; currently unused
+            #
+    -->
+    <BottleCage_DownTube>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="BottleCage_DownTube/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" projectXML="Config/BottleCage_DownTube" geometryKey="" componentKey="BottleCage_DownTube/Config/Type" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="BottleCage_DownTube/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Position>
+            <End init="0" projectXML="" geometryKey="" componentKey="BottleCage_DownTube/Position/End" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="BottleCage_DownTube/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" projectXML="BottleCage/DownTube" geometryKey="" componentKey="" frameKey=""/>
+        </Scalar>
+    </BottleCage_DownTube>
+    <BottleCage_DownTube_Lower>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="BottleCage_DownTubeLower/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" projectXML="Config/BottleCage_DownTube_Lower" geometryKey="" componentKey="BottleCage_DownTubeLower/Config/Type" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="BottleCage_DownTubeLower/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Position>
+            <End init="0" projectXML="" geometryKey="" componentKey="BottleCage_DownTubeLower/Position/End" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="BottleCage_DownTubeLower/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" projectXML="BottleCage/DownTube_Lower" geometryKey="" componentKey="" frameKey=""/>
+        </Scalar>
+    </BottleCage_DownTube_Lower>
+    <BottleCage_SeatTube>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="BottleCage_SeatTube/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" projectXML="Config/BottleCage_SeatTube" geometryKey="" componentKey="BottleCage_SeatTube/Config/Type" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="BottleCage_SeatTube/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Position>
+            <End init="0" projectXML="" geometryKey="" componentKey="BottleCage_SeatTube/Position/End" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="BottleCage_SeatTube/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" projectXML="BottleCage/SeatTube" geometryKey="" componentKey="" frameKey=""/>
+        </Scalar>
+    </BottleCage_SeatTube>
+    <BottomBracket>
+        <Position>
+            <Ground init="0" projectXML="" geometryKey="Position/BottomBracket_Ground" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/BottomBracket" componentKey="" frameKey="BottomBracket/Scalar/Origin"/>
+        </Position>
+        <Scalar>
+            <ExcenterOffset init="1" projectXML="Geometry/BottomBracket_Offset_Excenter" geometryKey="Scalar/Geometry/BottomBracket_Offset_Excenter" componentKey="" frameKey=""/>
+            <InsideDiameter init="1" projectXML="BottomBracket/InsideDiameter" geometryKey="Scalar/BottomBracket/InsideDiameter" componentKey="" frameKey="BottomBracket/Scalar/InsideDiameter"/>
+            <OffsetCS_TopView init="1" projectXML="BottomBracket/OffsetCS_TopView" geometryKey="Scalar/BottomBracket/OffsetCS_TopView" componentKey="" frameKey="BottomBracket/Scalar/OffsetCS_TopView"/>
+            <OutsideDiameter init="1" projectXML="BottomBracket/OutsideDiameter" geometryKey="Scalar/BottomBracket/OutsideDiameter" componentKey="" frameKey="BottomBracket/Scalar/OutsideDiameter"/>
+            <Width init="1" projectXML="BottomBracket/Width" geometryKey="Scalar/BottomBracket/Width" componentKey="" frameKey="BottomBracket/Scalar/Width"/>
+        </Scalar>
+    </BottomBracket>
+    <ChainStay>
+        <Polyline>
+            <XY init="0" projectXML="" geometryKey="CenterLine/RearMockup" componentKey="" frameKey=""/>
+            <XY_CtrLines init="0" projectXML="" geometryKey="CenterLine/RearMockup_CtrLines" componentKey="" frameKey=""/>
+            <XY_Uncut init="0" projectXML="" geometryKey="CenterLine/RearMockup_UnCut" componentKey="" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="CenterLine/ChainStay" componentKey="" frameKey=""/>
+        </Polyline>
+        <Config>
+            <Type init="1" projectXML="Config/ChainStay" geometryKey="Config/ChainStay" componentKey="" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="Direction/ChainStay" componentKey="" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <XZ init="0" projectXML="" geometryKey="Polygon/ChainStay" componentKey="" frameKey=""/>
+            <XY init="0" projectXML="" geometryKey="Polygon/ChainStay_RearMockup" componentKey="" frameKey=""/>
+        </Polygon>
+        <Position>
+            <End init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <End_XY init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/ChainStay_RearWheel" componentKey="" frameKey=""/>
+            <Origin_XY init="0" projectXML="" geometryKey="Position/ChainStay_RearMockup" componentKey="" frameKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" projectXML="" geometryKey="Profile/ChainStay_xy" componentKey="" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="Profile/ChainStay_xz" componentKey="" frameKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterSS init="1" projectXML="ChainStay/DiameterSS" geometryKey="Scalar/ChainStay/DiameterSS" componentKey="" frameKey=""/>
+            <Height init="1" projectXML="ChainStay/Height" geometryKey="Scalar/ChainStay/Height" componentKey="" frameKey=""/>
+            <HeightBB init="1" projectXML="ChainStay/HeightBB" geometryKey="Scalar/ChainStay/HeightBB" componentKey="" frameKey=""/>
+            <TaperLength init="1" projectXML="ChainStay/TaperLength" geometryKey="Scalar/ChainStay/TaperLength" componentKey="" frameKey=""/>
+            <WidthBB init="1" projectXML="ChainStay/WidthBB" geometryKey="Scalar/ChainStay/WidthBB" componentKey="" frameKey=""/>
+            <completeLength init="1" projectXML="ChainStay/completeLength" geometryKey="Scalar/ChainStay/completeLength" componentKey="" frameKey=""/>
+            <cuttingLeft init="1" projectXML="ChainStay/cuttingLeft" geometryKey="Scalar/ChainStay/cuttingLeft" componentKey="" frameKey=""/>
+            <Length init="1" projectXML="ChainStay/cuttingLength" geometryKey="Scalar/ChainStay/cuttingLength" componentKey="" frameKey=""/>
+            <profile_x01 init="1" projectXML="ChainStay/profile_x01" geometryKey="Scalar/ChainStay/profile_x01" componentKey="" frameKey=""/>
+            <profile_x02 init="1" projectXML="ChainStay/profile_x02" geometryKey="Scalar/ChainStay/profile_x02" componentKey="" frameKey=""/>
+            <profile_x03 init="1" projectXML="ChainStay/profile_x03" geometryKey="Scalar/ChainStay/profile_x03" componentKey="" frameKey=""/>
+            <profile_y00 init="1" projectXML="ChainStay/profile_y00" geometryKey="Scalar/ChainStay/profile_y00" componentKey="" frameKey=""/>
+            <profile_y01 init="1" projectXML="ChainStay/profile_y01" geometryKey="Scalar/ChainStay/profile_y01" componentKey="" frameKey=""/>
+            <profile_y02 init="1" projectXML="ChainStay/profile_y02" geometryKey="Scalar/ChainStay/profile_y02" componentKey="" frameKey=""/>
+            <profile_y03 init="1" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <segmentAngle_01 init="1" projectXML="ChainStay/segmentAngle_01" geometryKey="Scalar/ChainStay/segmentAngle_01" componentKey="" frameKey=""/>
+            <segmentAngle_02 init="1" projectXML="ChainStay/segmentAngle_02" geometryKey="Scalar/ChainStay/segmentAngle_02" componentKey="" frameKey=""/>
+            <segmentAngle_03 init="1" projectXML="ChainStay/segmentAngle_03" geometryKey="Scalar/ChainStay/segmentAngle_03" componentKey="" frameKey=""/>
+            <segmentAngle_04 init="1" projectXML="ChainStay/segmentAngle_04" geometryKey="Scalar/ChainStay/segmentAngle_04" componentKey="" frameKey=""/>
+            <segmentLength_01 init="1" projectXML="ChainStay/segmentLength_01" geometryKey="Scalar/ChainStay/segmentLength_01" componentKey="" frameKey=""/>
+            <segmentLength_02 init="1" projectXML="ChainStay/segmentLength_02" geometryKey="Scalar/ChainStay/segmentLength_02" componentKey="" frameKey=""/>
+            <segmentLength_03 init="1" projectXML="ChainStay/segmentLength_03" geometryKey="Scalar/ChainStay/segmentLength_03" componentKey="" frameKey=""/>
+            <segmentLength_04 init="1" projectXML="ChainStay/segmentLength_04" geometryKey="Scalar/ChainStay/segmentLength_04" componentKey="" frameKey=""/>
+            <segmentRadius_01 init="1" projectXML="ChainStay/segmentRadius_01" geometryKey="Scalar/ChainStay/segmentRadius_01" componentKey="" frameKey=""/>
+            <segmentRadius_02 init="1" projectXML="ChainStay/segmentRadius_02" geometryKey="Scalar/ChainStay/segmentRadius_02" componentKey="" frameKey=""/>
+            <segmentRadius_03 init="1" projectXML="ChainStay/segmentRadius_03" geometryKey="Scalar/ChainStay/segmentRadius_03" componentKey="" frameKey=""/>
+            <segmentRadius_04 init="1" projectXML="ChainStay/segmentRadius_04" geometryKey="Scalar/ChainStay/segmentRadius_04" componentKey="" frameKey=""/>
+        </Scalar>
+    </ChainStay>
+    <CrankSet>
+        <ComponentNode>
+            <XY_Custom init="0" projectXML="" geometryKey="" componentKey="CrankSet_XY_Custom/ComponentNode" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="CrankSet_XZ/ComponentNode" frameKey=""/>
+            <XZ_Custom init="0" projectXML="" geometryKey="" componentKey="CrankSet_XZ_Custom/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="Component/CrankSet" geometryKey="" componentKey="CrankSet/Config/ComponentKey" frameKey=""/>
+            <SpyderArmCount init="1" projectXML="Config/CrankSet_SpyderArmCount" geometryKey="" componentKey="CrankSet/Config/SpyderArmCount" frameKey=""/>
+        </Config>
+        <ListValue>
+            <ChainRings init="1" projectXML="ListValue/CrankSetChainRings" geometryKey="" componentKey="CrankSet/ListValue/ChainRings" frameKey=""/>
+            <ChainWheelDef init="0" projectXML="" geometryKey="" componentKey="CrankSet/ListValue/ChainWheelDef" frameKey=""/>
+        </ListValue>
+        <Polygon>
+            <CrankArm_XY init="0" projectXML="" geometryKey="" componentKey="CrankSet/Polygon/XY_CrankArm" frameKey=""/>
+            <CrankArm_XZ init="0" projectXML="" geometryKey="" componentKey="CrankSet/Polygon/XZ_CrankArm" frameKey=""/>
+            <ChainWheels_XY init="0" projectXML="" geometryKey="" componentKey="CrankSet/Polygon/XY_ChainWheels" frameKey=""/>
+            <ChainWheels_XZ init="0" projectXML="" geometryKey="" componentKey="CrankSet/Polygon/XZ_ChainWheels" frameKey=""/>
+            <SpyderArm_XZ init="0" projectXML="" geometryKey="" componentKey="CrankSet/Polygon/XZ_SpyderArm" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Bolts init="0" projectXML="" geometryKey="" componentKey="CrankSet/Position/Bolts" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/CrankSet" componentKey="" frameKey=""/>
+        </Position>
+        <Scalar>
+            <ArmWidth init="1" projectXML="CrankSet/ArmWidth" geometryKey="" componentKey="CrankSet/Scalar/ArmWidth" frameKey=""/>
+            <ChainLine init="1" projectXML="CrankSet/ChainLine" geometryKey="" componentKey="CrankSet/Scalar/ChainLine" frameKey=""/>
+            <ChainRingOffset init="1" projectXML="CrankSet/ChainRingOffset" geometryKey="" componentKey="CrankSet/Scalar/ChainRingOffset" frameKey=""/>
+            <Length init="1" projectXML="CrankSet/Length" geometryKey="" componentKey="CrankSet/Scalar/Length" frameKey=""/>
+            <PedalEye init="1" projectXML="CrankSet/PedalEye" geometryKey="" componentKey="CrankSet/Scalar/PedalEye" frameKey=""/>
+            <Q-Factor init="1" projectXML="CrankSet/Q-Factor" geometryKey="" componentKey="CrankSet/Scalar/Q-Factor" frameKey=""/>
+        </Scalar>
+    </CrankSet>
+    <DownTube>
+        <Polyline>
+            <CenterLine_XZ init="0" projectXML="" geometryKey="CenterLine/DownTube" componentKey="" frameKey=""/>
+            <Profile_XY init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Profile_XZ init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="Direction/DownTube" componentKey="" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" projectXML="" geometryKey="TubeMiter/DownTube_Seat" componentKey="" frameKey=""/>
+            <MiterEndBBInside init="0" projectXML="" geometryKey="TubeMiter/DownTube_BB_in" componentKey="" frameKey=""/>
+            <MiterEndBBOutside init="0" projectXML="" geometryKey="TubeMiter/DownTube_BB_out" componentKey="" frameKey=""/>
+            <MiterOrigin init="0" projectXML="" geometryKey="TubeMiter/DownTube_Head" componentKey="" frameKey=""/>
+            <Shape_XZ init="0" projectXML="" geometryKey="Polygon/DownTube" componentKey="" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Edge_HeadTube_DT init="0" projectXML="" geometryKey="Position/_Edge_DownTubeHeadTube_DT" componentKey="" frameKey=""/>
+            <End init="0" projectXML="" geometryKey="Position/DownTube_End" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/DownTube_Start" componentKey="" frameKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" projectXML="" geometryKey="Profile/DownTube_xy" componentKey="" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="Profile/DownTube_xz" componentKey="" frameKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" projectXML="DownTube/DiameterBB" geometryKey="Scalar/DownTube/DiameterBB" componentKey="" frameKey=""/>
+            <DiameterOrigin init="1" projectXML="DownTube/DiameterHT" geometryKey="Scalar/DownTube/DiameterHT" componentKey="" frameKey=""/>
+            <MiterAngelEnd init="0" projectXML="" geometryKey="TubeMiter/DownTube_Seat_Angle" componentKey="" frameKey=""/>
+            <MiterAngelOrigin init="0" projectXML="" geometryKey="TubeMiter/DownTube_Head_Angle" componentKey="" frameKey=""/>
+            <OffsetBB init="1" projectXML="DownTube/OffsetBB" geometryKey="Scalar/DownTube/OffsetBB" componentKey="" frameKey=""/>
+            <TaperLength init="1" projectXML="DownTube/TaperLength" geometryKey="Scalar/DownTube/TaperLength" componentKey="" frameKey=""/>
+            <!-->
+                <OffsetHT init="1" guiDictKey="" persistKey="Custom/HeadTube/PositonDT" geometryXMLKey="DownTube/OffsetHT" geometryKey="Scalar/DownTube/OffsetHT" componentKey="" frameKey="" projectXML="">8.50</OffsetHT>
+            <-->
+        </Scalar>
+    </DownTube>
+    <Fork>
+        <Config>
+            <Type init="1" projectXML="" geometryKey="" componentKey="Fork/Config/Type" frameKey=""/>
+        </Config>
+        <Scalar>
+            <BladeOffsetCrown init="1" projectXML="Fork/BladeOffsetCrown" geometryKey="" componentKey="Fork/Scalar/CrownBladeOffset" frameKey=""/>
+            <BladeOffsetCrownPerp init="1" projectXML="Fork/BladeOffsetCrownPerp" geometryKey="" componentKey="Fork/Scalar/CrownBladeOffsetPerp" frameKey=""/>
+            <BladeOffsetDO init="1" projectXML="Fork/BladeOffsetDO" geometryKey="" componentKey="Fork/Scalar/DropoutBladeOffset" frameKey=""/>
+            <BladeOffsetDOPerp init="1" projectXML="Fork/BladeOffsetDOPerp" geometryKey="" componentKey="Fork/Scalar/DropoutBladeOffsetPerp" frameKey=""/>
+            <BladeBrakeOffset init="1" projectXML="FrontBrake/Offset" geometryKey="" componentKey="Fork/Scalar/BladeBrakeOffset" frameKey=""/>
+            <CrownBrakeAngle init="1" projectXML="Fork/CrownAngleBrake" geometryKey="" componentKey="Fork/Scalar/CrownBrakeAngle" frameKey=""/>
+            <CrownBrakeOffset init="1" projectXML="Fork/CrownOffsetBrake" geometryKey="" componentKey="Fork/Scalar/CrownBrakeOffset" frameKey=""/>
+            <Height init="1" projectXML="Geometry/Fork_Height" geometryKey="Scalar/Geometry/Fork_Height" componentKey="" frameKey=""/>
+            <Rake init="1" projectXML="Geometry/Fork_Rake" geometryKey="Scalar/Geometry/Fork_Rake" componentKey="" frameKey=""/>
+        </Scalar>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="Position/ForkCrown" componentKey="" frameKey=""/>
+        </Position>
+    </Fork>
+    <ForkBlade>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="ForkBlade/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Polyline>
+            <CenterLine_XZ init="0" projectXML="" geometryKey="" componentKey="Fork/Polyline/CenterLine" frameKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Fork/Direction/Blade" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Polygon>
+        <Position>
+            <End init="0" projectXML="" geometryKey="" componentKey="Fork/Position/BladeEnd" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="Fork/Position/Blade" frameKey=""/>
+        </Position>
+        <Scalar>
+            <DiameterDO init="1" projectXML="Fork/BladeDiameterDO" geometryKey="" componentKey="Fork/Scalar/BladeDropoutWidth" frameKey=""/>
+            <BendRadius init="1" projectXML="Fork/BladeBendRadius" geometryKey="" componentKey="Fork/Scalar/BladeBendRadius" frameKey=""/>
+            <EndLength init="1" projectXML="Fork/BladeEndLength" geometryKey="" componentKey="Fork/Scalar/BladeStartLength" frameKey=""/>
+            <Width init="1" projectXML="Fork/BladeWidth" geometryKey="" componentKey="Fork/Scalar/BladeWidth" frameKey=""/>
+            <TaperLength init="1" projectXML="Fork/BladeTaperLength" geometryKey="" componentKey="Fork/Scalar/BladeTaperLength" frameKey=""/>
+        </Scalar>
+    </ForkBlade>
+    <ForkCrown>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="ForkCrown/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="Component/ForkCrown" geometryKey="" componentKey="Fork/Config/ComponentKey_Crown" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Fork/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="Fork/Position/Origin" frameKey=""/>
+        </Position>
+    </ForkCrown>
+    <ForkDropout>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="ForkDropout/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="Component/ForkDropout" geometryKey="" componentKey="Fork/Config/ComponentKey_Dropout" frameKey=""/>
+            <Layer init="1" projectXML="Config/ForkDropout" geometryKey="" componentKey="" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Fork/Direction/Dropout" frameKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="Fork/Position/Dropout" frameKey=""/>
+        </Position>
+    </ForkDropout>
+    <FrontBrake>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="FrontBrake/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="" geometryKey="" componentKey="FrontBrake/Config/ComponentKey" frameKey=""/>
+            <Type init="1" projectXML="Config/FrontBrake" geometryKey="" componentKey="FrontBrake/Config/Type" frameKey=""/>
+        </Config>
+        <Position>
+            <Definition init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Help init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Mount init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="FrontBrake/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <LeverLength init="1" projectXML="FrontBrake/LeverLength" geometryKey="" componentKey="FrontBrake/Scalar/LeverLength" frameKey=""/>
+        </Scalar>
+    </FrontBrake>
+    <FrontCarrier>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="FrontCarrier/ComponentNode/XZ" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="Component/FrontCarrier" geometryKey="" componentKey="FrontCarrier/Config/ComponentKey" frameKey=""/>
+        </Config>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="FrontCarrier/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <x init="1" projectXML="FrontCarrier/x" geometryKey="Scalar/FrontCarrier/x" componentKey="" frameKey=""/>
+            <y init="1" projectXML="FrontCarrier/y" geometryKey="Scalar/FrontCarrier/y" componentKey="" frameKey=""/>
+        </Scalar>
+    </FrontCarrier>
+    <FrontDerailleur>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="FrontDerailleur/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="Component/FrontDerailleur" geometryKey="" componentKey="FrontDerailleur/Config/ComponentKey" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="FrontDerailleur/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="FrontDerailleur/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Distance init="1" projectXML="FrontDerailleur/Distance" geometryKey="" componentKey="" frameKey=""/>
+            <Offset init="1" projectXML="FrontDerailleur/Offset" geometryKey="" componentKey="" frameKey=""/>
+        </Scalar>
+    </FrontDerailleur>
+    <FrontFender>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="FrontFender/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" projectXML="Config/FrontFender" geometryKey="" componentKey="" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="FrontFender/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" projectXML="" geometryKey="" componentKey="FrontFender/Polygon/XZ" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="FrontFender/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Height init="1" projectXML="FrontFender/Height" geometryKey="" componentKey="FrontFender/Scalar/Height" frameKey=""/>
+            <OffsetAngle init="1" projectXML="FrontFender/OffsetAngle" geometryKey="" componentKey="FrontFender/Scalar/Angle_End" frameKey=""/>
+            <OffsetAngleFront init="1" projectXML="FrontFender/OffsetAngleFront" geometryKey="" componentKey="FrontFender/Scalar/Angle_Start" frameKey=""/>
+            <Radius init="1" projectXML="FrontFender/Radius" geometryKey="" componentKey="FrontFender/Scalar/Radius" frameKey=""/>
+        </Scalar>
+    </FrontFender>
+    <FrontWheel>
+        <Position>
+            <Ground init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="Result/Position/FrontWheel" geometryKey="Position/FrontWheel" componentKey="" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Radius init="0" projectXML="" geometryKey="Scalar/Geometry/FrontWheel_Radius" componentKey="" frameKey=""/>
+            <RimDiameter init="1" projectXML="Geometry/FrontRim_Diameter" geometryKey="Scalar/Geometry/FrontRim_Diameter" componentKey="" frameKey=""/>
+            <RimHeight init="1" projectXML="FrontWheel/RimHeight" geometryKey="Scalar/FrontWheel/RimHeight" componentKey="" frameKey=""/>
+            <TyreHeight init="1" projectXML="Geometry/FrontTyre_Height" geometryKey="Scalar/Geometry/FrontTyre_Height" componentKey="" frameKey=""/>
+        </Scalar>
+    </FrontWheel>
+    <Geometry>
+        <BoundingBox>
+            <Complete init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Fork init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Frame init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <FrameFork init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <FrameForkSaddle init="0" projectXML="" geometryKey="BoundingBox/SummarySize" componentKey="" frameKey=""/>
+        </BoundingBox>
+        <Position>
+            <LegClearance init="0" projectXML="" geometryKey="Position/LegClearance" componentKey="" frameKey=""/>
+            <Reference_HB init="0" projectXML="" geometryKey="Position/Reference_HB" componentKey="" frameKey=""/>
+            <Reference_SN init="0" projectXML="" geometryKey="Position/Reference_SN" componentKey="" frameKey=""/>
+        </Position>
+        <Scalar>
+            <BottomBracket_Angle_ChainStay init="0" projectXML="" geometryKey="Scalar/Geometry/BottomBracket_Angle_ChainStay" componentKey="" frameKey=""/>
+            <BottomBracket_Angle_DownTube init="0" projectXML="" geometryKey="Scalar/Geometry/BottomBracket_Angle_DownTube" componentKey="" frameKey=""/>
+            <BottomBracket_Depth init="1" projectXML="Geometry/BottomBracket_Depth" geometryKey="Scalar/Geometry/BottomBracket_Depth" componentKey="" frameKey=""/>
+            <BottomBracket_Height init="0" projectXML="" geometryKey="Scalar/Geometry/BottomBracket_Height" componentKey="" frameKey=""/>
+            <DownTube_OffsetHT init="1" projectXML="DownTube/OffsetHT" geometryKey="Scalar/DownTube/OffsetHT" componentKey="" frameKey=""/>
+            <HandleBar_Distance init="1" projectXML="Geometry/HandleBar_Distance" geometryKey="Scalar/Geometry/HandleBar_Distance" componentKey="" frameKey=""/>
+            <HeadLug_Angle_Bottom init="0" projectXML="" geometryKey="Scalar/Geometry/HeadLug_Angle_Bottom" componentKey="" frameKey=""/>
+            <HeadLug_Angle_Top init="0" projectXML="" geometryKey="Scalar/Geometry/HeadLug_Angle_Top" componentKey="" frameKey=""/>
+            <FrontWheel_x init="0" projectXML="" geometryKey="Scalar/Geometry/FrontWheel_x" componentKey="" frameKey=""/>
+            <FrontWheel_XZ init="0" projectXML="" geometryKey="Scalar/Geometry/FrontWheel_xy" componentKey="" frameKey=""/>
+            <HandleBar_Height init="1" projectXML="Geometry/HandleBar_Height" geometryKey="Scalar/Geometry/HandleBar_Height" componentKey="" frameKey=""/>
+            <HeadTube_Angle init="1" projectXML="Geometry/HeadTube_Angle" geometryKey="Scalar/Geometry/HeadTube_Angle" componentKey="" frameKey=""/>
+            <HeadTube_CenterDownTube init="0" projectXML="" geometryKey="Scalar/Geometry/HeadTube_CenterDownTube" componentKey="" frameKey=""/>
+            <HeadTube_CenterTopTube init="0" projectXML="" geometryKey="Scalar/Geometry/HeadTube_CenterTopTube" componentKey="" frameKey=""/>
+            <HeadTube_Summary init="0" projectXML="" geometryKey="Scalar/Geometry/HeadTube_Summary" componentKey="" frameKey=""/>
+            <HeadTube_Virtual init="0" projectXML="" geometryKey="Scalar/Geometry/HeadTube_Virtual" componentKey="" frameKey=""/>
+            <Inseam_Length init="1" projectXML="Geometry/Inseam_Length" geometryKey="Scalar/Geometry/Inseam_Length" componentKey="" frameKey=""/>
+            <Reach_Length init="0" projectXML="" geometryKey="Scalar/Geometry/Reach_Length" componentKey="" frameKey=""/>
+            <RearWheel_X init="0" projectXML="" geometryKey="Scalar/Geometry/RearWheel_x" componentKey="" frameKey=""/>
+            <RearWheel_XZ init="1" projectXML="Geometry/ChainStay_Length" geometryKey="Scalar/Geometry/ChainStay_Length" componentKey="" frameKey=""/>
+            <SaddleNose_BB_X init="0" projectXML="" geometryKey="Scalar/Geometry/SaddleNose_BB_x" componentKey="" frameKey=""/>
+            <SaddleNose_HB init="0" projectXML="" geometryKey="Scalar/Geometry/SaddleNose_HB" componentKey="" frameKey=""/>
+            <Saddle_BB init="0" projectXML="" geometryKey="Scalar/Geometry/Saddle_BB" componentKey="" frameKey=""/>
+            <Saddle_Distance init="1" projectXML="Geometry/Saddle_Distance" geometryKey="Scalar/Geometry/Saddle_Distance" componentKey="" frameKey=""/>
+            <Saddle_HB_X init="0" projectXML="" geometryKey="Scalar/Geometry/Saddle_HB_x" componentKey="" frameKey=""/>
+            <Saddle_HB_Z init="0" projectXML="" geometryKey="Scalar/Geometry/Saddle_HB_y" componentKey="" frameKey=""/>
+            <Saddle_Height init="1" projectXML="Geometry/Saddle_Height" geometryKey="Scalar/Geometry/Saddle_Height" componentKey="" frameKey=""/>
+            <SeatTube_Angle init="0" projectXML="" geometryKey="Scalar/Geometry/SeatTube_Angle" componentKey="" frameKey=""/>
+            <Saddle_Offset_BB_ST init="0" projectXML="" geometryKey="Scalar/Geometry/Saddle_Offset_BB_ST" componentKey="" frameKey=""/>
+            <SeatTube_LengthClassic init="0" projectXML="" geometryKey="Scalar/Geometry/SeatTube_LengthClassic" componentKey="" frameKey=""/>
+            <SeatTube_LengthVirtual init="0" projectXML="" geometryKey="Scalar/Geometry/SeatTube_LengthVirtual" componentKey="" frameKey=""/>
+            <Stack_Height init="0" projectXML="" geometryKey="Scalar/Geometry/Stack_Height" componentKey="" frameKey=""/>
+            <TopTube_Angle init="1" projectXML="Geometry/TopTube_Angle" geometryKey="Scalar/Geometry/TopTube_Angle" componentKey="" frameKey=""/>
+            <TopTube_LengthClassic init="0" projectXML="" geometryKey="Scalar/Geometry/TopTube_LengthClassic" componentKey="" frameKey=""/>
+            <TopTube_LengthVirtual init="0" projectXML="" geometryKey="Scalar/Geometry/TopTube_LengthVirtual" componentKey="" frameKey=""/>
+            <TopTube_OffsetHT init="1" projectXML="TopTube/OffsetHT" geometryKey="Scalar/TopTube/OffsetHT" componentKey="" frameKey=""/>
+            <TopTube_PivotOffset init="1" projectXML="TopTube/PivotPosition" geometryKey="Scalar/TopTube/PivotPosition" componentKey="" frameKey=""/>
+            <!-- checkThis>
+                
+                <HeadTube_Virtual init="0" guiDictKey="Scalar/Geometry/HeadTube_Virtual" persistKey="" geometryXMLKey="" geometryKey="Scalar/Geometry/HeadTube_Virtual" componentKey="" frameKey="" projectXML="">163.500</HeadTube_Virtual>
+            
+                <Length_BB_Seat init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">-212.69</Length_BB_Seat>
+                <Height_HT_Seat init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="Scalar/Geometry/Height_HT_Seat" componentKey="" frameKey="" projectXML="">153.4923525072544</Height_HT_Seat>
+            <-->
+            <!-- store>
+                <BottomBracket_Angle_ChainStay init="1" guiDictKey="" persistKey="Lugs/BottomBracket/ChainStay/Angle/value" geometryXMLKey="Lugs/BottomBracket_ChainStay_Angle" geometryKey="Scalar/Geometry/BottomBracket_Angle_ChainStay" componentKey="" frameKey="" projectXML="">64.4339</BottomBracket_Angle_ChainStay>
+                <BottomBracket_Angle_DownTube init="1" guiDictKey="" persistKey="Lugs/BottomBracket/DownTube/Angle/value" geometryXMLKey="Lugs/BottomBracket_DownTube_Angle" geometryKey="Scalar/Geometry/BottomBracket_Angle_DownTube" componentKey="" frameKey="" projectXML="">59.9719</BottomBracket_Angle_DownTube>
+                <DownTube_OffsetBB init="1" guiDictKey="" persistKey="Custom/DownTube/OffsetBB" geometryXMLKey="DownTube/OffsetBB" geometryKey="Scalar/DownTube/OffsetBB" componentKey="" frameKey="" projectXML="">0.00</DownTube_OffsetBB>
+                <Fork_Height init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">365.00</Fork_Height>
+                <Fork_Rake init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">45.00</Fork_Rake>
+                <FrontRim_Diameter init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">622.00</FrontRim_Diameter>
+                <FrontTyre_Height init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">25.00</FrontTyre_Height>
+                <FrontWheel_Radius init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">336.0</FrontWheel_Radius>
+                <FrontWheel_x init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">592.882</FrontWheel_x>
+                <FrontWheel_xy init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">596.545</FrontWheel_xy>
+                <HeadLug_Angle_Bottom init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">60.9717</HeadLug_Angle_Bottom>
+                <HeadLug_Angle_Top init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">75.0000</HeadLug_Angle_Top>
+                <HeadSet_Bottom init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">13.50</HeadSet_Bottom>
+                <HeadTube_Length init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">150.00</HeadTube_Length>
+                <RearRim_Diameter init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">622.00</RearRim_Diameter>
+                <RearTyre_Height init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">25.00</RearTyre_Height>
+                <RearWheel_Radius init="0" guiDictKey="Scalar/Geometry/RearWheel_Radius" persistKey="" geometryXMLKey="" geometryKey="Scalar/Geometry/RearWheel_Radius" componentKey="" frameKey="" projectXML="">336.0</RearWheel_Radius>
+                <Stem_Angle init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">-6.00</Stem_Angle>
+                <Stem_Length init="0" guiDictKey="" persistKey="" geometryXMLKey="" geometryKey="" componentKey="" frameKey="" projectXML="">110.00</Stem_Length>
+            <-->
+        </Scalar>
+    </Geometry>
+    <HandleBar>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="HandleBar/ComponentNode/XZ" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="" geometryKey="" componentKey="HandleBar/Config/ComponentKey" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="HandleBar/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="Position/HandleBar" componentKey="HandleBar/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <PivotAngle init="1" projectXML="HandleBar/PivotAngle" geometryKey="" componentKey="" frameKey=""/>
+        </Scalar>
+    </HandleBar>
+    <HeadSet>
+        <ComponentNode>
+            <Bottom_XZ init="0" projectXML="" geometryKey="" componentKey="HeadSetBottom/ComponentNode" frameKey=""/>
+            <Top_XZ init="0" projectXML="" geometryKey="" componentKey="HeadSetTop/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Direction>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="HeadSet/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <Bottom_XZ init="0" projectXML="" geometryKey="" componentKey="HeadSet/Polygon/XZ_Bottom" frameKey=""/>
+            <Top_XZ init="0" projectXML="" geometryKey="" componentKey="HeadSet/Polygon/XZ_Top" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Edge_BottomFront_Bottom init="0" projectXML="" geometryKey="" componentKey="HeadSet/Position/Edge_HeadSetBottomFront_Bottom" frameKey=""/>
+            <Edge_BottomFront_Top init="0" projectXML="" geometryKey="" componentKey="HeadSet/Position/Edge_HeadSetBottomFront_Top" frameKey=""/>
+            <Edge_TopFront_Bottom init="0" projectXML="" geometryKey="" componentKey="HeadSet/Position/Edge_HeadSetTopFront_Bottom" frameKey=""/>
+            <Edge_TopFront_Top init="0" projectXML="" geometryKey="" componentKey="HeadSet/Position/Edge_HeadSetTopFront_Top" frameKey=""/>
+            <End_Top init="0" projectXML="" geometryKey="" componentKey="HeadSet/Position/End_Top" frameKey=""/>
+            <Origin_Bottom init="0" projectXML="" geometryKey="" componentKey="HeadSet/Position/Origin" frameKey=""/>
+            <Origin_Top init="0" projectXML="" geometryKey="" componentKey="HeadSet/Position/Origin_Top" frameKey=""/>
+        </Position>
+        <Scalar>
+            <HeightBottom init="1" projectXML="HeadSet/Height_Bottom" geometryKey="Scalar/HeadSet/Height_Bottom" componentKey="HeadSet/Scalar/Height_Bottom" frameKey=""/>
+            <Diameter init="1" projectXML="HeadSet/Diameter" geometryKey="" componentKey="HeadSet/Scalar/Diameter" frameKey=""/>
+            <HeightTop init="1" projectXML="HeadSet/Height_Top" geometryKey="" componentKey="HeadSet/Scalar/Height_Top" frameKey=""/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" projectXML="" geometryKey="" componentKey="HeadSet/Vector/Bottom" frameKey=""/>
+            <Top init="0" projectXML="" geometryKey="" componentKey="HeadSet/Vector/Top" frameKey=""/>
+        </Vector>
+    </HeadSet>
+    <HeadTube>
+        <Polyline>
+            <CenterLine_XZ init="0" projectXML="" geometryKey="CenterLine/HeadTube" componentKey="" frameKey=""/>
+        </Polyline>
+        <Config>
+            <Type init="1" projectXML="Config/HeadTube" geometryKey="Config/HeadTube" componentKey="" frameKey="HeadTube/Config/Shape"/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="Direction/HeadTube" componentKey="" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" projectXML="" geometryKey="Polygon/HeadTube" componentKey="" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Edge_Back_Bottom init="0" projectXML="" geometryKey="Position/_Edge_HeadTubeBack_Bottom" componentKey="" frameKey=""/>
+            <Edge_Back_Top init="0" projectXML="" geometryKey="Position/_Edge_HeadTubeBack_Top" componentKey="" frameKey=""/>
+            <Edge_Front_Bottom init="0" projectXML="" geometryKey="Position/_Edge_HeadTubeFront_Bottom" componentKey="" frameKey=""/>
+            <Edge_Front_Top init="0" projectXML="" geometryKey="Position/_Edge_HeadTubeFront_Top" componentKey="" frameKey=""/>
+            <End init="0" projectXML="" geometryKey="Position/HeadTube_End" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/HeadTube_Start" componentKey="" frameKey=""/>
+            <VirtualTopTube init="0" projectXML="" geometryKey="Position/HeadTube_VirtualTopTube" componentKey="" frameKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" projectXML="" geometryKey="Profile/HeadTube_xy" componentKey="" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="Profile/HeadTube_xz" componentKey="" frameKey=""/>
+        </Profile>
+        <Scalar>
+            <Diameter init="1" projectXML="HeadTube/Diameter" geometryKey="Scalar/HeadTube/Diameter" componentKey="" frameKey=""/>
+            <DiameterTaperedBase init="1" projectXML="HeadTube/DiameterTaperedBase" geometryKey="Scalar/HeadTube/DiameterTaperedBase" componentKey="" frameKey=""/>
+            <DiameterTaperedTop init="1" projectXML="HeadTube/DiameterTaperedTop" geometryKey="Scalar/HeadTube/DiameterTaperedTop" componentKey="" frameKey=""/>
+            <HeightTaperedBase init="1" projectXML="HeadTube/HeightTaperedBase" geometryKey="Scalar/HeadTube/HeightTaperedBase" componentKey="" frameKey=""/>
+            <Length init="1" projectXML="HeadTube/Length" geometryKey="Scalar/HeadTube/Length" componentKey="" frameKey=""/>
+            <LengthTapered init="1" projectXML="HeadTube/LengthTapered" geometryKey="Scalar/HeadTube/LengthTapered" componentKey="" frameKey=""/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Top init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Vector>
+    </HeadTube>
+    <Label>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Label/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="Component/Label" geometryKey="" componentKey="Label/Config/ComponentKey" frameKey=""/>
+        </Config>
+        <Direction>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="Label/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="Label/Position/Origin" frameKey=""/>
+        </Position>
+    </Label>
+    <Lug_BottomBracket>
+        <Scalar>
+            <ChainStay_Angle init="1" projectXML="Lugs/BottomBracket_ChainStay_Angle" geometryKey="Scalar/Lugs/BottomBracket_ChainStay_Angle" componentKey="" frameKey=""/>
+            <ChainStay_Tolerance init="1" projectXML="Lugs/BottomBracket_ChainStay_Tolerance" geometryKey="Scalar/Lugs/BottomBracket_ChainStay_Tolerance" componentKey="" frameKey=""/>
+            <DownTube_Angle init="1" projectXML="Lugs/BottomBracket_DownTube_Angle" geometryKey="Scalar/Lugs/BottomBracket_DownTube_Angle" componentKey="" frameKey=""/>
+            <DownTube_Tolerance init="1" projectXML="Lugs/BottomBracket_DownTube_Tolerance" geometryKey="Scalar/Lugs/BottomBracket_DownTube_Tolerance" componentKey="" frameKey=""/>
+        </Scalar>
+    </Lug_BottomBracket>
+    <Lug_HeadBottom>
+        <Scalar>
+            <Angle init="1" projectXML="Lugs/HeadLug_Bottom_Angle" geometryKey="Scalar/Lugs/HeadLug_Bottom_Angle" componentKey="" frameKey=""/>
+            <Angle_Tolerance init="1" projectXML="Lugs/HeadLug_Bottom_Tolerance" geometryKey="Scalar/Lugs/HeadLug_Bottom_Tolerance" componentKey="" frameKey=""/>
+        </Scalar>
+    </Lug_HeadBottom>
+    <Lug_HeadTop>
+        <Scalar>
+            <Angle init="1" projectXML="Lugs/HeadLug_Top_Angle" geometryKey="Scalar/Lugs/HeadLug_Top_Angle" componentKey="" frameKey=""/>
+            <Angle_Tolerance init="1" projectXML="Lugs/HeadLug_Top_Tolerance" geometryKey="Scalar/Lugs/HeadLug_Top_Tolerance" componentKey="" frameKey=""/>
+        </Scalar>
+    </Lug_HeadTop>
+    <Lug_Seat>
+        <Scalar>
+            <Angle init="1" projectXML="Lugs/SeatLug_TopTube_Angle" geometryKey="Scalar/Lugs/SeatLug_TopTube_Angle" componentKey="" frameKey=""/>
+            <Angle_Tolerance init="1" projectXML="Lugs/SeatLug_TopTube_Tolerance" geometryKey="Scalar/Lugs/SeatLug_TopTube_Tolerance" componentKey="" frameKey=""/>
+        </Scalar>
+    </Lug_Seat>
+    <Lug_SeatStay>
+        <Scalar>
+            <Angle init="1" projectXML="Lugs/SeatLug_SeatStay_Angle" geometryKey="Scalar/Lugs/SeatLug_SeatStay_Angle" componentKey="" frameKey=""/>
+            <Angle_Tolerance init="1" projectXML="Lugs/SeatLug_SeatStay_Tolerance" geometryKey="Scalar/Lugs/SeatLug_SeatStay_Tolerance" componentKey="" frameKey=""/>
+            <Diameter_Miter init="1" projectXML="SeatStay/SeatTubeMiterDiameter" geometryKey="Scalar/SeatStay/SeatTubeMiterDiameter" componentKey="" frameKey=""/>
+        </Scalar>
+    </Lug_SeatStay>
+    <RearBrake>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="RearBrake/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="" geometryKey="" componentKey="RearBrake/Config/ComponentKey" frameKey=""/>
+            <Type init="1" projectXML="Config/RearBrake" geometryKey="" componentKey="RearBrake/Config/Type" frameKey=""/>
+        </Config>
+        <Position>
+            <Definition init="0" projectXML="" geometryKey="" componentKey="RearBrake/Position/Definition" frameKey=""/>
+            <Help init="0" projectXML="" geometryKey="" componentKey="RearBrake/Position/Axle" frameKey=""/>
+            <Mount init="0" projectXML="" geometryKey="" componentKey="RearBrake/Position/Mount" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="RearBrake/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <DiscDiameter init="1" projectXML="RearMockup/DiscDiameter" geometryKey="" componentKey="" frameKey=""/>
+            <DiscWidth init="1" projectXML="RearMockup/DiscWidth" geometryKey="" componentKey="" frameKey=""/>
+            <LeverLength init="1" projectXML="RearBrake/LeverLength" geometryKey="" componentKey="RearBrake/Scalar/LeverLength" frameKey=""/>
+            <Offset init="1" projectXML="RearBrake/Offset" geometryKey="" componentKey="RearBrake/Scalar/BladeOffset" frameKey=""/>
+        </Scalar>
+    </RearBrake>
+    <RearCarrier>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="RearCarrier/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="" geometryKey="" componentKey="RearCarrier/Config/ComponentKey" frameKey=""/>
+        </Config>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="RearCarrier/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <x init="1" projectXML="RearCarrier/x" geometryKey="Scalar/RearCarrier/x" componentKey="" frameKey=""/>
+            <y init="1" projectXML="RearCarrier/y" geometryKey="Scalar/RearCarrier/y" componentKey="" frameKey=""/>
+        </Scalar>
+    </RearCarrier>
+    <RearDerailleur>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="RearDerailleur/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="" geometryKey="" componentKey="RearDerailleur/Config/ComponentKey" frameKey=""/>
+        </Config>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="RearDerailleur/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Pulley_teeth init="1" projectXML="RearDerailleur/Pulley_teeth" geometryKey="Scalar/RearDerailleur/Pulley_teeth" componentKey="" frameKey=""/>
+            <Pulley_X init="1" projectXML="RearDerailleur/Pulley_x" geometryKey="Scalar/RearDerailleur/Pulley_x" componentKey="" frameKey=""/>
+            <Pulley_Y init="1" projectXML="RearDerailleur/Pulley_y" geometryKey="Scalar/RearDerailleur/Pulley_y" componentKey="" frameKey=""/>
+        </Scalar>
+    </RearDerailleur>
+    <RearDropout>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="RearDropout/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="" geometryKey="" componentKey="RearDropout/Config/ComponentKey" frameKey=""/>
+            <Orient init="1" projectXML="Config/RearDropoutOrient" geometryKey="Config/RearDropoutOrient" componentKey="" frameKey=""/>
+            <Layer init="1" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="Direction/RearDropout" componentKey="RearDropout/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="RearDropout/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Angle init="1" projectXML="Lugs/RearDropOut_Angle" geometryKey="Scalar/Lugs/RearDropOut_Angle" componentKey="" frameKey=""/>
+            <Angle_Tolerance init="1" projectXML="Lugs/RearDropOut_Tolerance" geometryKey="Scalar/Lugs/RearDropOut_Tolerance" componentKey="" frameKey=""/>
+            <Derailleur_X init="1" projectXML="RearDropout/Derailleur_x" geometryKey="" componentKey="RearDropout/Scalar/Derailleur_X" frameKey=""/>
+            <Derailleur_Y init="1" projectXML="RearDropout/Derailleur_y" geometryKey="" componentKey="RearDropout/Scalar/Derailleur_Y" frameKey=""/>
+            <OffsetCS init="1" projectXML="RearDropout/OffsetCS" geometryKey="Scalar/RearDropout/OffsetCS" componentKey="" frameKey=""/>
+            <OffsetCSPerp init="1" projectXML="RearDropout/OffsetCSPerp" geometryKey="Scalar/RearDropout/OffsetCSPerp" componentKey="" frameKey=""/>
+            <OffsetCS_TopView init="1" projectXML="RearDropout/OffsetCS_TopView" geometryKey="Scalar/RearDropout/OffsetCS_TopView" componentKey="" frameKey=""/>
+            <OffsetSS init="1" projectXML="RearDropout/OffsetSS" geometryKey="Scalar/RearDropout/OffsetSS" componentKey="" frameKey=""/>
+            <OffsetSSPerp init="1" projectXML="RearDropout/OffsetSSPerp" geometryKey="Scalar/RearDropout/OffsetSSPerp" componentKey="" frameKey=""/>
+            <RotationOffset init="1" projectXML="RearDropout/RotationOffset" geometryKey="Scalar/RearDropout/RotationOffset" componentKey="" frameKey=""/>
+        </Scalar>
+    </RearDropout>
+    <RearFender>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="RearFender/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" projectXML="Config/RearFender" geometryKey="" componentKey="" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="RearFender/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" projectXML="" geometryKey="" componentKey="RearFender/Polygon/XZ" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="RearFender/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Height init="1" projectXML="RearFender/Height" geometryKey="" componentKey="RearFender/Scalar/Height" frameKey=""/>
+            <OffsetAngle init="1" projectXML="RearFender/OffsetAngle" geometryKey="" componentKey="RearFender/Scalar/Angle_End" frameKey=""/>
+            <Radius init="1" projectXML="RearFender/Radius" geometryKey="" componentKey="RearFender/Scalar/Radius" frameKey=""/>
+        </Scalar>
+    </RearFender>
+    <RearHub>
+        <ComponentNode>
+            <XY init="0" projectXML="" geometryKey="" componentKey="RearHub/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="0" projectXML="" geometryKey="Component/RearHub" componentKey="" frameKey=""/>
+        </Config>
+        <Scalar>
+            <HubWidth init="1" projectXML="RearWheel/HubWidth" geometryKey="Scalar/RearWheel/HubWidth" componentKey="" frameKey=""/>
+        </Scalar>
+    </RearHub>
+    <RearMockup>
+        <Scalar>
+            <CassetteClearance init="1" projectXML="RearMockup/CassetteClearance" geometryKey="Scalar/RearMockup/CassetteClearance" componentKey="" frameKey=""/>
+            <ChainWheelClearance init="1" projectXML="RearMockup/ChainWheelClearance" geometryKey="Scalar/RearMockup/ChainWheelClearance" componentKey="" frameKey=""/>
+            <CrankClearance init="1" projectXML="RearMockup/CrankClearance" geometryKey="Scalar/RearMockup/CrankClearance" componentKey="" frameKey=""/>
+            <DiscClearance init="1" projectXML="RearMockup/DiscClearance" geometryKey="Scalar/RearMockup/DiscClearance" componentKey="" frameKey=""/>
+            <DiscOffset init="1" projectXML="RearMockup/DiscOffset" geometryKey="Scalar/RearMockup/DiscOffset" componentKey="" frameKey=""/>
+            <TyreClearance init="1" projectXML="RearMockup/TyreClearance" geometryKey="Scalar/RearMockup/TyreClearance" componentKey="" frameKey=""/>
+        </Scalar>
+    </RearMockup>
+    <RearWheel>
+        <Config>
+            <FirstSprocket init="1" projectXML="RearWheel/FirstSprocket" geometryKey="Scalar/RearWheel/FirstSprocket" componentKey="" frameKey=""/>
+        </Config>
+        <Position>
+            <Ground init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/RearWheel" componentKey="" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Radius init="0" projectXML="" geometryKey="Scalar/Geometry/RearWheel_Radius" componentKey="" frameKey=""/>
+            <RimDiameter init="1" projectXML="Geometry/RearRim_Diameter" geometryKey="Scalar/Geometry/RearRim_Diameter" componentKey="" frameKey=""/>
+            <RimHeight init="1" projectXML="RearWheel/RimHeight" geometryKey="Scalar/RearWheel/RimHeight" componentKey="" frameKey=""/>
+            <TyreHeight init="1" projectXML="Geometry/RearTyre_Height" geometryKey="Scalar/Geometry/RearTyre_Height" componentKey="" frameKey=""/>
+            <TyreWidth init="1" projectXML="RearWheel/TyreWidth" geometryKey="Scalar/RearWheel/TyreWidth" componentKey="" frameKey=""/>
+            <TyreShoulder init="0" projectXML="" geometryKey="Scalar/RearWheel/TyreShoulder" componentKey="" frameKey=""/>
+            <TyreWidthRadius init="1" projectXML="RearWheel/TyreWidthRadius" geometryKey="Scalar/RearWheel/TyreWidthRadius" componentKey="" frameKey=""/>
+        </Scalar>
+    </RearWheel>
+    <Reference>
+        <Scalar>
+            <HandleBar_Distance init="1" projectXML="Reference/HandleBar_Distance" geometryKey="Scalar/Reference/HandleBar_Distance" componentKey="" frameKey=""/>
+            <HandleBar_Height init="1" projectXML="Reference/HandleBar_Height" geometryKey="Scalar/Reference/HandleBar_Height" componentKey="" frameKey=""/>
+            <SaddleNose_Distance init="1" projectXML="Reference/SaddleNose_Distance" geometryKey="Scalar/Reference/SaddleNose_Distance" componentKey="" frameKey=""/>
+            <SaddleNose_HB init="1" projectXML="Reference/SaddleNose_HB" geometryKey="Scalar/Reference/SaddleNose_HB" componentKey="" frameKey=""/>
+            <SaddleNose_HB_y init="1" projectXML="Reference/SaddleNose_HB_y" geometryKey="Scalar/Reference/SaddleNose_HB_y" componentKey="" frameKey=""/>
+            <SaddleNose_Height init="1" projectXML="Reference/SaddleNose_Height" geometryKey="Scalar/Reference/SaddleNose_Height" componentKey="" frameKey=""/>
+        </Scalar>
+    </Reference>
+    <Saddle>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Saddle/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" projectXML="" geometryKey="" componentKey="Saddle/Config/ComponentKey" frameKey=""/>
+        </Config>
+        <Polyline>
+            <XZ_Profile init="0" projectXML="" geometryKey="" componentKey="Saddle/Polyline/XZ_Profile" frameKey=""/>
+        </Polyline>
+        <Position>
+            <Mount init="0" projectXML="" geometryKey="" componentKey="Saddle/Position/Mount" frameKey=""/>
+            <Nose init="0" projectXML="" geometryKey="" componentKey="Saddle/Position/Nose" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/Saddle" componentKey="Saddle/Position/Origin" frameKey=""/>
+            <Proposal init="0" projectXML="" geometryKey="Position/SaddleProposal" componentKey="" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Height init="1" projectXML="Saddle/Height" geometryKey="Scalar/Saddle/Height" componentKey="Saddle/Scalar/Height" frameKey=""/>
+            <Length init="1" projectXML="Saddle/Length" geometryKey="" componentKey="Saddle/Scalar/Length" frameKey=""/>
+            <NoseLength init="1" projectXML="Saddle/NoseLength" geometryKey="" componentKey="Saddle/Scalar/NoseLength" frameKey=""/>
+            <Offset_X init="1" projectXML="Saddle/Offset_x" geometryKey="Scalar/Saddle/Offset_x" componentKey="Saddle/Scalar/Offset_X" frameKey=""/>
+        </Scalar>
+    </Saddle>
+    <SeatPost>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="SeatPost/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="SeatPost/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="SeatPost/Position/Origin" frameKey=""/>
+            <Pivot init="0" projectXML="" geometryKey="Position/SeatPost_Pivot" componentKey="" frameKey=""/>
+            <SeatTube init="0" projectXML="" geometryKey="Position/SeatPost_SeatTube" componentKey="" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Diameter init="1" projectXML="SeatPost/Diameter" geometryKey="" componentKey="SeatPost/Scalar/Diameter" frameKey=""/>
+            <PivotOffset init="1" projectXML="SeatPost/PivotOffset" geometryKey="Scalar/SeatPost/PivotOffset" componentKey="SeatPost/Scalar/PivotOffset" frameKey=""/>
+            <Setback init="1" projectXML="SeatPost/Setback" geometryKey="Scalar/SeatPost/Setback" componentKey="SeatPost/Scalar/Setback" frameKey=""/>
+        </Scalar>
+    </SeatPost>
+    <SeatStay>
+        <Polyline>
+            <CenterLine_XZ init="0" projectXML="" geometryKey="CenterLine/SeatStay" componentKey="" frameKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="Direction/SeatStay" componentKey="" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" projectXML="" geometryKey="TubeMiter/SeatStay_01" componentKey="" frameKey=""/>
+            <MiterOrigin init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Shape_XZ init="0" projectXML="" geometryKey="Polygon/SeatStay" componentKey="" frameKey=""/>
+        </Polygon>
+        <Position>
+            <End init="0" projectXML="" geometryKey="Position/SeatStay_End" componentKey="" frameKey=""/>
+            <IS_ChainStay init="0" projectXML="" geometryKey="Position/ChainStay_SeatStay_IS" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/SeatStay_Start" componentKey="" frameKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" projectXML="" geometryKey="Profile/SeatStay_xy" componentKey="" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="Profile/SeatStay_xz" componentKey="" frameKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" projectXML="SeatStay/DiameterST" geometryKey="Scalar/SeatStay/DiameterST" componentKey="" frameKey=""/>
+            <DiameterOrigin init="1" projectXML="SeatStay/DiameterCS" geometryKey="Scalar/SeatStay/DiameterCS" componentKey="" frameKey=""/>
+            <OffsetTT init="1" projectXML="SeatStay/OffsetTT" geometryKey="Scalar/SeatStay/OffsetTT" componentKey="" frameKey=""/>
+            <MiterAngleEnd init="0" projectXML="" geometryKey="TubeMiter/SeatStay_Seat_Angle" componentKey="" frameKey=""/>
+            <MiterAngleOrigin init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <MiterOffsetEnd init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <MiterOffsetOrigin init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <TaperLength init="1" projectXML="SeatStay/TaperLength" geometryKey="Scalar/SeatStay/TaperLength" componentKey="" frameKey=""/>
+        </Scalar>
+    </SeatStay>
+    <SeatTube>
+        <Polyline>
+            <CenterLine_XZ init="0" projectXML="" geometryKey="CenterLine/SeatTube" componentKey="" frameKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="Direction/SeatTube" componentKey="" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" projectXML="" geometryKey="TubeMiter/SeatTube_Down" componentKey="" frameKey=""/>
+            <MiterEndBBInside init="0" projectXML="" geometryKey="TubeMiter/SeatTube_BB_in" componentKey="" frameKey=""/>
+            <MiterEndBBOutside init="0" projectXML="" geometryKey="TubeMiter/SeatTube_BB_out" componentKey="" frameKey=""/>
+            <MiterOrigin init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Shape_XZ init="0" projectXML="" geometryKey="Polygon/SeatTube" componentKey="" frameKey=""/>
+        </Polygon>
+        <Position>
+            <ClassicTopTube init="0" projectXML="" geometryKey="Position/SeatTube_ClassicTopTube" componentKey="" frameKey=""/>
+            <Edge_Top_Front init="0" projectXML="" geometryKey="Position/_Edge_SeatTubeTop_Front" componentKey="" frameKey=""/>
+            <End init="0" projectXML="" geometryKey="Position/SeatTube_End" componentKey="" frameKey=""/>
+            <Ground init="0" projectXML="" geometryKey="Position/SeatTube_Ground" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/SeatTube_Start" componentKey="" frameKey=""/>
+            <Saddle init="0" projectXML="" geometryKey="Position/SeatTube_Saddle" componentKey="" frameKey=""/>
+            <VirtualTopTube init="0" projectXML="" geometryKey="Position/SeatTube_VirtualTopTube" componentKey="" frameKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" projectXML="" geometryKey="Profile/SeatTube_xy" componentKey="" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="Profile/SeatTube_xz" componentKey="" frameKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" projectXML="SeatTube/DiameterBB" geometryKey="Scalar/SeatTube/DiameterBB" componentKey="" frameKey=""/>
+            <DiameterOrigin init="1" projectXML="SeatTube/DiameterTT" geometryKey="Scalar/SeatTube/DiameterTT" componentKey="" frameKey=""/>
+            <Extension init="1" projectXML="SeatTube/Extension" geometryKey="Scalar/SeatTube/Extension" componentKey="" frameKey=""/>
+            <MiterAngelEnd init="0" projectXML="" geometryKey="TubeMiter/SeatTube_Down_Angle" componentKey="" frameKey=""/>
+            <MiterAngelOrigin init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <OffsetBB init="1" projectXML="SeatTube/OffsetBB" geometryKey="Scalar/SeatTube/OffsetBB" componentKey="" frameKey=""/>
+            <TaperLength init="1" projectXML="SeatTube/TaperLength" geometryKey="Scalar/SeatTube/TaperLength" componentKey="" frameKey=""/>
+        </Scalar>
+        <Vector>
+            <Top init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Vector>
+    </SeatTube>
+    <Spacer>
+        <Polygon>
+            <Shape_XZ init="0" projectXML="" geometryKey="" componentKey="Stem/Polygon/XZ_Spacer" frameKey=""/>
+        </Polygon>
+        <Scalar>
+            <Height init="0" projectXML="" geometryKey="Scalar/Spacer/Height" componentKey="Stem/Scalar/Spacer_Height" frameKey=""/>
+            <Diameter init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Scalar>
+    </Spacer>
+    <Steerer>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Steerer/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Fork/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Fork/Polygon/Steerer" frameKey=""/>
+        </Polygon>
+        <Polyline>
+            <CenterLine_XZ init="0" projectXML="" geometryKey="" componentKey="Fork/Polylineon/CenterLine_Steerer" frameKey=""/>
+        </Polyline>
+        <Position>
+            <End init="0" projectXML="" geometryKey="" componentKey="Fork/Position/Steerer_End" frameKey=""/>
+            <Ground init="0" projectXML="" geometryKey="Position/Steerer_Ground" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/Steerer_Start" componentKey="" frameKey=""/>
+            <Stem init="0" projectXML="" geometryKey="Position/Steerer_End" componentKey="" frameKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Profile>
+        <Scalar>
+            <Diameter init="0" projectXML="" geometryKey="" componentKey="Fork/Scalar/SteererDiameter" frameKey=""/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Vector>
+    </Steerer>
+    <Stem>
+        <ComponentNode>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Stem/ComponentNode" frameKey=""/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" projectXML="" geometryKey="" componentKey="Stem/Config/Type" frameKey=""/>
+        </Config>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="" componentKey="Stem/Direction/Origin" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" projectXML="" geometryKey="" componentKey="Stem/Polygon/XZ" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Origin init="0" projectXML="" geometryKey="" componentKey="Stem/Position/Origin" frameKey=""/>
+        </Position>
+        <Scalar>
+            <Angle init="1" projectXML="Geometry/Stem_Angle" geometryKey="Scalar/Geometry/Stem_Angle" componentKey="Stem/Scalar/Angle" frameKey=""/>
+            <Length init="1" projectXML="Geometry/Stem_Length" geometryKey="Scalar/Geometry/Stem_Length" componentKey="Stem/Scalar/Length" frameKey=""/>
+        </Scalar>
+    </Stem>
+    <TopTube>
+        <Polyline>
+            <CenterLine_XZ init="0" projectXML="" geometryKey="CenterLine/TopTube" componentKey="" frameKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" projectXML="" geometryKey="Direction/TopTube" componentKey="" frameKey=""/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" projectXML="" geometryKey="TubeMiter/TopTube_Seat" componentKey="" frameKey=""/>
+            <MiterOrigin init="0" projectXML="" geometryKey="TubeMiter/TopTube_Head" componentKey="" frameKey=""/>
+            <Shape_XZ init="0" projectXML="" geometryKey="Polygon/TopTube" componentKey="" frameKey=""/>
+        </Polygon>
+        <Position>
+            <Edge_HeadTube_TT init="0" projectXML="" geometryKey="Position/_Edge_TopTubeHeadTube_TT" componentKey="" frameKey=""/>
+            <Edge_SeatTube_ST init="0" projectXML="" geometryKey="Position/_Edge_TopTubeSeatTube_ST" componentKey="" frameKey=""/>
+            <Edge_TaperTop_HT init="0" projectXML="" geometryKey="Position/_Edge_TopTubeTaperTop_HT" componentKey="" frameKey=""/>
+            <Edge_TaperTop_ST init="0" projectXML="" geometryKey="Position/_Edge_TopTubeTaperTop_ST" componentKey="" frameKey=""/>
+            <End init="0" projectXML="" geometryKey="Position/TopTube_End" componentKey="" frameKey=""/>
+            <Origin init="0" projectXML="" geometryKey="Position/TopTube_Start" componentKey="" frameKey=""/>
+        </Position>
+        <Profile>
+            <XY init="0" projectXML="" geometryKey="Profile/TopTube_xy" componentKey="" frameKey=""/>
+            <XZ init="0" projectXML="" geometryKey="Profile/TopTube_xz" componentKey="" frameKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" projectXML="TopTube/DiameterST" geometryKey="Scalar/TopTube/DiameterST" componentKey="" frameKey=""/>
+            <DiameterOrigin init="1" projectXML="TopTube/DiameterHT" geometryKey="Scalar/TopTube/DiameterHT" componentKey="" frameKey=""/>
+            <MiterAngleEnd init="0" projectXML="" geometryKey="TubeMiter/TopTube_Seat_Angle" componentKey="" frameKey=""/>
+            <MiterAngleOrigin init="0" projectXML="" geometryKey="TubeMiter/TopTube_Head_Angle" componentKey="" frameKey=""/>
+            <TaperLength init="1" projectXML="TopTube/TaperLength" geometryKey="Scalar/TopTube/TaperLength" componentKey="" frameKey=""/>
+        </Scalar>
+    </TopTube>
+    <_Result>
+        <Position>
+            <help_91 init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <help_92 init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <help_93 init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </Position>
+    </_Result>
+    <_View>
+        <Config>
+            <Color_Fork init="1" projectXML="Config/Color_Fork" geometryKey="" componentKey="" frameKey=""/>
+            <Color_FrameTubes init="1" projectXML="Config/Color_FrameTubes" geometryKey="" componentKey="" frameKey=""/>
+            <Color_Label init="1" projectXML="Config/Color_Label" geometryKey="" componentKey="" frameKey=""/>
+        </Config>
+        <ListBoxValues>
+            <Binary_OnOff init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <BottleCage init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Brake init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <ChainStay init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <ComponentLocation init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <DropOutDirection init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <DropOutPosition init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Fork init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <ForkBlade init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <FrameJigType init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <HeadTube init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Rim init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <Stem init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <TemplateType init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+            <TubeSet init="0" projectXML="" geometryKey="" componentKey="" frameKey=""/>
+        </ListBoxValues>
+    </_View>
+</root>

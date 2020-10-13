@@ -1,0 +1,12 @@
+Application base-tk 8.6.3.1.298667
+Meta as::build::date 2015-01-16
+Meta as::origin      http://www.activestate.com/activetcl
+Meta author          ActiveState Software Inc.
+Meta copyright       (c) 2015 ActiveState Software Inc.
+Meta description     A single file tcl interpreter for the execution of
+Meta description     starkits, also a prefix file usable by Tcl Dev Kit's
+Meta description     TclApp for the creation of starpacks.
+Meta license         ActiveTcl Community License
+Meta platform        win32-x86_64
+Meta subject         tclkit basekit starkit starpack deployment
+Meta summary         Single File Tcl Executable

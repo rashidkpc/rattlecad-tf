@@ -1,0 +1,1289 @@
+3.5.14 - 2018.05.23
+-------------------------------------------------------------------------------
+    refactor:
+        ... remove tcllib::math from cad4tcl
+    
+    
+3.5.13 - 2018.05.20
+-------------------------------------------------------------------------------
+    refactor:        
+        ... performance issues
+            ... expr {}
+            ... lassign
+        ... tcllib-1-19
+            ... snit, math
+    debug:
+        ... bikeModel::update_bikeComponent_Placements
+        
+        
+3.5.12 - 2018.05.11
+-------------------------------------------------------------------------------
+    feature:        
+        ... bikeComponents
+            ... Components
+                ... derailleur - front
+                    ... sram_red_2013.svg
+    debug:
+        ... plugin: rattleCAD_3D (1.08)
+            ... add status to macro - header
+            ... rattleCAD_3D::freeCAD::add__RearDropout_Default
+                    
+        
+3.5.11 - 2018.05.04
+-------------------------------------------------------------------------------
+    debug:
+        ... rattleCAD - 3D
+            ... make it work with FreeCAD 0.17
+                ... add libPy\py3D
+                    
+        
+3.5.10 - 2018.04.24
+-------------------------------------------------------------------------------
+    debug:
+        ... rattleCAD - 3D
+            ... make it work with FreeCAD 0.17
+                ... rattleCAD_3D::freeCAD::add_pythonDefs
+                    ... line_frameCenter
+                    ... point_frameCenter                    
+                    ... sketch_lineList
+                    ... sketchWire_Part 
+                    
+        
+3.5.09 - 2018.04.21
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeComponents
+            ... Components
+                ... crankset
+                    ... campagnolo_2015.svg
+                ... derailleur
+                    ... campagnolo_2015_middle.svg
+                    ... campagnolo_2015_short.svg
+                
+                
+3.5.08 - 2018.04.01
+-------------------------------------------------------------------------------
+    feature:
+        ... Base Geometry
+            ... additional dimension for SeatPost 
+                ... myGUI::reference::create_PointSeat
+                ... myGUI::dimension::createDimension_Geometry_..._summary
+                
+    
+3.5.07 - 2018.03.31
+-------------------------------------------------------------------------------
+    feature/refactor:
+        ... bikeComponents
+            ... SeatPost
+            ... Test Scripts
+
+
+3.5.06 - 2018.03.23
+-------------------------------------------------------------------------------
+    debug:
+        ... chainstay computation -> cutting length
+            ... myGUI::cvCustom::createRearMockup
+            ... bikeFrame::AbstractTube -> __cut_centerLine
+    feature/refactor:
+        ... myGUI::cvCustom::createRearMockup
+            ... rear fender
+            ... rear brake
+            ... rear hub    
+                ... bikeComponent::RearHub
+            
+            
+3.5.05 - 2018.03.20
+-------------------------------------------------------------------------------
+    feature/debug:
+        ... miter seatstay based on SeatStay(SeatTubeMiterDiameter)
+            ... rattleCAD was working like this in version 3.4.02.100
+            
+            
+3.5.04 - 2018.03.08
+-------------------------------------------------------------------------------
+    feature:
+        ... Base Geometry
+            ... add aligned dimension (SaddleNose - Handlebar)
+    refactor:
+        ... build procedures
+            
+            
+3.5.03 - 2018.02.27
+-------------------------------------------------------------------------------
+    refactor:
+        ... build procedures
+            
+            
+3.5.02 - 2018.02.25
+-------------------------------------------------------------------------------
+    feature:
+        ... component
+            ... sram_red_22_2018_q.svg
+    debug:
+        ... definition of variable packageHomeDir
+            ... in some packages
+            
+            
+3.5.01 - 2018.02.24
+-------------------------------------------------------------------------------
+    debug:
+        ... definition of variable packageHomeDir
+            ... in some packages
+
+
+3.5.00 - 2018.02.24
+-------------------------------------------------------------------------------
+    refactor:
+        ... repository
+        ... build process
+
+
+3.4.05.55 - 2018.02.20
+-------------------------------------------------------------------------------
+    debug:
+        ... tubeMiter
+            ... createAngleDict
+
+
+3.4.05.54 - 2018.02.16
+-------------------------------------------------------------------------------
+    feature:
+        ... plugin / tubeMiter
+    refactor/debug:
+        ... bikeFrame        
+            ... AbstractTube
+                ... _setShape5  
+        ... customTube
+            ... classTube.tcl
+                ... update
+        ... tubeMiter
+            ... abstractTubeMiter.tcl 
+                ... updateViews
+                ... getProfile
+                ... remove old procedures
+        ... cad4tcl
+            ... classCanvas.tcl
+                ... getStageFormat
+                ... getStageSize
+
+
+3.4.05.53 - 2018.01.31
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeComponent
+            ... dropout
+                ... paragon DR0004
+        ... plugin / rattleCAD_3D
+            ... brake
+                ... rim brake
+            ... dropout
+                ... paragon DR0004
+    debug:
+        ... osEnv
+            
+            
+3.4.05.52 - 2018.01.31
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeComponent
+            ... dropout
+                ... paragon DR0023
+    refactor/debug:
+        ... osEnv
+            ... accept "()" in name of nodeName
+            
+            
+3.4.05.51 - 2018.01.31
+-------------------------------------------------------------------------------
+    feature:
+        ... tubeMiter
+            ... init ...
+    refactor/debug:
+        ... osEnv
+            ... format values with ""
+            ... accept [0-9] as beginning character of a nodeName
+            
+            
+3.4.05.50 - 2018.01.14
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI
+            ... reorganize project repository for Linux and MacOS
+            ... like on Windows
+            ... -> $env(HOME)/Documents/rattleCAD
+            
+            
+3.4.05.49 - 2018.01.14
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeFrame
+            ... chainStay
+            
+            
+3.4.05.48 - 2018.01.12
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeFrame
+        ... customTube
+            
+            
+3.4.05.47 - 2018.01.08
+-------------------------------------------------------------------------------
+    refactor/cleanup:
+        ... tubeMiter 0.11
+            ... cleanup library
+        ... customTube
+            ... new library
+
+
+3.4.05.46 - 2018.01.04
+-------------------------------------------------------------------------------
+    refactor:
+        ... tubeMiter 0.11
+            ... cleanup library
+        ... customTube
+            ... new library
+
+
+3.4.05.45 - 2018.01.02
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI
+            ... read_userInit
+        ... tubeMiter
+            ... replaced library
+        ... bikeFrame
+            ... FacadeTubeMiter
+            ... ChainStay
+                ... CutShape_XZ_Start
+
+
+3.4.05.44 - 2017.12.30
+-------------------------------------------------------------------------------
+    refactor:
+        ... tubeMiter
+            ... replaced library
+
+
+3.4.05.43 - 2017.12.10
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... bikeFrame
+            ... FacadeTubeMiter
+        ... tubeMiter
+            ... cone, frustum
+
+
+3.4.05.42 - 2017.12.07
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... plugin / rattleCAD_3D
+            ... RearDerailleur
+
+
+3.4.05.41 - 2017.12.06
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeComponent
+            ... rohloff_OA14.svg
+
+
+3.4.05.40 - 2017.12.05
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... tubeMiter
+            ... conemiter failed on tube diameter larger then tool diameter
+            ... update test procedure
+                ... cad4tcl
+        ... customTube
+                ... cad4tcl
+        
+        
+3.4.05.39 - 2017.12.01
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... myGUI
+            ... view::edit::updateControl
+            ... view::edit::create_Edit_MultiLine
+                ... remove: $cvEntry selection range 0 end
+        ... cad4tcl
+            ... app: simplifySVG
+        ... myTool
+            ... app: chainWheel
+
+
+3.4.05.38 - 2017.11.27
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeComponents
+            ... first_KT_172_50_34.svg
+    refactor:
+        ... cadCanvas
+            ... rename to cad4tcl
+            ... extract under BSD-License
+        ... myGUI    
+            ... reorder button-bar
+            
+            
+3.4.05.37 - 2017.11.26
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... myGUI
+            ... cvCustom::update_DimensionSummary
+        ... myTool
+            ... chainWheel
+            ... flatSVG
+                ... replaced by cadCanvas::app::simplifySVG
+
+
+3.4.05.36 - 2017.11.22
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeComponent
+            ... miche_supertype_172_50_34.svg
+    refactor/debug:
+        ... myTool
+            ... chainWheel
+            ... flatSVG
+
+
+3.4.05.35 - 2017.11.18
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... canvas moved away after click on an object
+        ... myGUI
+            ... gui::bind_objectEvent_2
+                ... $cvObject registerClickObject
+        ... cadCanvas
+            ... ClickObject (variable)
+            ... registerClickObject
+            ... CheckClickObject
+            ... deleteContent
+    
+    
+3.4.05.34 - 2017.11.17
+-------------------------------------------------------------------------------
+    feature:
+        ... myGUI
+            ... view::edit::close_allEdit
+                ... deleteDivContainer            
+                ... deleteConfigContainer      
+            ... cvCustom::createAngleRep
+                ... font - size and position
+            ... dimension::createDimension_Jig
+                ... bound lost centerLine
+        ... cadCanvas
+            ... getLengthCanvas
+            ... getPositionCanvas
+            ... eventClick_B1
+                ... CheckConfigCorner <- click
+            ... ItemInterface__Super
+                ... createText
+                    ... round size to integer
+            
+            
+3.4.05.33 - 2017.11.13
+-------------------------------------------------------------------------------
+    debug:
+        ... myGUI::cvCustom::createRearMockup
+            ... handle tkpath
+                ... myGUI::cvCustom::create_CrankArm
+                ... myGUI::cvCustom::create_Tyre
+            
+            
+3.4.05.32 - 2017.11.12
+-------------------------------------------------------------------------------
+    feature:
+        ... myGUI::read_userInit
+            ... rattleCAD_...init
+                <config>
+                    <config name="antialias">on/off</config>
+                </config>
+    refactor/debug:
+        ... prepare for antialiased visualization
+            ... requires tkpath-0.3.4
+
+        
+3.4.05.31 - 2017.11.11
+-------------------------------------------------------------------------------
+    feature:
+        ... myGUI::view::edit
+            ... new group_RearDropout_Parameter_02
+        ... cadCanvas -> Dimension
+            ... new get_dimensionType
+            ... UpdateItemAttributes
+                ... additional attribute: -outline
+                    ... line, pline, polyline
+                ... Canvas
+                    ... add argument: type
+    refactor:
+        ... myGUI::view::edit
+            ... rename group_RearDropout_Parameter_02
+                ... group_RearDropout_Parameter_10
+
+
+3.4.05.30 - 2017.11.05
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... cadCanvas
+            ... PathCanvas: -strokedasharray
+
+
+3.4.05.29 - 2017.11.04
+-------------------------------------------------------------------------------
+    feature:            
+        ... cadCanvas 
+            ... PathCanvas: export SVG - pline
+        ... myGUI
+            ... lib/lib_cvCustom__update.tcl
+                ... point_contact                
+    refactor/debug:
+        ... cadCanvas
+            ... remove 
+                ... newCanvas
+                ... createDimension
+                
+
+3.4.05.28 - 2017.11.03
+-------------------------------------------------------------------------------
+    feature:
+        ... cadCanvas
+            ... integrate tkpath
+                ... handle line widths
+
+        
+3.4.05.27 - 2017.10.30
+-------------------------------------------------------------------------------
+    feature:
+        ... myGUI
+            ... cvCustom::itemconfigureLineWidth
+    refactor/debug:
+        ... cadCanvas
+            ... export SVG
+            ... handle line widths
+            ... separate Canvas / PathCanvas
+
+
+3.4.05.26 - 2017.10.22
+-------------------------------------------------------------------------------
+    feature:
+        ... cadCanvas
+            ... reportDOM
+    refactor/debug:
+        ... cadCanvas
+            ... method exportFile
+            ... classItemIF_tkpath.tcl
+                ... createOval
+            ... test Scripts
+            ... remove
+                ... _refNameOld
+                ... _classOld
+                ... setDomNode
+                ... getDomNode
+                ... getNamespace           
+        ... myGUI
+            ... export::export_Project
+
+                
+3.4.05.25 - 2017.10.19
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeModel
+            ... ChainStay/Scalar/cuttingAngle -> 90           
+        ... plugin
+            ... rattleCAD_3D
+                ... freeCAD::get_Dropout3D
+    debug:
+        ... plugin
+            ... forkReplacement
+                ... create_controlWidget           
+
+
+3.4.05.24 - 2017.10.16
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeModel
+            ... ChainStay/Scalar/cuttingAngle            
+        ... myGUI
+            ... view::edit::group_ChainStay_Parameter_02  
+                ... Scalar:ChainStay/cuttingAngle           
+
+
+3.4.05.23 - 2017.10.15
+-------------------------------------------------------------------------------
+    refactor/feature:
+        ... bikeComponents  
+            ... Seatpost -> length
+        ... myGUI
+            ... control::setValue
+                ... -> bikeModel::set_ValueList
+
+
+3.4.05.22 - 2017.10.11
+-------------------------------------------------------------------------------
+    refactor:
+        ... rename canvasCAD 
+            ... cadCanvas
+
+
+3.4.05.21 - 2017.10.11
+-------------------------------------------------------------------------------
+    refactor:
+        ... canvasCAD 1.00
+            ... bigger refactoring
+            ... unify interface 
+                ... base class
+                    ... item interface
+                        ... DXF and SVG
+            ... enable tkpath
+        ... myGUI
+            ... in case of canvasCAD
+
+
+3.4.05.20 - 2017.10.01
+-------------------------------------------------------------------------------
+    refactor:
+        ... canvasCAD 1.00
+            ... unify interface
+                ... classCanvas
+                ... classCanvas__Super
+            ... drag/zoom
+            ... create window
+                ... DivContainer
+                    ... for dimension edit
+                ... ConfigContainer
+                    ... for Button-Menues
+        ... myGUI
+            ... in case of canvasCAD 1.00
+            
+                
+3.4.05.19 - 2017.09.18
+-------------------------------------------------------------------------------
+    refactor:
+        ... canvasCAD 1.00
+            ... newCanvas
+                ... returns an object only
+        ... myGUI
+            ... in case of canvasCAD 1.00
+            ... all references to  -> canvasCAD::getNodeAttr   removed :  
+                ... cvObject
+                    ... handle class as reference to canvasObject
+                ... myGUI::gui::current_notebookTabID {}
+                ... myGUI::gui::getCanvasObject {{tabID {}}} 
+                ... myGUI::gui::selectNotebookTab {tabID}
+            ... remove
+                ... myGUI::gui::notebook_createConfigContainer
+        ... bikeFrame
+            ... update rendering of ChainStay ... shape definition in ChainStay
+        ... canvasCAD    
+            ... canvasCAD::configCorner::createContentFrame
+            ... invert definition of unitScale
+    debug:
+        ... rattleCAD_3D
+            ...  positioning of toptube              
+
+
+3.4.05.18 - 2017.08.28
+-------------------------------------------------------------------------------
+    feature:
+        ... dimension
+            ... D01082
+    refactor/feature:
+        ... bikeComponents
+            ... Stem
+                ... Shape of Spacer and StemCap
+                ... add Position Values
+        ... myGUI::plugIn
+            ... bind stem in rattleCAD_3D to bikeComponents
+        
+        
+3.4.05.17 - 2017.08.27
+-------------------------------------------------------------------------------
+    feature:
+        ... myGUI::plugIn
+            ... create_Window
+                ... new attributes wTitle, wPath ".plugin"
+            ... create_TextWindow
+        ... change location of dimension
+            ... D01115 ... perpendicular offset SeatStay
+            ... D01116 ... perpendicular offset ChainStay
+        ... new dropouts
+            ... allotec C58
+            ... allotec C40
+            ... ciclicorsa 220
+        ... _plugin
+            ... rattleCAD_3D
+                ... new dropout ... allotec C58
+    refactor: 
+        ... reorder files in packages:
+            ... bikeModel
+            ... bikeComponent
+    refactor/debug: 
+        ... myGUI::rendering::createFrame_Tubes
+            ... remove smoved edges on conical headtube
+        ... _plugin
+            ... rattleCAD_3D
+                ... positioning of chainstays 
+
+
+3.4.05.16 - 2017.08.18
+-------------------------------------------------------------------------------
+    feature:
+        ... myGUI::dimension::createDimension
+            ... add tagId to dimension
+    refactor/debug: 
+        ... D01109 
+        ... create_ClineEffectiveTT
+        ... myGUI::plugIn::create_Window
+            ... handle existing window
+
+
+3.4.05.15 - 2017.08.18
+-------------------------------------------------------------------------------
+    debug:
+        ... bikeModel:
+            ... Lug_SeatStay/Scalar/Diameter_Miter 
+                ... frameKey="SeatStay/Scalar/DiameterMiterST"
+    refactor:
+        ... delete dimension Objects when clean canvas
+            ... canvasCAD::clean_StageContent
+        ... do some cleanups
+
+
+3.4.05.14 - 2017.08.15
+-------------------------------------------------------------------------------
+    feature:
+        ... different dimension for top and bottom Headset
+    refactor/feature:
+        ... rattleCAD Menue
+            ... reorder references
+    refactor/feature:
+        ... rattleCAD_3D
+            ... bind HeadSet to bikeComponents
+            ... add add_Spacer
+    debug:
+        ... HandleBar Position did not update on Stem Length
+
+
+3.4.05.13 - 2017.08.15
+-------------------------------------------------------------------------------
+    debug:
+        ... bikeModel.tcl
+            ... handle "," in Scalar - Input Values
+        ... realign dimension
+            ... D01079
+    refactor/feature
+        ... HeadSet Top
+            ... Scalar(Height_Top) < 12.0 ... cone style
+        ... split myGUI::rendering::createDecoration_HeadSet
+            ... createDecoration_HeadSetBottom
+            ... createDecoration_HeadSetTop
+
+
+3.4.05.12 - 2017.08.14
+-------------------------------------------------------------------------------
+    refactor:
+        ... procedure myGUI::dimension::createDimension
+        ... variable hideRegistry
+            ... replace array against dict
+
+
+3.4.05.11 - 2017.08.14
+-------------------------------------------------------------------------------
+    refactor/feature:
+        ... build.xml
+            ... create rattleCAD_3.4.05.xx_plugin.zip
+
+
+3.4.05.10 - 2017.08.13
+-------------------------------------------------------------------------------
+    refactor:
+        ... new procedure myGUI::dimension::createDimension
+        ... variable hideRegistry
+    feature:
+        ... additional dimensions for
+            ... Frame Drafting
+                ... D01109, D01113, D01122
+            ... Summary
+                ... D01066, D01076, D01077, D01078, D01079 
+
+
+3.4.05.09 - 2017.08.10
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI
+            ...  dimension
+                ... new libray
+                    ... lib_dimension.tcl
+                    ... lib_reference.tcl
+        ... _plugin/rattleCAD_3D [1.05]
+            ... relocate directory: components
+
+
+3.4.05.08 - 2017.08.04
+-------------------------------------------------------------------------------
+    debug:
+        ... bikeComponent 
+            ... CrankSet
+
+
+3.4.05.07 - 2017.07.30
+-------------------------------------------------------------------------------
+    debug:
+        ... bikeModel
+            ... RearDerailleur Position
+    refactor/debug:
+        ... cleanup canvasCAD
+
+
+3.4.05.06 - 2017.07.12
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... some cleanups in tubeMiter
+
+
+3.4.05.05 - 2017.06.15
+-------------------------------------------------------------------------------
+    refactor/debug:
+        ... bikeFrame 
+            ... tubeProfiles 
+                ... especially HeadTube
+        ... myGUI 
+            ... CrankSet 
+                ... mapping for Polygon - Chainwheel
+                    ... ChainWheels_XY & ChainWheels_XZ
+                
+
+3.4.05.04 - 2017.06.13
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeModel 
+            ... report Polyline(...) as {x y x y x y ...}
+                ... bikeFrame
+                ... bikeComponent 
+                    ... CrankSet, Fender, Stem, Spacer
+        ... myGUI
+            ... cvCustom::createLugRep            
+
+
+3.4.05.03 - 2017.06.12
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeModel     -> dataModel.xml
+            ... myGUI     -> mapping_bikeModel.xml
+            ... myPersist -> mapping_bikeModel.xml
+
+
+3.4.05.02 - 2017.06.11
+-------------------------------------------------------------------------------
+    refactor:
+        ... myPersist
+            ... mapping of persist to model from myGUI -> myPersist
+        ... cleanup test procedures
+
+
+3.4.05.01 - 2017.06.11
+-------------------------------------------------------------------------------
+    refactor:
+        ... extract bikeFrame package
+            ... from bikeGeometry
+                ... see branch: 3.4.05.00_bikeFrame_prototype   
+        ... tubeMiter 
+            ... implemented in an OO-oriented
+                ... create Object by [tubeMiter::createMiter {miterType}]
+                    ... miterType: cone, cylinder, plane
+
+
+3.4.05.00 - 2017.04.24
+-------------------------------------------------------------------------------
+    refactor:
+        ... branch 3.4.04 to 3.4.05
+
+
+3.4.04.22 - 2017.04.04
+-------------------------------------------------------------------------------
+    debug:
+        ... DownTube-BottleCage failed in Frame Drafting
+            ... myGUI::cvCustom::createDimension_FrameDrafting_BG
+        ... ChainStay-Type not available in ChainStay Details
+            ... bikeModel::get_ListBoxValues
+            ... myGUI::control::getListBoxContent
+            ... myGUI::control::setListBoxContent
+
+
+3.4.04.21 - 2017.03.12
+-------------------------------------------------------------------------------
+    debug:
+        ... toolbar Button
+            ... print_dxf ... myGUI::export::notebook_exportDXF          
+            ... print_svg ... myGUI::export::notebook_exportSVG          
+
+
+3.4.04.20 - 2017.03.11
+-------------------------------------------------------------------------------
+    feature:
+        ... handle BottomBracket-Excenter
+            ... myGUI
+                ... /etc/mapping_bikeModel.xml    
+                    ... BottomBracket/Scalar/ExcenterOffset
+                ... modelAdapter::updateModel_XZ        
+                    ... Scalar/Geometry/BottomBracket_Offset_Excenter
+                    ... Position/CrankSet
+                ... cvCustom::createDimension_...
+                    ... CrankSet(Position)
+                ... cvCustom::createDimension_PointBottomBracket    
+                ... cvCustom::createDimension_PointPersonal
+                ... cvCustom::update_renderCenterline
+            ... bikeModel
+                ... etc/dataModel.xml
+                    ... CrankSet/Position/Origin
+                    ... BottomBracket/Scalar/ExcenterOffset
+            ... bikeGeometry
+                ... model_freeAngle::create_GeometryCenter
+                    ... Position(CrankSet)
+            ... myPersist
+                ... Persistence
+                    ... update__3_4_04 & get_persistenceKeys
+                        ... /root/Lugs/BottomBracket/Excenter/Offset
+
+
+3.4.04.19 - 2017.03.03
+-------------------------------------------------------------------------------
+    feature:
+        ... on specific condition on MacOS
+            ... ::APPL_Config(PLUGIN_Dir) $::APPL_Config(ROOT_Dir)/../PlugIns]
+
+
+3.4.04.18 - 2017.02.28
+-------------------------------------------------------------------------------
+    refactor:
+        ... canvasCAD
+            ... handle different size of vectorfont on Windows and MacOS
+                ... define UnitScale m, c, i in relation to UnitScale p
+                ... vectorfont::setscale
+                ... canvasCAD::create -> draftText
+
+
+3.4.04.17 - 2017.02.28
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI::plugIn::loadPlugins
+            ... enhance error-handling
+        ... myGUI::plugIn::create_Window
+            ... set w .addOn -> .plugIn
+        ... myGUI::init
+            ... remove ::APPL_Config(EXPORT_SCAD)
+        ... myGUI::control::exit_rattleCAD
+            ... replace myPersist::file::saveProject_xml
+                ... myGUI::control::save_ProjectFile
+    feature:        
+        ... acitve mode on dimensions
+            ... myGUI::cvCustom::createDimension_Geometry_hybrid_personal 
+            ... myGUI::cvCustom::createDimension_Geometry_hybrid_primary  
+            ... myGUI::cvCustom::createDimension_Geometry_hybrid_result   
+            ... myGUI::cvCustom::createDimension_Geometry_hybrid_secondary
+            ... myGUI::cvCustom::createDimension_Geometry_hybrid_summary
+        ... acitve mode on frame centerline
+            ... myGUI::rendering::createFrame_Centerline
+   
+
+3.4.04.16 - 2017.02.18
+-------------------------------------------------------------------------------
+    refactor:
+        ... reference of rattleCAD - PlugIns
+            ... add APPL_Config(PLUGIN_Dir) 
+                ... $rootDir/_plugin
+
+
+3.4.04.15 - 2017.02.12
+-------------------------------------------------------------------------------
+    refactor:
+        ... HeadTube rendering failed on switch from cylindric to tapered
+            ... bikeModel/etc/dataModel.xml
+
+
+3.4.04.14 - 2017.02.05
+-------------------------------------------------------------------------------
+    feature:
+        ... bikeComponent
+            ... Fork: 
+                ... Composite_45
+                ... Composite_56
+                ... remove Composite
+
+
+3.4.04.13 - 2017.02.04
+-------------------------------------------------------------------------------
+    debug:
+        ... bikeModel
+            ... get_ListBoxValues
+                ... append: HeadTube  "cylindric tapered"
+
+
+3.4.04.12 - 2017.02.02
+-------------------------------------------------------------------------------
+    debug:
+        ... bikeComponent
+            ... CrankSet
+                ... Chainrings in xy-view
+
+
+3.4.04.11 - 2017.01.31
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeModel/bikeGeometry
+            ... add procedure
+                ... bikeGeometry::get_Profile
+        ... bikeComponent
+            ... refactor Fork-Blade
+                ... Position(BladeEnd)
+                ... Vector(BladeDefinition
+            ... refactor CrankSet
+                ... for mockup_3D
+
+
+3.4.04.10 - 2017.01.22
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeComponent
+            ... optimize update via registry
+                ... register_UpdateObject
+                ... update_RegisteredComponents
+
+
+3.4.04.09 - 2017.01.16
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI
+            ... myGUI::view::configPanel
+                ... Stem:
+                    ... Ahead / Quill
+        ... bikeModel
+            ... remove update-call in 
+                ... ComponentBare
+                ... ComponentBasic
+
+
+3.4.04.08 - 2017.01.16
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI
+            ... rename dataStructure.xml -> mapping_bikeModel.xml
+        ... bikeModel
+            ... rename dataStructure.xml -> dataModel.xml  
+    feature:            
+        ... bikeComponent
+            ... 2 types of Stem-Mockup
+                ... Ahead / Quill
+
+            
+3.4.04.07 - 2017.01.15
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI
+            ... extract get_ProjectDoc 
+                ... from myGUI::modelAdapter::save_ProjectFile
+            ... do the mappings to bikeModel in
+                ... myGUI::modelAdapter::AdapterBikeModel
+        ... bikeModel
+            ... cleanup/remove unsed procedures
+            
+
+3.4.04.06 - 2017.01.09
+-------------------------------------------------------------------------------
+    refactor:
+        ... mapping projectFile to bikeModel
+            ... now placed in myGUI::myGUI::modelAdapter
+        
+        
+3.4.04.06 - 2017.01.08
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI
+            ... startup routine
+        ... bikeModel
+            ... read_projectDoc
+            ... get_projectDoc
+        ... bikeComponent
+            ... add SteererTube
+
+
+3.4.04.05 - 2017.01.06
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeFacade
+            ... rename to bikeModel
+        ... bikeGeometry
+            ... remove precedures handling components handled in bikeComponent 
+
+
+3.4.04.04 - 2017.01.05
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeFacade
+            ... components are seperated by bikeComponent 
+
+
+3.4.04.03 - 2016.11.27
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeComponent 0.01
+            ... implement components as tclOO-Objects
+
+
+3.4.04.02 - 2016.11.20
+-------------------------------------------------------------------------------
+    refactor:
+        ... procedure to redirect stdout
+            ... myGUI::control
+                ... redirect_STDOUT
+        ... use bikeComponent procedures instead of proc in bikeGeometry
+            ... myGUI
+                ... control::add_ComponentDir user ...
+            ... myGUI::control
+                ... add_ComponentDir
+            ... bikeFacade
+                ... update_bikeFacade ... handles geometry and components
+                ... set_Component
+                ... get_Component
+                ... get_componentPath
+                ... dataStructure.xml
+                ... add_ComponentDir
+            ... bikeComponent
+                ... set_Component
+                ... get_Component
+                ... add_ComponentDir
+        ... component preview
+            ... myGUI::view::edit::svg::updateCanvas
+                ... using bikeFacade::get_componentPath
+
+
+3.4.04.01 - 2016.11.08
+-------------------------------------------------------------------------------
+    refactor:
+        ... File -> SVG-Component
+        ... File -> SVG-ChainWheel
+        ... proc redef_puts
+
+
+3.4.04.00 - 2016.11.01
+-------------------------------------------------------------------------------
+    refactor:
+        ... completel switch to AdapterBikeFacade
+
+
+3.4.03.23 - 2016.10.31
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI::modelAdapter::AdapterBikeFacade
+            ... myGUI::modelAdapter::AdapterBikeGeometry -> getModelDictionary
+            ... myGUI::modelAdapter::AdapterBikeFacade   -> getModelDictionary
+        ... create/update procedures
+            ... set_Component
+            ... set_Config
+            ... set_ListValue
+            ... set_Scalar
+            ... updateObject_fromGeometry
+
+
+3.4.03.22 - 2016.10.29
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI::modelAdapter::modelDICT
+            ... myGUI::modelAdapter::AdapterBikeGeometry
+            ... myGUI::modelAdapter::AdapterBikeFacade
+                ... bikeFacade/etc/datastructure.xml
+                ... bikeFacade::temp_dictUpdate
+            ... rename parameter
+                ... single point of reference
+                ... names belonging of use (XY, XZ)
+
+
+3.4.03.21 - 2016.10.27
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI::model::model_Info
+            ... introduce model for base references
+        ... myGUI::modelAdapter::get_projectDICT
+            ... remove procedure and integrat content in
+                ... myGUI::modelAdapter::updateModel
+            ... include get_projectDICT
+        ... Project Tab in Info-Panel    
+            ... holds content of modelAdapter::projectDICT 
+                ... will be removed again in future versions
+        ... myGUI::modelAdapter::updateModel_XZ
+                ... BoundingBox -> Summary    ... as list
+        ... myGUI::model::coords_xy_index
+            ... centralize procedure to reference instead of
+                ... myGUI::modelAdapter::coords_xy_index
+
+
+3.4.03.20 - 2016.10.26
+-------------------------------------------------------------------------------
+    refactor:
+        ... myGUI::modelAdapter::AdapterBikeGeometry
+            ... getModelDictionary
+                ... replace call of bikeGeometry::get_dictionaryGUIModel
+                ... by an fully implementation here
+        ... myGUI::modelAdapter::updateModel_XY
+            ... extract settings from updateModel_XZ
+        ... Parameter Names
+            ... Scalar: RearMockup - DiscDiameter
+                ... Scalar: RearBrake - DiscDiameter
+            ... Scalar: RearMockup - DiscWidth  
+                ... Scalar: RearBrake::DiscWidth                   
+            ... Scalar: CrankSet - SpyderArmCount
+                ... Config: CrankSet_SpyderArmCount
+
+
+3.4.03.19 - 2016.10.23
+-------------------------------------------------------------------------------
+    debug:
+        ... myGUI
+            ... chainStay Shape configuration failed
+                ... myGUI::cvCustom::move_ctrlPoints
+        ... canvasCAD 0.64
+            ... canvasCAD::setMark
+            ... check_dragObject
+                ... set CANVAS_Point(x1) $x
+                ... set CANVAS_Point(y1) $y
+
+
+3.4.03.18 - 2016.10.20
+-------------------------------------------------------------------------------
+    refactor:
+        ... rattleCAD_AddOn::create
+            ... mockup_3D__0.58.kit
+
+
+3.4.03.17 - 2016.10.17
+-------------------------------------------------------------------------------
+    debug/refactor:
+        ... myGUI::gui::add_ConfigFrameJig
+            ... frameJig selection failed
+        ... myGUI::init_GUI
+            ... read options from rattleCAD_init.xml instead of bikeGeometry
+        ... myGUI::view::edit::updateView    
+            ... update selection list for "Component" Tab on enter Tab
+        ... myGUI::control::updateControl
+            ... windows title
+
+
+3.4.03.16 - 2016.10.17
+-------------------------------------------------------------------------------
+    refactor:
+        ... centralize all procedures to
+            ... myGUI::control::...
+            ... myGUI::modelAdapter::...
+        ... refer bikeGoemetry via Strategy in
+            ... myGUI::modelAdapter::ModelContext
+
+
+3.4.03.15 - 2016.08.29
+-------------------------------------------------------------------------------
+    refactor:
+        ... shorten namespace path from myGUI::mvc::view
+            ... to myGUI::view
+
+
+3.4.03.14 - 2016.08.28
+-------------------------------------------------------------------------------
+    refactor:
+        ... Model View Controller - Pattern to  myGUI
+            ... ::myGUI::mvc ...
+
+
+3.4.03.13 - 2016.08.22
+-------------------------------------------------------------------------------
+    refactor:
+        ... cleanup  myGUI
+
+
+3.4.03.12 - 2016.08.22
+-------------------------------------------------------------------------------
+    refactor:
+        ... move GUI to  myGUI 
+
+
+3.4.03.10 - 2016.08.05
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeModel::MixinMethodProtoypes 
+            ... rename procedures to
+                ... prototype_...
+        ... appUtil
+            ... appUtil::_add_namespaceContent
+                ... add info of TclOO objects
+
+
+3.4.03.09 - 2016.07.26
+-------------------------------------------------------------------------------
+    refactor:
+        ... create structure in bikeModel
+            ... xomponent
+            ... fork
+            ... frameLug
+            ... frameTube
+            ... geometry
+
+            
+3.4.03.08 - 2016.07.26
+-------------------------------------------------------------------------------
+    refactor:
+        ... tubemiter in GUI
+
+            
+3.4.03.07 - 2016.07.25
+-------------------------------------------------------------------------------
+    refactor:
+        ... TclOO
+            ... bikeModel
+        ... vectormath 1.00
+            ... rename procedures 
+
+
+            3.4.03.06 - 2016.06.30
+-------------------------------------------------------------------------------
+    refactor:
+        ... TclOO
+            ... bikeModel
+
+
+3.4.03.05 - 2016.06.19
+-------------------------------------------------------------------------------
+    refactor:
+        ... TclOO
+            ... bikeModel
+
+
+3.4.03.04 - 2016.05.15
+-------------------------------------------------------------------------------
+    refactor:
+        ... TclOO
+            ... canvasCAD 0.65
+
+
+3.4.03.03 - 2016.05.15
+-------------------------------------------------------------------------------
+    refactor:
+        ... build a factory (pattern) to create dimensions
+            ... canvasCAD 0.64
+
+
+3.4.03.02 - 2016.05.14
+-------------------------------------------------------------------------------
+    refactor:
+        ... bikeModel 0.00
+            ... create class architecture
+
+
+3.4.03.01 - 2016.05.13
+-------------------------------------------------------------------------------
+    refactor:
+        ... separate rattleCAD
+            ... model / view / control
+        ... move persistence from bikeGeometry to model
+            ... bikeGeometry 2.00
+    feature:
+        ... change edit parameter from doubleclick to click
+            ... canvasCAD 0.63

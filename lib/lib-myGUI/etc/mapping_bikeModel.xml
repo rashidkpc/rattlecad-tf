@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<root>
+    <!--
+            #
+        guiKey ............. path as written from myGUI <- input
+        guiDictKey ......... path as read from myGUI -> output
+            #
+    -->
+    <BottleCage_DownTube>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/BottleCage_DownTube"/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" guiKey="Config/BottleCage_DownTube" guiDictKey="Config/BottleCage_DownTube"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/DownTube"/>
+        </Direction>
+        <Position>
+            <End init="0" guiKey="" guiDictKey="Position/DownTube_BottleCageTopOffset"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/DownTube_BottleCageTop"/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" guiKey="Scalar/BottleCage/DownTube" guiDictKey="Scalar/BottleCage/DownTube"/>
+        </Scalar>
+    </BottleCage_DownTube>
+    <BottleCage_DownTube_Lower>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/BottleCage_DownTube_Lower"/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" guiKey="Config/BottleCage_DownTube_Lower" guiDictKey="Config/BottleCage_DownTube_Lower"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/DownTube"/>
+        </Direction>
+        <Position>
+            <End init="0" guiKey="" guiDictKey="Position/DownTube_BottleCageBottomOffset"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/DownTube_BottleCageBottom"/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" guiKey="Scalar/BottleCage/DownTube_Lower" guiDictKey="Scalar/BottleCage/DownTube_Lower"/>
+        </Scalar>
+    </BottleCage_DownTube_Lower>
+    <BottleCage_SeatTube>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/BottleCage_SeatTube"/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" guiKey="Config/BottleCage_SeatTube" guiDictKey="Config/BottleCage_SeatTube"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/SeatTube"/>
+        </Direction>
+        <Position>
+            <End init="0" guiKey="" guiDictKey="Position/SeatTube_BottleCageOffset"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/SeatTube_BottleCageBase"/>
+        </Position>
+        <Scalar>
+            <OffsetBB init="1" guiKey="Scalar/BottleCage/SeatTube" guiDictKey="Scalar/BottleCage/SeatTube"/>
+        </Scalar>
+    </BottleCage_SeatTube>
+    <BottomBracket>
+        <Position>
+            <Ground init="0" guiKey="" guiDictKey="Position/BottomBracket_Ground"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/BottomBracket"/>
+        </Position>
+        <Scalar>
+            <ExcenterOffset init="1" guiKey="Scalar/Geometry/BottomBracket_Offset_Excenter" guiDictKey="Scalar/Geometry/BottomBracket_Offset_Excenter"/>
+            <DiameterInside init="1" guiKey="Scalar/BottomBracket/InsideDiameter" guiDictKey="Scalar/BottomBracket/InsideDiameter"/>
+            <DiameterOutside init="1" guiKey="Scalar/BottomBracket/OutsideDiameter" guiDictKey="Scalar/BottomBracket/OutsideDiameter"/>
+            <Width init="1" guiKey="Scalar/BottomBracket/Width" guiDictKey="Scalar/BottomBracket/Width"/>
+        </Scalar>
+    </BottomBracket>
+    <ChainStay>
+        <Polyline>
+            <XY init="0" guiKey="" guiDictKey="CenterLine/RearMockup"/>
+            <XY_CtrLines init="0" guiKey="" guiDictKey="CenterLine/RearMockup_CtrLines"/>
+            <XY_Uncut init="0" guiKey="" guiDictKey="CenterLine/RearMockup_UnCut"/>
+            <XZ init="0" guiKey="" guiDictKey="CenterLine/ChainStay"/>
+        </Polyline>
+        <Config>
+            <Type init="1" guiKey="Config/ChainStay" guiDictKey="Config/ChainStay"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/ChainStay"/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/ChainStay"/>
+            <Shape_XY init="0" guiKey="" guiDictKey="Polygon/ChainStay_XY"/>
+        </Polygon>
+        <Position>
+            <End init="0" guiKey="" guiDictKey=""/>
+            <Origin init="0" guiKey="" guiDictKey="Position/ChainStay_RearWheel"/>
+            <Origin_XY init="0" guiKey="" guiDictKey="Position/ChainStay_XY"/>
+        </Position>
+        <Profile>
+            <XY init="0" guiKey="" guiDictKey="Profile/ChainStay_XY"/>
+            <XZ init="0" guiKey="" guiDictKey="Profile/ChainStay_XZ"/>
+        </Profile>
+        <Scalar>
+            <DiameterSS init="1" guiKey="Scalar/ChainStay/DiameterSS" guiDictKey="Scalar/ChainStay/DiameterSS"/>
+            <Height init="1" guiKey="Scalar/ChainStay/Height" guiDictKey="Scalar/ChainStay/Height"/>
+            <HeightBB init="1" guiKey="Scalar/ChainStay/HeightBB" guiDictKey="Scalar/ChainStay/HeightBB"/>
+            <OffsetBBTopView init="1" guiKey="Scalar/BottomBracket/OffsetCS_TopView" guiDictKey="Scalar/BottomBracket/OffsetCS_TopView"/>
+            <OffsetDO init="1" guiKey="Scalar/RearDropout/OffsetCS" guiDictKey="Scalar/RearDropout/OffsetCS"/>
+            <OffsetDOPerp init="1" guiKey="Scalar/RearDropout/OffsetCSPerp" guiDictKey="Scalar/RearDropout/OffsetCSPerp"/>
+            <OffsetDOTopView init="1" guiKey="Scalar/RearDropout/OffsetCS_TopView" guiDictKey="Scalar/RearDropout/OffsetCS_TopView"/>
+            <TaperLength init="1" guiKey="Scalar/ChainStay/TaperLength" guiDictKey="Scalar/ChainStay/TaperLength"/>
+            <WidthBB init="1" guiKey="Scalar/ChainStay/WidthBB" guiDictKey="Scalar/ChainStay/WidthBB"/>
+            <completeLength init="1" guiKey="Scalar/ChainStay/completeLength" guiDictKey="Scalar/ChainStay/completeLength"/>
+            <cuttingAngle init="1" guiKey="Scalar/ChainStay/cuttingAngle" guiDictKey="Scalar/ChainStay/cuttingAngle"/>
+            <cuttingLeft init="1" guiKey="Scalar/ChainStay/cuttingLeft" guiDictKey="Scalar/ChainStay/cuttingLeft"/>
+            <Length init="1" guiKey="Scalar/ChainStay/cuttingLength" guiDictKey="Scalar/ChainStay/Length"/>
+            <profile_x01 init="1" guiKey="Scalar/ChainStay/profile_x01" guiDictKey="Scalar/ChainStay/profile_x01"/>
+            <profile_x02 init="1" guiKey="Scalar/ChainStay/profile_x02" guiDictKey="Scalar/ChainStay/profile_x02"/>
+            <profile_x03 init="1" guiKey="Scalar/ChainStay/profile_x03" guiDictKey="Scalar/ChainStay/profile_x03"/>
+            <profile_y00 init="1" guiKey="Scalar/ChainStay/profile_y00" guiDictKey="Scalar/ChainStay/profile_y00"/>
+            <profile_y01 init="1" guiKey="Scalar/ChainStay/profile_y01" guiDictKey="Scalar/ChainStay/profile_y01"/>
+            <profile_y02 init="1" guiKey="Scalar/ChainStay/profile_y02" guiDictKey="Scalar/ChainStay/profile_y02"/>
+            <profile_y03 init="1" guiKey="" guiDictKey=""/>
+            <segmentAngle_01 init="1" guiKey="Scalar/ChainStay/segmentAngle_01" guiDictKey="Scalar/ChainStay/segmentAngle_01"/>
+            <segmentAngle_02 init="1" guiKey="Scalar/ChainStay/segmentAngle_02" guiDictKey="Scalar/ChainStay/segmentAngle_02"/>
+            <segmentAngle_03 init="1" guiKey="Scalar/ChainStay/segmentAngle_03" guiDictKey="Scalar/ChainStay/segmentAngle_03"/>
+            <segmentAngle_04 init="1" guiKey="Scalar/ChainStay/segmentAngle_04" guiDictKey="Scalar/ChainStay/segmentAngle_04"/>
+            <segmentLength_01 init="1" guiKey="Scalar/ChainStay/segmentLength_01" guiDictKey="Scalar/ChainStay/segmentLength_01"/>
+            <segmentLength_02 init="1" guiKey="Scalar/ChainStay/segmentLength_02" guiDictKey="Scalar/ChainStay/segmentLength_02"/>
+            <segmentLength_03 init="1" guiKey="Scalar/ChainStay/segmentLength_03" guiDictKey="Scalar/ChainStay/segmentLength_03"/>
+            <segmentLength_04 init="1" guiKey="Scalar/ChainStay/segmentLength_04" guiDictKey="Scalar/ChainStay/segmentLength_04"/>
+            <segmentRadius_01 init="1" guiKey="Scalar/ChainStay/segmentRadius_01" guiDictKey="Scalar/ChainStay/segmentRadius_01"/>
+            <segmentRadius_02 init="1" guiKey="Scalar/ChainStay/segmentRadius_02" guiDictKey="Scalar/ChainStay/segmentRadius_02"/>
+            <segmentRadius_03 init="1" guiKey="Scalar/ChainStay/segmentRadius_03" guiDictKey="Scalar/ChainStay/segmentRadius_03"/>
+            <segmentRadius_04 init="1" guiKey="Scalar/ChainStay/segmentRadius_04" guiDictKey="Scalar/ChainStay/segmentRadius_04"/>
+        </Scalar>
+    </ChainStay>
+    <CrankSet>
+        <ComponentNode>
+            <XY_Custom init="0" guiKey="" guiDictKey="ComponentNode/CrankSet_XY_Custom"/>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/CrankSet_XZ"/>
+            <XZ_Custom init="0" guiKey="" guiDictKey="ComponentNode/CrankSet_XZ_Custom"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/CrankSet" guiDictKey="Component/CrankSet"/>
+            <SpyderArmCount init="1" guiKey="Config/CrankSet_SpyderArmCount" guiDictKey="Config/CrankSet_SpyderArmCount"/>
+        </Config>
+        <ListValue>
+            <ChainRings init="1" guiKey="ListValue/CrankSetChainRings" guiDictKey="ListValue/CrankSetChainRings"/>
+            <ChainWheelDef init="0" guiKey="a" guiDictKey=""/>
+        </ListValue>
+        <Polygon>
+            <CrankArm_XY init="0" guiKey="" guiDictKey="Polygon/CrankArm_xy"/>
+            <CrankArm_XZ init="0" guiKey="" guiDictKey="CustomCrank_XZ/Polygon_CrankArm"/>
+            <ChainWheels_XY init="0" guiKey="" guiDictKey="Polygon/CrankSet/ChainWheels_XY"/>
+            <ChainWheels_XZ init="0" guiKey="" guiDictKey="Polygon/CrankSet/ChainWheels_XZ"/>
+            <SpyderArm init="0" guiKey="" guiDictKey="CustomCrank_XZ/Polygon_SpyderArm"/>
+        </Polygon>
+        <Position>
+            <Bolts init="0" guiKey="" guiDictKey="CustomCrank_XZ/PositionList_Bolts"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/CrankSet"/>
+        </Position>
+        <Scalar>
+            <ArmWidth init="1" guiKey="Scalar/CrankSet/ArmWidth" guiDictKey="Scalar/CrankSet/ArmWidth"/>
+            <ChainLine init="1" guiKey="Scalar/CrankSet/ChainLine" guiDictKey="Scalar/CrankSet/ChainLine"/>
+            <ChainRingOffset init="1" guiKey="Scalar/CrankSet/ChainRingOffset" guiDictKey="Scalar/CrankSet/ChainRingOffset"/>
+            <Length init="1" guiKey="Scalar/CrankSet/Length" guiDictKey="Scalar/CrankSet/Length"/>
+            <PedalEye init="1" guiKey="Scalar/CrankSet/PedalEye" guiDictKey="Scalar/CrankSet/PedalEye"/>
+            <Q-Factor init="1" guiKey="Scalar/CrankSet/Q-Factor" guiDictKey="Scalar/CrankSet/Q-Factor"/>
+        </Scalar>
+    </CrankSet>
+    <DownTube>
+        <Polyline>
+            <CenterLine_XZ init="0" guiKey="" guiDictKey="CenterLine/DownTube"/>
+            <Profile_XY init="0" guiKey="" guiDictKey=""/>
+            <Profile_XZ init="0" guiKey="" guiDictKey=""/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/DownTube"/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" guiKey="" guiDictKey="TubeMiter/DownTube_Seat/polygon_01"/>
+            <MiterEndBBInside init="0" guiKey="" guiDictKey="TubeMiter/DownTube_Seat/polygon_02"/>
+            <MiterEndBBOutside init="0" guiKey="" guiDictKey="TubeMiter/DownTube_Seat/polygon_03"/>
+            <MiterOrigin init="0" guiKey="" guiDictKey="TubeMiter/DownTube_Head/polygon_01"/>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/DownTube"/>
+        </Polygon>
+        <Position>
+            <Edge_HeadTube_DT init="0" guiKey="" guiDictKey="Position/_Edge_DownTubeHeadTube_DT"/>
+            <Edge_SeatTube_Miter init="0" guiKey="" guiDictKey="Position/_Edge_DownTubeSeatTube_Miter"/>
+            <End init="0" guiKey="" guiDictKey="Position/DownTube_End"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/DownTube_Start"/>
+        </Position>
+        <Scalar>
+            <DiameterEnd init="1" guiKey="Scalar/DownTube/DiameterBB" guiDictKey="Scalar/DownTube/DiameterBB"/>
+            <DiameterOrigin init="1" guiKey="Scalar/DownTube/DiameterHT" guiDictKey="Scalar/DownTube/DiameterHT"/>
+            <MiterAngelEnd init="0" guiKey="TubeMiter/DownTube_Seat_AngleTubeMiter/DownTube_Seat_Angle" guiDictKey="TubeMiter/DownTube_Seat/miterAngle"/>
+            <MiterAngelOrigin init="0" guiKey="TubeMiter/DownTube_Head_AngleTubeMiter/DownTube_Head_Angle" guiDictKey="TubeMiter/DownTube_Head/miterAngle"/>
+            <OffsetBB init="1" guiKey="Scalar/DownTube/OffsetBB" guiDictKey="Scalar/DownTube/OffsetBB"/>
+            <TaperLength init="1" guiKey="Scalar/DownTube/TaperLength" guiDictKey="Scalar/DownTube/TaperLength"/>
+        </Scalar>
+    </DownTube>
+    <Fork>
+        <Config>
+            <Type init="1" guiKey="Config/Fork" guiDictKey="Config/Fork"/>
+        </Config>
+        <Scalar>
+            <BladeOffsetCrown init="1" guiKey="Scalar/Fork/BladeOffsetCrown" guiDictKey="Scalar/Fork/BladeOffsetCrown"/>
+            <BladeOffsetCrownPerp init="1" guiKey="Scalar/Fork/BladeOffsetCrownPerp" guiDictKey="Scalar/Fork/BladeOffsetCrownPerp"/>
+            <BladeOffsetDO init="1" guiKey="Scalar/Fork/BladeOffsetDO" guiDictKey="Scalar/Fork/BladeOffsetDO"/>
+            <BladeOffsetDOPerp init="1" guiKey="Scalar/Fork/BladeOffsetDOPerp" guiDictKey="Scalar/Fork/BladeOffsetDOPerp"/>
+            <BladeBrakeOffset init="1" guiKey="Scalar/FrontBrake/BladeOffset" guiDictKey="Scalar/FrontBrake/BladeOffset"/>
+            <CrownBrakeAngle init="1" guiKey="Scalar/Fork/CrownAngleBrake" guiDictKey="Scalar/Fork/CrownAngleBrake"/>
+            <CrownBrakeOffset init="1" guiKey="Scalar/Fork/CrownOffsetBrake" guiDictKey="Scalar/Fork/CrownOffsetBrake"/>
+            <Height init="1" guiKey="Scalar/Geometry/Fork_Height" guiDictKey="Scalar/Fork/Height"/>
+            <Rake init="1" guiKey="Scalar/Geometry/Fork_Rake" guiDictKey="Scalar/Fork/Rake"/>
+        </Scalar>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/Fork"/>
+        </Position>
+    </Fork>
+    <ForkBlade>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/ForkBlade"/>
+        </ComponentNode>
+        <Polyline>
+            <CenterLine_XZ init="0" guiKey="" guiDictKey="CenterLine/ForkBlade"/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/ForkBlade"/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/ForkBlade"/>
+        </Polygon>
+        <Position>
+            <End init="0" guiKey="" guiDictKey="Position/ForkBlade_End"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/ForkBlade"/>
+        </Position>
+        <Scalar>
+            <DiameterDO init="1" guiKey="Scalar/Fork/BladeDiameterDO" guiDictKey="Scalar/Fork/BladeDiameterDO"/>
+            <BendRadius init="1" guiKey="Scalar/Fork/BladeBendRadius" guiDictKey="Scalar/Fork/BladeBendRadius"/>
+            <EndLength init="1" guiKey="Scalar/Fork/BladeEndLength" guiDictKey="Scalar/Fork/BladeEndLength"/>
+            <Width init="1" guiKey="Scalar/Fork/BladeWidth" guiDictKey="Scalar/Fork/BladeWidth"/>
+            <TaperLength init="1" guiKey="Scalar/Fork/BladeTaperLength" guiDictKey="Scalar/Fork/BladeTaperLength"/>
+        </Scalar>
+    </ForkBlade>
+    <ForkCrown>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/ForkCrown"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/ForkCrown" guiDictKey="Component/ForkCrown"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/ForkCrown"/>
+        </Direction>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/ForkCrown"/>
+        </Position>
+    </ForkCrown>
+    <ForkDropout>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/ForkDropout"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/ForkDropout" guiDictKey="Component/ForkDropout"/>
+            <Layer init="1" guiKey="Config/ForkDropout" guiDictKey="Config/ForkDropout"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/ForkDropout"/>
+        </Direction>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/ForkDropout"/>
+        </Position>
+    </ForkDropout>
+    <FrontBrake>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/FrontBrake"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/FrontBrake" guiDictKey="Component/FrontBrake"/>
+            <Type init="1" guiKey="Config/FrontBrake" guiDictKey="Config/FrontBrake"/>
+        </Config>
+        <Position>
+            <Definition init="0" guiKey="" guiDictKey="Position/FrontBrake_Definition"/>
+            <Help init="0" guiKey="" guiDictKey="Position/FrontBrake_Help"/>
+            <Mount init="0" guiKey="" guiDictKey="Position/FrontBrake_Mount"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/FrontBrake_Origin"/>
+        </Position>
+        <Scalar>
+            <LeverLength init="1" guiKey="Scalar/FrontBrake/LeverLength" guiDictKey="Scalar/FrontBrake/LeverLength"/>
+        </Scalar>
+    </FrontBrake>
+    <FrontCarrier>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/FrontCarrier"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/FrontCarrier" guiDictKey="Component/FrontCarrier"/>
+        </Config>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/CarrierMount_Front"/>
+        </Position>
+        <Scalar>
+            <x init="1" guiKey="Scalar/FrontCarrier/x" guiDictKey="Scalar/FrontCarrier/x"/>
+            <y init="1" guiKey="Scalar/FrontCarrier/y" guiDictKey="Scalar/FrontCarrier/y"/>
+        </Scalar>
+    </FrontCarrier>
+    <FrontDerailleur>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/FrontDerailleur"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/FrontDerailleur" guiDictKey="Component/FrontDerailleur"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/FrontDerailleur"/>
+        </Direction>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/DerailleurMount_Front"/>
+        </Position>
+        <Scalar>
+            <Distance init="1" guiKey="Scalar/FrontDerailleur/Distance" guiDictKey="Scalar/FrontDerailleur/Distance"/>
+            <Offset init="1" guiKey="Scalar/FrontDerailleur/Offset" guiDictKey="Scalar/FrontDerailleur/Offset"/>
+        </Scalar>
+    </FrontDerailleur>
+    <FrontFender>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/FrontFender_XZ"/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" guiKey="Config/FrontFender" guiDictKey="Config/FrontFender"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/FrontFender"/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/FrontFender_XZ"/>
+        </Polygon>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/FrontFender"/>
+        </Position>
+        <Scalar>
+            <Height init="1" guiKey="Scalar/FrontFender/Height" guiDictKey="Scalar/FrontFender/Height"/>
+            <OffsetAngle init="1" guiKey="Scalar/FrontFender/OffsetAngle" guiDictKey="Scalar/FrontFender/OffsetAngle"/>
+            <OffsetAngleFront init="1" guiKey="Scalar/FrontFender/OffsetAngleFront" guiDictKey="Scalar/FrontFender/OffsetAngleFront"/>
+            <Radius init="1" guiKey="Scalar/FrontFender/Radius" guiDictKey="Scalar/FrontFender/Radius"/>
+        </Scalar>
+    </FrontFender>
+    <FrontWheel>
+        <Position>
+            <Ground init="0" guiKey="" guiDictKey=""/>
+            <Origin init="0" guiKey="" guiDictKey="Position/FrontWheel"/>
+        </Position>
+        <Scalar>
+            <Radius init="0" guiKey="Scalar/Geometry/FrontWheel_Radius" guiDictKey="Scalar/FrontWheel/Radius"/>
+            <RimDiameter init="1" guiKey="Scalar/Geometry/FrontRim_Diameter" guiDictKey="Scalar/FrontWheel/RimDiameter"/>
+            <RimHeight init="1" guiKey="Scalar/FrontWheel/RimHeight" guiDictKey="Scalar/FrontWheel/RimHeight"/>
+            <TyreHeight init="1" guiKey="Scalar/Geometry/FrontTyre_Height" guiDictKey="Scalar/FrontWheel/TyreHeight"/>
+        </Scalar>
+    </FrontWheel>
+    <Geometry>
+        <BoundingBox>
+            <Complete init="0" guiKey="" guiDictKey=""/>
+            <Fork init="0" guiKey="" guiDictKey=""/>
+            <Frame init="0" guiKey="" guiDictKey=""/>
+            <FrameFork init="0" guiKey="" guiDictKey=""/>
+            <FrameForkSaddle init="0" guiKey="" guiDictKey="BoundingBox/Summary"/>
+        </BoundingBox>
+        <Position>
+            <LegClearance init="0" guiKey="" guiDictKey="Position/LegClearance"/>
+            <Reference_HB init="0" guiKey="" guiDictKey="Position/Reference_HB"/>
+            <Reference_SN init="0" guiKey="" guiDictKey="Position/Reference_SN"/>
+        </Position>
+        <Scalar>
+            <BottomBracket_Angle_ChainStay init="0" guiKey="Scalar/Geometry/BottomBracket_Angle_ChainStay" guiDictKey="Scalar/Geometry/BottomBracket_Angle_ChainStay"/>
+            <BottomBracket_Angle_DownTube init="0" guiKey="Scalar/Geometry/BottomBracket_Angle_DownTube" guiDictKey="Scalar/Geometry/BottomBracket_Angle_DownTube"/>
+            <BottomBracket_Depth init="1" guiKey="Scalar/Geometry/BottomBracket_Depth" guiDictKey="Scalar/Geometry/BottomBracket_Depth"/>
+            <BottomBracket_Height init="0" guiKey="Scalar/Geometry/BottomBracket_Height" guiDictKey="Scalar/Geometry/BottomBracket_Height"/>
+            <DownTube_OffsetHT init="1" guiKey="Scalar/DownTube/OffsetHT" guiDictKey="Scalar/DownTube/OffsetHT"/>
+            <HandleBar_Distance init="1" guiKey="Scalar/Geometry/HandleBar_Distance" guiDictKey="Scalar/Geometry/HandleBar_Distance"/>
+            <HeadLug_Angle_Bottom init="0" guiKey="Scalar/Geometry/HeadLug_Angle_Bottom" guiDictKey="Scalar/Geometry/HeadLug_Angle_Bottom"/>
+            <HeadLug_Angle_Top init="0" guiKey="Scalar/Geometry/HeadLug_Angle_Top" guiDictKey="Scalar/Geometry/HeadLug_Angle_Top"/>
+            <FrontWheel_x init="0" guiKey="Scalar/Geometry/FrontWheel_x" guiDictKey="Scalar/Geometry/FrontWheel_X"/>
+            <FrontWheel_XZ init="0" guiKey="Scalar/Geometry/FrontWheel_xy" guiDictKey="Scalar/Geometry/FrontWheel_XZ"/>
+            <HandleBar_Height init="1" guiKey="Scalar/Geometry/HandleBar_Height" guiDictKey="Scalar/Geometry/HandleBar_Height"/>
+            <HeadTube_Angle init="1" guiKey="Scalar/Geometry/HeadTube_Angle" guiDictKey="Scalar/Geometry/HeadTube_Angle"/>
+            <HeadTube_CenterDownTube init="0" guiKey="Scalar/Geometry/HeadTube_CenterDownTube" guiDictKey="Scalar/Geometry/HeadTube_CenterDownTube"/>
+            <HeadTube_CenterTopTube init="0" guiKey="Scalar/Geometry/HeadTube_CenterTopTube" guiDictKey="Scalar/Geometry/HeadTube_CenterTopTube"/>
+            <HeadTube_Summary init="0" guiKey="Scalar/Geometry/HeadTube_Summary" guiDictKey="Scalar/Geometry/HeadTube_Summary"/>
+            <HeadTube_Virtual init="0" guiKey="Scalar/Geometry/HeadTube_Virtual" guiDictKey="Scalar/Geometry/HeadTube_Virtual"/>
+            <Inseam_Length init="1" guiKey="Scalar/Geometry/Inseam_Length" guiDictKey="Scalar/Geometry/Inseam_Length"/>
+            <Reach_Length init="0" guiKey="Scalar/Geometry/Reach_Length" guiDictKey="Scalar/Geometry/Reach_Length"/>
+            <RearWheel_X init="0" guiKey="Scalar/Geometry/RearWheel_x" guiDictKey="Scalar/Geometry/RearWheel_X"/>
+            <RearWheel_XZ init="1" guiKey="Scalar/Geometry/ChainStay_Length" guiDictKey="Scalar/Geometry/ChainStay_Length"/>
+            <SaddleNose_BB_X init="0" guiKey="Scalar/Geometry/SaddleNose_BB_x" guiDictKey="Scalar/Geometry/SaddleNose_BB_X"/>
+            <SaddleNose_HB init="0" guiKey="Scalar/Geometry/SaddleNose_HB" guiDictKey="Scalar/Geometry/SaddleNose_HB"/>
+            <Saddle_BB init="0" guiKey="Scalar/Geometry/Saddle_BB" guiDictKey="Scalar/Geometry/Saddle_BB"/>
+            <Saddle_Distance init="1" guiKey="Scalar/Geometry/Saddle_Distance" guiDictKey="Scalar/Geometry/Saddle_Distance"/>
+            <Saddle_HB_X init="0" guiKey="Scalar/Geometry/Saddle_HB_x" guiDictKey="Scalar/Geometry/Saddle_HB_X"/>
+            <Saddle_HB_Z init="0" guiKey="Scalar/Geometry/Saddle_HB_y" guiDictKey="Scalar/Geometry/Saddle_HB_Z"/>
+            <Saddle_Height init="1" guiKey="Scalar/Geometry/Saddle_Height" guiDictKey="Scalar/Geometry/Saddle_Height"/>
+            <SeatTube_Angle init="0" guiKey="Scalar/Geometry/SeatTube_Angle" guiDictKey="Scalar/Geometry/SeatTube_Angle"/>
+            <Saddle_Offset_BB_ST init="0" guiKey="Scalar/Geometry/Saddle_Offset_BB_ST" guiDictKey="Scalar/Geometry/Saddle_Offset_BB_ST"/>
+            <SeatTube_LengthClassic init="0" guiKey="Scalar/Geometry/SeatTube_LengthClassic" guiDictKey="Scalar/Geometry/SeatTube_LengthClassic"/>
+            <SeatTube_LengthVirtual init="0" guiKey="Scalar/Geometry/SeatTube_LengthVirtual" guiDictKey="Scalar/Geometry/SeatTube_LengthVirtual"/>
+            <Stack_Height init="0" guiKey="Scalar/Geometry/Stack_Height" guiDictKey="Scalar/Geometry/Stack_Height"/>
+            <TopTube_Angle init="1" guiKey="Scalar/Geometry/TopTube_Angle" guiDictKey="Scalar/Geometry/TopTube_Angle"/>
+            <TopTube_LengthClassic init="0" guiKey="Scalar/Geometry/TopTube_LengthClassic" guiDictKey="Scalar/Geometry/TopTube_LengthClassic"/>
+            <TopTube_LengthVirtual init="0" guiKey="Scalar/Geometry/TopTube_LengthVirtual" guiDictKey="Scalar/Geometry/TopTube_LengthVirtual"/>
+            <TopTube_OffsetHT init="1" guiKey="Scalar/TopTube/OffsetHT" guiDictKey="Scalar/TopTube/OffsetHT"/>
+            <TopTube_PivotOffset init="1" guiKey="Scalar/TopTube/PivotPosition" guiDictKey="Scalar/TopTube/PivotPosition"/>
+        </Scalar>
+    </Geometry>
+    <HandleBar>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/HandleBar"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/HandleBar" guiDictKey="Component/HandleBar"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/HandleBar"/>
+        </Direction>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/HandleBar"/>
+        </Position>
+        <Scalar>
+            <PivotAngle init="1" guiKey="Scalar/HandleBar/PivotAngle" guiDictKey="Scalar/HandleBar/PivotAngle"/>
+        </Scalar>
+    </HandleBar>
+    <HeadSet>
+        <ComponentNode>
+            <Bottom_XZ init="0" guiKey="" guiDictKey="ComponentNode/HeadSetBottom"/>
+            <Top_XZ init="0" guiKey="" guiDictKey="ComponentNode/HeadSetTop"/>
+        </ComponentNode>
+        <Direction>
+            <Origin init="0" guiKey="" guiDictKey="Direction/HeadSet"/>
+        </Direction>
+        <Polygon>
+            <Bottom_XZ init="0" guiKey="" guiDictKey="Polygon/HeadSetBottom"/>
+            <Top_XZ init="0" guiKey="" guiDictKey="Polygon/HeadSetTop"/>
+        </Polygon>
+        <Position>
+            <Edge_BottomFront_Bottom init="0" guiKey="" guiDictKey="Position/_Edge_HeadSetBottomFront_Bottom"/>
+            <Edge_BottomFront_Top init="0" guiKey="" guiDictKey="Position/_Edge_HeadSetBottomFront_Top"/>
+            <Edge_TopBack_Bottom init="0" guiKey="" guiDictKey="Position/_Edge_HeadSetTopBack_Bottom"/>
+            <Edge_TopBack_Top init="0" guiKey="" guiDictKey="Position/_Edge_HeadSetTopBack_Top"/>
+            <Edge_TopFront_Bottom init="0" guiKey="" guiDictKey="Position/_Edge_HeadSetTopFront_Bottom"/>
+            <Edge_TopFront_Top init="0" guiKey="" guiDictKey="Position/_Edge_HeadSetTopFront_Top"/>
+            <End_Top init="0" guiKey="" guiDictKey="Position/HeadSet_TopEnd"/>
+            <Origin_Bottom init="0" guiKey="" guiDictKey="Position/HeadSet_Bottom"/>
+            <Origin_Top init="0" guiKey="" guiDictKey="Position/HeadSet_Top"/>
+        </Position>
+        <Scalar>
+            <DiameterBottom init="1" guiKey="Scalar/HeadSet/Diameter_Bottom" guiDictKey="Scalar/HeadSet/Diameter_Bottom"/>
+            <DiameterTop guiKey="Scalar/HeadSet/Diameter_Top" guiDictKey="Scalar/HeadSet/Diameter_Top"/>
+            <HeightBottom init="1" guiKey="Scalar/HeadSet/Height_Bottom" guiDictKey="Scalar/HeadSet/Height_Bottom"/>
+            <HeightTop init="1" guiKey="Scalar/HeadSet/Height_Top" guiDictKey="Scalar/HeadSet/Height_Top"/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" guiKey="" guiDictKey="Vector/HeadSet_Bottom"/>
+            <Top init="0" guiKey="" guiDictKey="Vector/HeadSet_Top"/>
+        </Vector>
+    </HeadSet>
+    <HeadTube>
+        <Polyline>
+            <CenterLine_XZ init="0" guiKey="" guiDictKey="CenterLine/HeadTube"/>
+        </Polyline>
+        <Config>
+            <Type init="1" guiKey="Config/HeadTube" guiDictKey="Config/HeadTube"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/HeadTube"/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/HeadTube"/>
+        </Polygon>
+        <Position>
+            <Edge_Back_Bottom init="0" guiKey="" guiDictKey="Position/_Edge_HeadTubeBack_Bottom"/>
+            <Edge_Back_Top init="0" guiKey="" guiDictKey="Position/_Edge_HeadTubeBack_Top"/>
+            <Edge_Front_Bottom init="0" guiKey="" guiDictKey="Position/_Edge_HeadTubeFront_Bottom"/>
+            <Edge_Front_Top init="0" guiKey="" guiDictKey="Position/_Edge_HeadTubeFront_Top"/>
+            <End init="0" guiKey="" guiDictKey="Position/HeadTube_End"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/HeadTube_Start"/>
+            <VirtualTopTube init="0" guiKey="" guiDictKey="Position/HeadTube_VirtualTopTube"/>
+        </Position>
+        <Scalar>
+            <Diameter init="1" guiKey="Scalar/HeadTube/Diameter" guiDictKey="Scalar/HeadTube/Diameter"/>
+            <DiameterTaperedBase init="1" guiKey="Scalar/HeadTube/DiameterTaperedBase" guiDictKey="Scalar/HeadTube/DiameterTaperedBase"/>
+            <DiameterTaperedTop init="1" guiKey="Scalar/HeadTube/DiameterTaperedTop" guiDictKey="Scalar/HeadTube/DiameterTaperedTop"/>
+            <HeightTaperedBase init="1" guiKey="Scalar/HeadTube/HeightTaperedBase" guiDictKey="Scalar/HeadTube/HeightTaperedBase"/>
+            <Length init="1" guiKey="Scalar/HeadTube/Length" guiDictKey="Scalar/HeadTube/Length"/>
+            <LengthTapered init="1" guiKey="Scalar/HeadTube/LengthTapered" guiDictKey="Scalar/HeadTube/LengthTapered"/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" guiKey="" guiDictKey=""/>
+            <Top init="0" guiKey="" guiDictKey=""/>
+        </Vector>
+    </HeadTube>
+    <Label>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/Label"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/Label" guiDictKey="Component/Label"/>
+        </Config>
+        <Direction>
+            <Origin init="0" guiKey="" guiDictKey="Direction/Label"/>
+        </Direction>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/Label"/>
+        </Position>
+    </Label>
+    <Lug_BottomBracket>
+        <Scalar>
+            <ChainStay_Angle init="1" guiKey="Scalar/Lugs/BottomBracket_ChainStay_Angle" guiDictKey="Scalar/Lugs/BottomBracket_ChainStay_Angle"/>
+            <ChainStay_Tolerance init="1" guiKey="Scalar/Lugs/BottomBracket_ChainStay_Tolerance" guiDictKey="Scalar/Lugs/BottomBracket_ChainStay_Tolerance"/>
+            <DownTube_Angle init="1" guiKey="Scalar/Lugs/BottomBracket_DownTube_Angle" guiDictKey="Scalar/Lugs/BottomBracket_DownTube_Angle"/>
+            <DownTube_Tolerance init="1" guiKey="Scalar/Lugs/BottomBracket_DownTube_Tolerance" guiDictKey="Scalar/Lugs/BottomBracket_DownTube_Tolerance"/>
+        </Scalar>
+    </Lug_BottomBracket>
+    <Lug_HeadBottom>
+        <Scalar>
+            <Angle init="1" guiKey="Scalar/Lugs/HeadLug_Bottom_Angle" guiDictKey="Scalar/Lugs/HeadLug_Bottom_Angle"/>
+            <Angle_Tolerance init="1" guiKey="Scalar/Lugs/HeadLug_Bottom_Tolerance" guiDictKey="Scalar/Lugs/HeadLug_Bottom_Tolerance"/>
+        </Scalar>
+    </Lug_HeadBottom>
+    <Lug_HeadTop>
+        <Scalar>
+            <Angle init="1" guiKey="Scalar/Lugs/HeadLug_Top_Angle" guiDictKey="Scalar/Lugs/HeadLug_Top_Angle"/>
+            <Angle_Tolerance init="1" guiKey="Scalar/Lugs/HeadLug_Top_Tolerance" guiDictKey="Scalar/Lugs/HeadLug_Top_Tolerance"/>
+        </Scalar>
+    </Lug_HeadTop>
+    <Lug_Seat>
+        <Scalar>
+            <Angle init="1" guiKey="Scalar/Lugs/SeatLug_TopTube_Angle" guiDictKey="Scalar/Lugs/SeatLug_TopTube_Angle"/>
+            <Angle_Tolerance init="1" guiKey="Scalar/Lugs/SeatLug_TopTube_Tolerance" guiDictKey="Scalar/Lugs/SeatLug_TopTube_Tolerance"/>
+        </Scalar>
+    </Lug_Seat>
+    <Lug_SeatStay>
+        <Scalar>
+            <Angle init="1" guiKey="Scalar/Lugs/SeatLug_SeatStay_Angle" guiDictKey="Scalar/Lugs/SeatLug_SeatStay_Angle"/>
+            <Angle_Tolerance init="1" guiKey="Scalar/Lugs/SeatLug_SeatStay_Tolerance" guiDictKey="Scalar/Lugs/SeatLug_SeatStay_Tolerance"/>
+            <Diameter_Miter init="1" guiKey="Scalar/SeatStay/SeatTubeMiterDiameter" guiDictKey="Scalar/SeatStay/SeatTubeMiterDiameter"/>
+        </Scalar>
+    </Lug_SeatStay>
+    <RearBrake>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/RearBrake"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/RearBrake" guiDictKey="Component/RearBrake"/>
+            <Type init="1" guiKey="Config/RearBrake" guiDictKey="Config/RearBrake"/>
+        </Config>
+        <Position>
+            <Definition init="0" guiKey="" guiDictKey="Position/RearBrake_Definition"/>
+            <Help init="0" guiKey="" guiDictKey="Position/RearBrake_Help"/>
+            <Mount init="0" guiKey="" guiDictKey="Position/RearBrake_Mount"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/RearBrake_Origin"/>
+        </Position>
+        <Scalar>
+            <DiscDiameter init="1" guiKey="Scalar/RearBrake/DiscDiameter" guiDictKey="Scalar/RearBrake/DiscDiameter"/>
+            <DiscWidth init="1" guiKey="Scalar/RearBrake/DiscWidth" guiDictKey="Scalar/RearBrake/DiscWidth"/>
+            <LeverLength init="1" guiKey="Scalar/RearBrake/LeverLength" guiDictKey="Scalar/RearBrake/LeverLength"/>
+            <Offset init="1" guiKey="Scalar/RearBrake/Offset" guiDictKey="Scalar/RearBrake/Offset"/>
+        </Scalar>
+    </RearBrake>
+    <RearCarrier>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/RearCarrier"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/RearCarrier" guiDictKey="Component/RearCarrier"/>
+        </Config>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/CarrierMount_Rear"/>
+        </Position>
+        <Scalar>
+            <x init="1" guiKey="Scalar/RearCarrier/x" guiDictKey="Scalar/RearCarrier/x"/>
+            <y init="1" guiKey="Scalar/RearCarrier/y" guiDictKey="Scalar/RearCarrier/y"/>
+        </Scalar>
+    </RearCarrier>
+    <RearDerailleur>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/RearDerailleur"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/RearDerailleur" guiDictKey="Component/RearDerailleur"/>
+        </Config>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/RearDerailleur"/>
+        </Position>
+        <Scalar>
+            <Pulley_teeth init="1" guiKey="Scalar/RearDerailleur/Pulley_teeth" guiDictKey="Scalar/RearDerailleur/Pulley_teeth"/>
+            <Pulley_X init="1" guiKey="Scalar/RearDerailleur/Pulley_x" guiDictKey="Scalar/RearDerailleur/Pulley_x"/>
+            <Pulley_Y init="1" guiKey="Scalar/RearDerailleur/Pulley_y" guiDictKey="Scalar/RearDerailleur/Pulley_y"/>
+        </Scalar>
+    </RearDerailleur>
+    <RearDropout>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/RearDropout"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/RearDropout" guiDictKey="Component/RearDropout"/>
+            <Orient init="1" guiKey="Config/RearDropoutOrient" guiDictKey="Config/RearDropoutOrient"/>
+            <Layer init="1" guiKey="Config/RearDropout" guiDictKey="Config/RearDropout"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/RearDropout"/>
+        </Direction>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/RearDropout"/>
+        </Position>
+        <Scalar>
+            <Angle init="1" guiKey="Scalar/Lugs/RearDropOut_Angle" guiDictKey="Scalar/Lugs/RearDropOut_Angle"/>
+            <Angle_Tolerance init="1" guiKey="Scalar/Lugs/RearDropOut_Tolerance" guiDictKey="Scalar/Lugs/RearDropOut_Tolerance"/>
+            <Derailleur_X init="1" guiKey="Scalar/RearDropout/Derailleur_x" guiDictKey="Scalar/RearDropout/Derailleur_x"/>
+            <Derailleur_Y init="1" guiKey="Scalar/RearDropout/Derailleur_y" guiDictKey="Scalar/RearDropout/Derailleur_y"/>
+            <RotationOffset init="1" guiKey="Scalar/RearDropout/RotationOffset" guiDictKey="Scalar/RearDropout/RotationOffset"/>
+        </Scalar>
+    </RearDropout>
+    <RearFender>
+        <ComponentNode>
+            <XY init="0" guiKey="" guiDictKey="ComponentNode/RearFender_XY"/>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/RearFender_XZ"/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" guiKey="Config/RearFender" guiDictKey="Config/RearFender"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/RearFender"/>
+        </Direction>
+        <Polygon>
+            <Shape_XY init="0" guiKey="" guiDictKey="Polygon/RearFender_XY"/>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/RearFender_XZ"/>
+        </Polygon>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/RearFender"/>
+        </Position>
+        <Scalar>
+            <Height init="1" guiKey="Scalar/RearFender/Height" guiDictKey="Scalar/RearFender/Height"/>
+            <Width init="1" guiKey="Scalar/RearFender/Width" guiDictKey="Scalar/RearFender/Width"/>
+            <OffsetAngle init="1" guiKey="Scalar/RearFender/OffsetAngle" guiDictKey="Scalar/RearFender/OffsetAngle"/>
+            <Radius init="1" guiKey="Scalar/RearFender/Radius" guiDictKey="Scalar/RearFender/Radius"/>
+        </Scalar>
+    </RearFender>
+    <RearHub>
+        <ComponentNode>
+            <XY init="0" guiKey="" guiDictKey="ComponentNode/RearHub"/>
+            <XY_Disc init="0" guiKey="" guiDictKey="ComponentNode/RearHub_Disc"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="0" guiKey="Component/RearHubComponent/RearHub" guiDictKey="Component/RearHub"/>
+        </Config>
+        <Scalar>
+            <HubWidth init="1" guiKey="Scalar/RearWheel/HubWidth" guiDictKey="Scalar/RearWheel/HubWidth"/>
+        </Scalar>
+    </RearHub>
+    <RearMockup>
+        <Scalar>
+            <CassetteClearance init="1" guiKey="Scalar/RearMockup/CassetteClearance" guiDictKey="Scalar/RearMockup/CassetteClearance"/>
+            <ChainWheelClearance init="1" guiKey="Scalar/RearMockup/ChainWheelClearance" guiDictKey="Scalar/RearMockup/ChainWheelClearance"/>
+            <CrankClearance init="1" guiKey="Scalar/RearMockup/CrankClearance" guiDictKey="Scalar/RearMockup/CrankClearance"/>
+            <DiscClearance init="1" guiKey="Scalar/RearMockup/DiscClearance" guiDictKey="Scalar/RearMockup/DiscClearance"/>
+            <DiscOffset init="1" guiKey="Scalar/RearMockup/DiscOffset" guiDictKey="Scalar/RearMockup/DiscOffset"/>
+            <TyreClearance init="1" guiKey="Scalar/RearMockup/TyreClearance" guiDictKey="Scalar/RearMockup/TyreClearance"/>
+        </Scalar>
+    </RearMockup>
+    <RearWheel>
+        <Config>
+            <FirstSprocket init="1" guiKey="Scalar/RearWheel/FirstSprocket" guiDictKey="Scalar/RearWheel/FirstSprocket"/>
+        </Config>
+        <Position>
+            <Ground init="0" guiKey="" guiDictKey=""/>
+            <Origin init="0" guiKey="" guiDictKey="Position/RearWheel"/>
+        </Position>
+        <Scalar>
+            <Radius init="0" guiKey="Scalar/Geometry/RearWheel_Radius" guiDictKey="Scalar/RearWheel/Radius"/>
+            <RimDiameter init="1" guiKey="Scalar/Geometry/RearRim_Diameter" guiDictKey="Scalar/RearWheel/RimDiameter"/>
+            <RimHeight init="1" guiKey="Scalar/RearWheel/RimHeight" guiDictKey="Scalar/RearWheel/RimHeight"/>
+            <TyreHeight init="1" guiKey="Scalar/Geometry/RearTyre_Height" guiDictKey="Scalar/RearWheel/TyreHeight"/>
+            <TyreWidth init="1" guiKey="Scalar/RearWheel/TyreWidth" guiDictKey="Scalar/RearWheel/TyreWidth"/>
+            <TyreShoulder init="0" guiKey="Scalar/RearWheel/TyreShoulder" guiDictKey="Scalar/RearWheel/TyreShoulder"/>
+            <TyreWidthRadius init="1" guiKey="Scalar/RearWheel/TyreWidthRadius" guiDictKey="Scalar/RearWheel/TyreWidthRadius"/>
+        </Scalar>
+    </RearWheel>
+    <Reference>
+        <Scalar>
+            <HandleBar_Distance init="1" guiKey="Scalar/Reference/HandleBar_Distance" guiDictKey="Scalar/Reference/HandleBar_Distance"/>
+            <HandleBar_Height init="1" guiKey="Scalar/Reference/HandleBar_Height" guiDictKey="Scalar/Reference/HandleBar_Height"/>
+            <SaddleNose_Distance init="1" guiKey="Scalar/Reference/SaddleNose_Distance" guiDictKey="Scalar/Reference/SaddleNose_Distance"/>
+            <SaddleNose_HB init="1" guiKey="Scalar/Reference/SaddleNose_HB" guiDictKey="Scalar/Reference/SaddleNose_HB"/>
+            <SaddleNose_HB_y init="1" guiKey="Scalar/Reference/SaddleNose_HB_y" guiDictKey="Scalar/Reference/SaddleNose_HB_y"/>
+            <SaddleNose_Height init="1" guiKey="Scalar/Reference/SaddleNose_Height" guiDictKey="Scalar/Reference/SaddleNose_Height"/>
+        </Scalar>
+    </Reference>
+    <Saddle>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/Saddle"/>
+        </ComponentNode>
+        <Config>
+            <ComponentKey init="1" guiKey="Component/Saddle" guiDictKey="Component/Saddle"/>
+        </Config>
+        <Polyline>
+            <XZ_Profile init="0" guiKey="" guiDictKey="Polyline/SaddleProfile"/>
+        </Polyline>
+        <Position>
+            <Mount init="0" guiKey="" guiDictKey="Position/SaddleMount"/>
+            <Nose init="0" guiKey="" guiDictKey="Position/SaddleNose"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/Saddle"/>
+            <Proposal init="0" guiKey="" guiDictKey="Position/SaddleProposal"/>
+        </Position>
+        <Scalar>
+            <Height init="1" guiKey="Scalar/Saddle/Height" guiDictKey="Scalar/Saddle/Height"/>
+            <Length init="1" guiKey="Scalar/Saddle/Length" guiDictKey="Scalar/Saddle/Length"/>
+            <NoseLength init="1" guiKey="Scalar/Saddle/NoseLength" guiDictKey="Scalar/Saddle/NoseLength"/>
+            <Offset_X init="1" guiKey="Scalar/Saddle/Offset_x" guiDictKey="Scalar/Saddle/Offset_x"/>
+        </Scalar>
+    </Saddle>
+    <SeatPost>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/SeatPost"/>
+        </ComponentNode>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/SeatPost"/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/SeatPost"/>
+        </Polygon>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/SeatPost"/>
+            <Pivot init="0" guiKey="" guiDictKey="Position/SeatPost_Pivot"/>
+            <SeatTube init="0" guiKey="" guiDictKey="Position/SeatPost_SeatTube"/>
+        </Position>
+        <Scalar>
+            <Diameter init="1" guiKey="Scalar/SeatPost/Diameter" guiDictKey="Scalar/SeatPost/Diameter"/>
+            <PivotOffset init="1" guiKey="Scalar/SeatPost/PivotOffset" guiDictKey="Scalar/SeatPost/PivotOffset"/>
+            <Setback init="1" guiKey="Scalar/SeatPost/Setback" guiDictKey="Scalar/SeatPost/Setback"/>
+        </Scalar>
+    </SeatPost>
+    <SeatStay>
+        <Polyline>
+            <CenterLine_XZ init="0" guiKey="" guiDictKey="CenterLine/SeatStay"/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/SeatStay"/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" guiKey="" guiDictKey="TubeMiter/SeatStay_01/polygon_01"/>
+            <MiterOrigin init="0" guiKey="" guiDictKey=""/>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/SeatStay"/>
+        </Polygon>
+        <Position>
+            <End init="0" guiKey="" guiDictKey="Position/SeatStay_End"/>
+            <IS_ChainStay init="0" guiKey="" guiDictKey="Position/ChainStay_SeatStay_IS"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/SeatStay_Start"/>
+        </Position>
+        <Profile>
+            <XY init="0" guiKey="" guiDictKey=""/>
+            <XZ init="0" guiKey="" guiDictKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" guiKey="Scalar/SeatStay/DiameterST" guiDictKey="Scalar/SeatStay/DiameterST"/>
+            <DiameterOrigin init="1" guiKey="Scalar/SeatStay/DiameterCS" guiDictKey="Scalar/SeatStay/DiameterCS"/>
+            <OffsetDO init="1" guiKey="Scalar/RearDropout/OffsetSS" guiDictKey="Scalar/RearDropout/OffsetSS"/>
+            <OffsetDOPerp init="1" guiKey="Scalar/RearDropout/OffsetSSPerp" guiDictKey="Scalar/RearDropout/OffsetSSPerp"/>
+            <OffsetTT init="1" guiKey="Scalar/SeatStay/OffsetTT" guiDictKey="Scalar/SeatStay/OffsetTT"/>
+            <MiterAngleEnd init="0" guiKey="TubeMiter/SeatStay_Seat_AngleTubeMiter/SeatStay_Seat_Angle" guiDictKey="TubeMiter/SeatStay_01/miterAngle"/>
+            <MiterAngleOrigin init="0" guiKey="" guiDictKey=""/>
+            <MiterOffsetEnd init="0" guiKey="" guiDictKey=""/>
+            <MiterOffsetOrigin init="0" guiKey="" guiDictKey="TubeMiter/SeatStay_01/offset"/>
+            <TaperLength init="1" guiKey="Scalar/SeatStay/TaperLength" guiDictKey="Scalar/SeatStay/TaperLength"/>
+        </Scalar>
+    </SeatStay>
+    <SeatTube>
+        <Polyline>
+            <CenterLine_XZ init="0" guiKey="" guiDictKey="CenterLine/SeatTube"/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/SeatTube"/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" guiKey="" guiDictKey="TubeMiter/SeatTube_Down/polygon_01"/>
+            <MiterEndBBInside init="0" guiKey="" guiDictKey="TubeMiter/SeatTube_Down/polygon_02"/>
+            <MiterEndBBOutside init="0" guiKey="" guiDictKey="TubeMiter/SeatTube_Down/polygon_03"/>
+            <MiterOrigin init="0" guiKey="" guiDictKey=""/>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/SeatTube"/>
+        </Polygon>
+        <Position>
+            <ClassicTopTube init="0" guiKey="" guiDictKey="Position/SeatTube_ClassicTopTube"/>
+            <Edge_Back_Bottom init="0" guiKey="" guiDictKey="Position/_Edge_SeatTubeBottom_Back"/>
+            <Edge_Back_TaperEnd init="0" guiKey="" guiDictKey="Position/_Edge_SeatTubeTaperEnd_Back"/>
+            <Edge_Top_Back init="0" guiKey="" guiDictKey="Position/_Edge_SeatTubeTop_Back"/>
+            <Edge_Top_Front init="0" guiKey="" guiDictKey="Position/_Edge_SeatTubeTop_Front"/>
+            <End init="0" guiKey="" guiDictKey="Position/SeatTube_End"/>
+            <Ground init="0" guiKey="" guiDictKey="Position/SeatTube_Ground"/>
+            <Saddle init="0" guiKey="" guiDictKey="Position/SeatTube_Saddle"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/SeatTube_Start"/>
+            <VirtualTopTube init="0" guiKey="" guiDictKey="Position/SeatTube_VirtualTopTube"/>
+        </Position>
+        <Profile>
+            <XY init="0" guiKey="" guiDictKey=""/>
+            <XZ init="0" guiKey="" guiDictKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" guiKey="Scalar/SeatTube/DiameterBB" guiDictKey="Scalar/SeatTube/DiameterBB"/>
+            <DiameterOrigin init="1" guiKey="Scalar/SeatTube/DiameterTT" guiDictKey="Scalar/SeatTube/DiameterTT"/>
+            <Extension init="1" guiKey="Scalar/SeatTube/Extension" guiDictKey="Scalar/SeatTube/Extension"/>
+            <MiterAngelEnd init="0" guiKey="TubeMiter/SeatTube_Down_AngleTubeMiter/SeatTube_Down_Angle" guiDictKey="TubeMiter/SeatTube_Down/miterAngle"/>
+            <MiterAngelOrigin init="0" guiKey="" guiDictKey=""/>
+            <OffsetBB init="1" guiKey="Scalar/SeatTube/OffsetBB" guiDictKey="Scalar/SeatTube/OffsetBB"/>
+            <TaperLength init="1" guiKey="Scalar/SeatTube/TaperLength" guiDictKey="Scalar/SeatTube/TaperLength"/>
+        </Scalar>
+        <Vector>
+            <Top init="0" guiKey="" guiDictKey=""/>
+        </Vector>
+    </SeatTube>
+    <Spacer>
+        <Polygon>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/Spacer"/>
+        </Polygon>
+        <Position>
+            <Edge_SpacerBack_Bottom init="0" guiKey="" guiDictKey="Position/_Edge_SpacerBack_Bottom"/>
+            <Edge_SpacerBack_Top init="0" guiKey="" guiDictKey="Position/_Edge_SpacerBack_Top"/>
+            <End init="0" guiKey="" guiDictKey="Position/Spacer_End"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/Spacer"/>
+        </Position>
+        <Scalar>
+            <Height init="0" guiKey="Scalar/Spacer/Height" guiDictKey="Scalar/Spacer/Height"/>
+            <Diameter init="0" guiKey="" guiDictKey=""/>
+        </Scalar>
+    </Spacer>
+    <Steerer>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/Steerer"/>
+        </ComponentNode>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/Steerer"/>
+        </Direction>
+        <Polygon>
+            <XZ init="0" guiKey="" guiDictKey="Polygon/Steerer"/>
+        </Polygon>
+        <Polyline>
+            <CenterLine_XZ init="0" guiKey="" guiDictKey="CenterLine/Steerer"/>
+        </Polyline>
+        <Position>
+            <End init="0" guiKey="" guiDictKey="Position/Steerer_End"/>
+            <Ground init="0" guiKey="" guiDictKey="Position/Steerer_Ground"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/Steerer_Start"/>
+            <Stem init="0" guiKey="" guiDictKey="Position/Steerer_Stem"/>
+        </Position>
+        <Profile>
+            <XY init="0" guiKey="" guiDictKey=""/>
+            <XZ init="0" guiKey="" guiDictKey=""/>
+        </Profile>
+        <Scalar>
+            <Diameter init="1" guiKey="Scalar/Steerer/Diameter" guiDictKey="Scalar/Steerer/Diameter"/>
+        </Scalar>
+        <Vector>
+            <Bottom init="0" guiKey="" guiDictKey=""/>
+        </Vector>
+    </Steerer>
+    <Stem>
+        <ComponentNode>
+            <XZ init="0" guiKey="" guiDictKey="ComponentNode/Stem"/>
+        </ComponentNode>
+        <Config>
+            <Type init="1" guiKey="Config/Stem" guiDictKey="Config/Stem"/>
+        </Config>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/Stem"/>
+        </Direction>
+        <Polygon>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/Stem"/>
+        </Polygon>
+        <Position>
+            <Origin init="0" guiKey="" guiDictKey="Position/Stem"/>
+        </Position>
+        <Scalar>
+            <Angle init="1" guiKey="Scalar/Geometry/Stem_Angle" guiDictKey="Scalar/Stem/Angle"/>
+            <Length init="1" guiKey="Scalar/Geometry/Stem_Length" guiDictKey="Scalar/Stem/Length"/>
+        </Scalar>
+    </Stem>
+    <TopTube>
+        <Polyline>
+            <CenterLine_XZ init="0" guiKey="" guiDictKey="CenterLine/TopTube"/>
+        </Polyline>
+        <Direction>
+            <XZ init="0" guiKey="" guiDictKey="Direction/TopTube"/>
+        </Direction>
+        <Polygon>
+            <MiterEnd init="0" guiKey="" guiDictKey="TubeMiter/TopTube_Seat/polygon_01"/>
+            <MiterOrigin init="0" guiKey="" guiDictKey="TubeMiter/TopTube_Head/polygon_01"/>
+            <Shape_XZ init="0" guiKey="" guiDictKey="Polygon/TopTube"/>
+        </Polygon>
+        <Position>
+            <Edge_HeadTube_TT init="0" guiKey="" guiDictKey="Position/_Edge_TopTubeHeadTube_TT"/>
+            <Edge_SeatTube_ST init="0" guiKey="" guiDictKey="Position/_Edge_TopTubeSeatTube_ST"/>
+            <Edge_TaperTop_HT init="0" guiKey="" guiDictKey="Position/_Edge_TopTubeTaperTop_HT"/>
+            <Edge_TaperTop_ST init="0" guiKey="" guiDictKey="Position/_Edge_TopTubeTaperTop_ST"/>
+            <End init="0" guiKey="" guiDictKey="Position/TopTube_End"/>
+            <Origin init="0" guiKey="" guiDictKey="Position/TopTube_Start"/>
+        </Position>
+        <Profile>
+            <XY init="0" guiKey="" guiDictKey=""/>
+            <XZ init="0" guiKey="" guiDictKey=""/>
+        </Profile>
+        <Scalar>
+            <DiameterEnd init="1" guiKey="Scalar/TopTube/DiameterST" guiDictKey="Scalar/TopTube/DiameterST"/>
+            <DiameterOrigin init="1" guiKey="Scalar/TopTube/DiameterHT" guiDictKey="Scalar/TopTube/DiameterHT"/>
+            <MiterAngleEnd init="0" guiKey="TubeMiter/TopTube_Seat_AngleTubeMiter/TopTube_Seat_Angle" guiDictKey="TubeMiter/TopTube_Seat/miterAngle"/>
+            <MiterAngleOrigin init="0" guiKey="TubeMiter/TopTube_Head_AngleTubeMiter/TopTube_Head_Angle" guiDictKey="TubeMiter/TopTube_Head/miterAngle"/>
+            <TaperLength init="1" guiKey="Scalar/TopTube/TaperLength" guiDictKey="Scalar/TopTube/TaperLength"/>
+        </Scalar>
+    </TopTube>
+    <_Result>
+        <Position>
+            <help_91 init="0" guiKey="" guiDictKey=""/>
+            <help_92 init="0" guiKey="" guiDictKey=""/>
+            <help_93 init="0" guiKey="" guiDictKey=""/>
+        </Position>
+    </_Result>
+    <_View>
+        <Config>
+            <Color_Fork init="1" guiKey="Config/Color_Fork" guiDictKey="Config/Color_Fork"/>
+            <Color_FrameTubes init="1" guiKey="Config/Color_FrameTubes" guiDictKey="Config/Color_FrameTubes"/>
+            <Color_Label init="1" guiKey="Config/Color_Label" guiDictKey="Config/Color_Label"/>
+        </Config>
+        <ListBoxValues>
+            <Binary_OnOff init="0" guiKey="" guiDictKey=""/>
+            <BottleCage init="0" guiKey="" guiDictKey=""/>
+            <Brake init="0" guiKey="" guiDictKey=""/>
+            <ChainStay init="0" guiKey="" guiDictKey=""/>
+            <ComponentLocation init="0" guiKey="" guiDictKey=""/>
+            <DropOutDirection init="0" guiKey="" guiDictKey=""/>
+            <DropOutPosition init="0" guiKey="" guiDictKey=""/>
+            <Fork init="0" guiKey="" guiDictKey=""/>
+            <ForkBlade init="0" guiKey="" guiDictKey=""/>
+            <FrameJigType init="0" guiKey="" guiDictKey=""/>
+            <HeadTube init="0" guiKey="" guiDictKey=""/>
+            <Rim init="0" guiKey="" guiDictKey=""/>
+            <TemplateType init="0" guiKey="" guiDictKey=""/>
+            <TubeSet init="0" guiKey="" guiDictKey=""/>
+        </ListBoxValues>
+    </_View>
+</root>

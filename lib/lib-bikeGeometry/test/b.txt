@@ -1,0 +1,14 @@
+Brake/Front/Mount
+
+set Result(Position/Brake/Front/Definition)               $Position(FrontBrake_Definition)
+                    set Result(Position/Brake/Front/Help)                     $Position(FrontBrake_Help)
+                    set Result(Position/Brake/Front/Mount)                    $Position(FrontBrake_Mount)
+                    set Result(Position/Brake/Front/Shoe)                     $Position(FrontBrake_Shoe)
+                    set Result(Position/Brake/Rear/Definition)                $Position(RearBrake_Definition)
+                    set Result(Position/BrakeFront)                           $Position(FrontBrake_Shoe)
+                    
+                    set Result(Position/Brake/Rear/Help)                      $Position(RearBrake_Help)
+                    set Result(Position/Brake/Rear/Mount)                     $Position(RearBrake_Mount)
+                    set Result(Position/Brake/Rear/Shoe)                      $Position(RearBrake_Shoe)
+                    set Result(Position/BrakeRear)                            $Position(RearBrake_Shoe)
+                    
